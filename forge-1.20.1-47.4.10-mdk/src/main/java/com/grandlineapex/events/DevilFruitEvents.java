@@ -1,4 +1,4 @@
-package com.grandlineapex.event;
+package com.grandlineapex.events;
 
 public class DevilFruitEvents {
 }

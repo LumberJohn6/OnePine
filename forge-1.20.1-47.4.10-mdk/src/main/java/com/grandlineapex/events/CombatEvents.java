@@ -1,4 +1,4 @@
-package com.grandlineapex.event;
+package com.grandlineapex.events;
 
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

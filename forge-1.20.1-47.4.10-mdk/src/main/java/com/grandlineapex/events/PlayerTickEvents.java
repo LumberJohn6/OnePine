@@ -1,4 +1,4 @@
-package com.grandlineapex.event;
+package com.grandlineapex.events;
 
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

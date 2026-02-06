@@ -18,7 +18,6 @@ public class GrandLineApex {
         CapabilityRegistry.register();
     }
 
-
     public static final String MODID = "grandlineapex";
     public static final String NAME = "Grand Line Apex";
     public static final String VERSION = "0.1.0";

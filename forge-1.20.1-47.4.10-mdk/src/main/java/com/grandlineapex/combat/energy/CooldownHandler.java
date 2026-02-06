@@ -4,17 +4,22 @@ import java.util.HashMap;
 import java.util.UUID;
 
 public class CooldownHandler {
-    private static HashMap<UUID, Integer> cooldowns = new HashMap<>();
+    private static final HashMap<UUID, Integer> COOLDOWNS = new HashMap<>();
 
-    public static void tickCooldowns() {
-        // reduce all stored cooldowns tick by tick
+    public static void tick() {
+        COOLDOWNS.entrySet().removeIf(entry -> {
+            int newValue = entry.getValue() - 1;
+            if (newValue <= 0) return true;
+            entry.setValue(newValue);
+            return false;
+        });
     }
 
-    public static boolean isOnCooldown(UUID id) {
-        return cooldowns.containsKey(id);
+    public static void set(UUID key, int ticks) {
+        COOLDOWNS.put(key, ticks);
     }
 
-    public static void setCooldown(UUID id, int ticks) {
-        cooldowns.put(id, ticks);
+    public static boolean isActive(UUID key) {
+        return COOLDOWNS.containsKey(key);
     }
 }
