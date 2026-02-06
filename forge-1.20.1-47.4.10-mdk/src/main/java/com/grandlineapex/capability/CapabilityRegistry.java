@@ -11,6 +11,7 @@ public class CapabilityRegistry {
 
     @SubscribeEvent
     public static void register(RegisterCapabilitiesEvent event) {
+        event.register(com.grandlineapex.systems.stamina.PlayerStaminaData.class);
         event.register(PlayerDevilFruitData.class);
     }
 }

@@ -1,29 +1,27 @@
 package com.grandlineapex;
 
+import com.grandlineapex.network.NetworkHandler;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-
-import com.grandlineapex.capability.CapabilityRegistry;
-import com.grandlineapex.capability.CapabilityAttacher;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.common.MinecraftForge;
 
-@Mod(modid = GrandLineApex.MODID, name = GrandLineApex.NAME, version = GrandLineApex.VERSION)
+@Mod(GrandLineApex.MODID)
 public class GrandLineApex {
+    public static final String MODID = "grandlineapex";
 
     public GrandLineApex() {
-        MinecraftForge.EVENT_BUS.register(new CapabilityAttacher());
-        MinecraftForge.EVENT_BUS.register(PlayerTickEvents.class);
-        MinecraftForge.EVENT_BUS.register(CombatEvents.class);
+        IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
+        NetworkHandler.register();
 
-        CapabilityRegistry.register();
-    }
+        // Example: if/when you add deferred registers:
+        // ModItems.register(modBus);
+        // ModEntities.register(modBus);
+        // Capability registration is handled by your @EventBusSubscriber(CapabilityRegistry)
 
-    public static final String MODID = "grandlineapex";
-    public static final String NAME = "Grand Line Apex";
-    public static final String VERSION = "0.1.0";
-
-    @Mod.EventHandler
-    public void init(FMLInitializationEvent event) {
-        System.out.println(NAME + " loaded!");
+        // If you keep only static subscribers with Bus.FORGE, you do NOT register them here.
+        // Use this for instance-based listeners if you create any:
+        // MinecraftForge.EVENT_BUS.register(new SomeInstanceListener());
+        MinecraftForge.EVENT_BUS.register(this);
     }
 }

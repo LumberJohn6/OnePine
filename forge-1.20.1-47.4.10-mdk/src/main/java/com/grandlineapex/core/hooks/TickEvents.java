@@ -1,36 +1,50 @@
 package com.grandlineapex.core.hooks;
 
 import com.grandlineapex.combat.energy.CooldownHandler;
+import com.grandlineapex.client.ClientKeybinds;
+import com.grandlineapex.client.hud.AbilityWheelScreen;
+import com.grandlineapex.devilfruit.abilities.AbilityTier;
+import com.grandlineapex.network.NetworkHandler;
+import com.grandlineapex.network.packets.ActivateAbilityC2S;
+import net.minecraft.client.Minecraft;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-/**
- * Global tick handlers.
- * Server tick → runs once per server tick on the logical server.
- * Client tick  → runs per client tick (useful for client-side UI, particles).
- */
-@Mod.EventBusSubscriber // bus = MOD is default for mod-lifecycle events; we want Forge event bus here.
+@Mod.EventBusSubscriber(modid = com.grandlineapex.GrandLineApex.MODID,
+        bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class TickEvents {
 
     @SubscribeEvent
     public static void onServerTick(TickEvent.ServerTickEvent event) {
         if (event.phase == TickEvent.Phase.END) {
-            // Tick global cooldowns (your CooldownHandler)
-            CooldownHandler.tick();
-
-            // You can tick other global systems here as well:
-            // - Raid scheduler
-            // - Sea events manager
-            // - World simulators that are not tied to a specific level
+            CooldownHandler.tick(); // server-only
         }
     }
 
     @SubscribeEvent
     public static void onClientTick(TickEvent.ClientTickEvent event) {
-        if (event.phase == TickEvent.Phase.END) {
-            // Client-only ticking: UI animations, HUD cooldown rings, key handling, etc.
-            // DO NOT modify server state here.
+        if (event.phase != TickEvent.Phase.END) return;
+
+        var mc = Minecraft.getInstance();
+        if (mc.player == null) return;
+
+        // Hold R to open the wheel (client-only)
+        if (mc.screen == null
+                && ClientKeybinds.OPEN_WHEEL != null
+                && ClientKeybinds.OPEN_WHEEL.isDown()) {
+            mc.setScreen(new AbilityWheelScreen());
+        }
+
+        // TEMP: Press Z to cast Tier 1 of the "testfruit"
+        if (ClientKeybinds.CAST_T1 != null && ClientKeybinds.CAST_T1.consumeClick()) {
+            NetworkHandler.CHANNEL.sendToServer(
+                    new ActivateAbilityC2S(
+                            new ResourceLocation("grandlineapex", "testfruit"),
+                            AbilityTier.T1
+                    )
+            );
         }
     }
 }

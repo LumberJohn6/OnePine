@@ -1,11 +1,10 @@
-
-package com.grandlineapex.capability.devilfruit;
+package com.grandlineapex.systems.stamina;
 
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.CapabilityManager;
 import net.minecraftforge.common.capabilities.CapabilityToken;
 
-public class DevilFruitCapability {
-    public static final Capability<PlayerDevilFruitData> DEVIL_FRUIT =
+public class StaminaCapability {
+    public static final Capability<PlayerStaminaData> STAMINA =
             CapabilityManager.get(new CapabilityToken<>() {});
 }

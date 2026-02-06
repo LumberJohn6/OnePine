@@ -1,4 +1,8 @@
 package com.grandlineapex.devilfruit;
 
-public class FruitType {
+public enum FruitType {
+    PARAMECIA,
+    ZOAN,
+    LOGIA,
+    MYTHICAL_ZOAN
 }
