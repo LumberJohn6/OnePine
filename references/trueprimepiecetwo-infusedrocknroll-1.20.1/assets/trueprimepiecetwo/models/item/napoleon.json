@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/napoleon.item",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/napoleon"
+  }
+}

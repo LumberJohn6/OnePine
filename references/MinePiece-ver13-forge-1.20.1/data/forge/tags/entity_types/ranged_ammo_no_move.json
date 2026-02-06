@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minepiece:tornado",
+    "minepiece:tiger",
+    "minepiece:meteor",
+    "minepiece:entity_slash",
+    "minepiece:entity_sweep",
+    "minepiece:entity_flame_ball",
+    "minepiece:entity_mini_hollow",
+    "minepiece:entity_negative_hollow",
+    "minepiece:entity_ball",
+    "minepiece:entity_dark_ball",
+    "minepiece:entity_ice_ball",
+    "minepiece:entity_impact_wave",
+    "minepiece:entity_gomu_arm",
+    "minepiece:entity_crack",
+    "minepiece:ashura",
+    "minepiece:entity_tot_musica_arm",
+    "minepiece:pad",
+    "minepiece:entity_arrow",
+    "minepiece:tree_root"
+  ]
+}

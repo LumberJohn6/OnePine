@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:yoru"
+    },
+    "title": {
+      "translate": "advancements.skill_world_greatest_sword_strike.title"
+    },
+    "description": {
+      "translate": "advancements.skill_world_greatest_sword_strike.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_world_greatest_sword_strike_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_overswing_mihawk"
+}

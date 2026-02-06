@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minepiece:rifle",
+    "minepiece:pistol",
+    "minepiece:pistol_gold",
+    "minepiece:senriku"
+  ]
+}

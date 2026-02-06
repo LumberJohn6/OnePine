@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/goro"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/goro",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/goro",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/goro",
+      "y": 270
+    }
+  }
+}

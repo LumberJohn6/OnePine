@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/barstool",
+  "textures": {
+    "all": "trueprimepiecetwo:block/barstool",
+    "particle": "trueprimepiecetwo:block/barstool",
+    "0": "trueprimepiecetwo:block/barstool"
+  },
+  "render_type": "solid"
+}

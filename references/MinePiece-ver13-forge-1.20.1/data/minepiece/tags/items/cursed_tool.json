@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minepiece:enma",
+    "minepiece:kikoku",
+    "minepiece:kitetsu_shodai",
+    "minepiece:kitetsu_sandai",
+    "minepiece:kikoku_blade",
+    "minepiece:forbidden_score",
+    "minepiece:kitetsu_shodai_blade"
+  ]
+}

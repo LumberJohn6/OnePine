@@ -1,0 +1,1 @@
+{"pools":[{"name":"mineminenomi:items","rolls":{"min":0.0,"max":1.0,"type":"minecraft:uniform"},"entries":[{"type":"minecraft:item","weight":100,"functions":[{"function":"minecraft:set_count","count":1},{"function":"mineminenomi:set_extol_in_pouch","extol_range":{"min":1000000.0,"max":3000000.0,"type":"minecraft:uniform"}}],"name":"mineminenomi:extol_pouch"}]}]}

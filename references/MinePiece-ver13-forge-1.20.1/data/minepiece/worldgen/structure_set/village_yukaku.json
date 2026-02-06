@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:village_yukaku",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 120,
+    "separation": 48,
+    "salt": 1636950219
+  }
+}

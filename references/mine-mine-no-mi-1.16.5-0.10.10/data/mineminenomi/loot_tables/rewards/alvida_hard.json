@@ -1,0 +1,1 @@
+{"pools":[{"name":"mineminenomi:items","rolls":1,"entries":[{"type":"minecraft:empty","weight":93},{"type":"minecraft:item","weight":5,"name":"mineminenomi:mace"},{"type":"minecraft:item","weight":2,"functions":[{"function":"minecraft:set_nbt","tag":"{display:{color:12788538}}"}],"name":"mineminenomi:plume_hat"}]}]}

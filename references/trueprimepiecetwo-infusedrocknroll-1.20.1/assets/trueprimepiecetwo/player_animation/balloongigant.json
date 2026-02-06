@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"balloongigant": {
+			"animation_length": 5,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": {
+							"vector": [0, -2924, 0]
+						},
+						"5.0": {
+							"vector": [0, -2924, 0]
+						}
+					}
+				}
+			}
+		}
+	}
+}

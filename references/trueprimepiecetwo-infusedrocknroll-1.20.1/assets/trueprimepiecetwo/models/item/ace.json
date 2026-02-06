@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/betterace",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/acesword"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/gorogoro"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/gorogoro",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/gorogoro",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/gorogoro",
+      "y": 270
+    }
+  }
+}

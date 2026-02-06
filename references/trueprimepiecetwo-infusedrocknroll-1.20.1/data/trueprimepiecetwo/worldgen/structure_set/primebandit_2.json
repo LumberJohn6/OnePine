@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "trueprimepiecetwo:primebandit_2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 35,
+    "separation": 5,
+    "salt": 1464781959
+  }
+}

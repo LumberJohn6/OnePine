@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/sword_s_hawk",
+  "textures": {
+    "2": "minepiece:block/sword_s_hawk",
+    "particle": "minepiece:item/icon_yoru"
+  }
+}

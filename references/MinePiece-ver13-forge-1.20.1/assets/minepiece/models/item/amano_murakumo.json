@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/amano_murakumo_sword",
+  "textures": {
+    "1": "minepiece:block/tex_pikapika_animation",
+    "particle": "minecraft:item/golden_sword"
+  }
+}

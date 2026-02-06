@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"kikokurun": {
+			"animation_length": 0.0417,
+			"bones": {
+				"torso": {
+					"rotation": {
+						"vector": [15, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -3]
+					}
+				},
+				"head": {
+					"position": {
+						"vector": [0, 0, -3]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [66.84646, 4.98571, 30.47196]
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-89.45921, 50.05219, -17.11013]
+					},
+					"position": {
+						"vector": [0, 0, -3]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

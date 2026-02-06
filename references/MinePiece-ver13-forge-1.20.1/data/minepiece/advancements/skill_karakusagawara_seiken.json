@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "advancements.skill_karakusagawara_seiken.title"
+    },
+    "description": {
+      "translate": "advancements.skill_karakusagawara_seiken.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_karakusagawara_seiken_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_fishman_advancement"
+}

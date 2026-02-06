@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/venom"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/venom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/venom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/venom",
+      "y": 270
+    }
+  }
+}

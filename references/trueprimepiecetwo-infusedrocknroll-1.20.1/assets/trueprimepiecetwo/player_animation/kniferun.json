@@ -1,0 +1,48 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"kniferun": {
+			"animation_length": 0.0417,
+			"bones": {
+				"torso": {
+					"rotation": {
+						"vector": [15, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -3]
+					}
+				},
+				"head": {
+					"position": {
+						"vector": [0, 0, -3]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [85.64614, -23.27388, 299.89095]
+					},
+					"position": {
+						"vector": [0, 0, -2]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-102.61276, 42.759, -14.56599]
+					},
+					"position": {
+						"vector": [0, 0, -3]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": [15, 0, 0]
+					},
+					"position": {
+						"vector": [0, -1, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/waysign",
+  "textures": {
+    "all": "trueprimepiecetwo:block/waysign",
+    "particle": "trueprimepiecetwo:block/waysign",
+    "0": "trueprimepiecetwo:block/waysign"
+  },
+  "render_type": "solid"
+}

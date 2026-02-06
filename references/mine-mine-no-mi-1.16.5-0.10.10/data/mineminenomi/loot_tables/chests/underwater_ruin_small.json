@@ -1,0 +1,1 @@
+{"pools":[{"name":"mineminenomi:items","rolls":{"min":0.0,"max":1.0,"type":"minecraft:uniform"},"entries":[{"type":"minecraft:item","weight":384,"name":"minecraft:air"},{"type":"minecraft:item","weight":2,"name":"mineminenomi:wooden_box"},{"type":"minecraft:item","name":"mineminenomi:iron_box"}]}]}

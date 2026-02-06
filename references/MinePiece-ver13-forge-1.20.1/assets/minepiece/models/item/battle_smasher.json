@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/battle_smasher",
+  "textures": {
+    "1": "minepiece:block/battlesmasher",
+    "particle": "minecraft:item/iron_pickaxe"
+  }
+}

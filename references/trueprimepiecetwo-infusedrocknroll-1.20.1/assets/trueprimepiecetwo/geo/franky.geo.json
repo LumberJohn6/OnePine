@@ -1,0 +1,84 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.franky",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 26.5, -1],
+					"cubes": [
+						{"origin": [-6.5, 27, -5], "size": [13, 10, 8], "uv": [0, 0]},
+						{"origin": [-6.5, 20, -5], "size": [13, 7, 8], "uv": [34, 10]},
+						{"origin": [-4.5, 21, -4], "size": [9, 6, 6], "uv": [36, 58]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [0, 39, -4.1]
+				},
+				{
+					"name": "larm",
+					"parent": "bone",
+					"pivot": [6.25, 37, -1],
+					"cubes": [
+						{"origin": [6.5, 35, -3], "size": [10, 4, 4], "uv": [58, 25]},
+						{"origin": [16.5, 33, -5], "size": [13, 8, 8], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "rarm",
+					"parent": "bone",
+					"pivot": [-6.25, 37, -1],
+					"cubes": [
+						{"origin": [-16.5, 35, -3], "size": [10, 4, 4], "uv": [34, 0]},
+						{"origin": [-29.5, 33, -5], "size": [13, 8, 8], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "lleg",
+					"parent": "bone",
+					"pivot": [2.5, 20.5, -0.5],
+					"cubes": [
+						{"origin": [0.5, 0, -3], "size": [4, 21, 5], "uv": [18, 50]}
+					]
+				},
+				{
+					"name": "rleg",
+					"parent": "bone",
+					"pivot": [-2.5, 20.5, -0.5],
+					"cubes": [
+						{"origin": [-4.5, 0, -3], "size": [4, 21, 5], "uv": [0, 50]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "bone",
+					"pivot": [0, 37, -0.25],
+					"cubes": [
+						{"origin": [-3.5, 37, -4], "size": [7, 9, 6], "uv": [60, 64]},
+						{"origin": [-4, 36.5, -4.5], "size": [8, 10, 7], "uv": [42, 41]},
+						{"origin": [-3.5, 46, -8], "size": [7, 6, 10], "uv": [34, 25]},
+						{"origin": [-3.5, 37, 2], "size": [7, 6, 4], "uv": [62, 0]}
+					]
+				},
+				{
+					"name": "mouth",
+					"parent": "head",
+					"pivot": [0, 39, -3.1],
+					"cubes": [
+						{"origin": [-2.5, 38, -3.1], "size": [5, 2, 0], "uv": [102, 115]}
+					]
+				}
+			]
+		}
+	]
+}

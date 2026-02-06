@@ -1,0 +1,1 @@
+{"parent":"item/generated","textures":{"layer0":"mineminenomi:items/belly_pouch_0"},"overrides":[{"predicate":{"size":0},"model":"mineminenomi:item/belly_pouch_0"},{"predicate":{"size":1},"model":"mineminenomi:item/belly_pouch_1"},{"predicate":{"size":2},"model":"mineminenomi:item/belly_pouch_2"}]}

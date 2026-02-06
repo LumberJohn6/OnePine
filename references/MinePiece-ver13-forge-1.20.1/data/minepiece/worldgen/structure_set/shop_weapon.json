@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:shop_weapon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 16,
+    "salt": 1022809866
+  }
+}

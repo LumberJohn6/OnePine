@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"twosrun": {
+			"animation_length": 0.0417,
+			"bones": {
+				"torso": {
+					"rotation": [25, 0, 0],
+					"position": [0, 0, -4.25]
+				},
+				"head": {
+					"position": [0, 0, -4]
+				},
+				"right_arm": {
+					"rotation": [43.39604, 2.22073, 42.28093],
+					"position": [0, -0.75, -2.25]
+				},
+				"left_arm": {
+					"rotation": [45.40688, -9.31279, -44.24861],
+					"position": [0, -0.75, -2.25]
+				}
+			}
+		}
+	}
+}

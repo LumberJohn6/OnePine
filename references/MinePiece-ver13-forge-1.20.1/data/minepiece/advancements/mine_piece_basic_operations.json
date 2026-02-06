@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:skill_selector"
+    },
+    "title": {
+      "translate": "advancements.mine_piece_basic_operations.title"
+    },
+    "description": {
+      "translate": "advancements.mine_piece_basic_operations.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "mine_piece_basic_operations_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "minepiece:start_mine_piece"
+}

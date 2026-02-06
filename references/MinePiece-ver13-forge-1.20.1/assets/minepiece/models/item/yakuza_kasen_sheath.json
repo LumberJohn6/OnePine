@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/sword_fujitora_sheath",
+  "textures": {
+    "0": "minepiece:block/sword_fujitora",
+    "particle": "minepiece:item/cutlass"
+  }
+}

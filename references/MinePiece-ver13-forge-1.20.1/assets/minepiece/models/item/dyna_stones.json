@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/dyna_stones",
+  "textures": {
+    "0": "minepiece:block/dyna_stones",
+    "particle": "minecraft:item/redstone"
+  }
+}

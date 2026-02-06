@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/suke"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/suke",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/suke",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/suke",
+      "y": 270
+    }
+  }
+}

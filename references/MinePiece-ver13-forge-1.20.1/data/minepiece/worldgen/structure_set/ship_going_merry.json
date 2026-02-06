@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:ship_going_merry",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 50,
+    "salt": 1179593529
+  }
+}

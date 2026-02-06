@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/meat_on_the_bone",
+  "textures": {
+    "1": "minepiece:block/meat_on_the_bone",
+    "particle": "minepiece:item/icon_food_brown"
+  }
+}

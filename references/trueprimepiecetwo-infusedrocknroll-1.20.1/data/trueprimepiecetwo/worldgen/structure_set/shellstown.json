@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "trueprimepiecetwo:shellstown",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 40,
+    "salt": 1946834830
+  }
+}

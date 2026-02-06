@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/apple",
+  "textures": {
+    "all": "trueprimepiecetwo:block/apple",
+    "particle": "trueprimepiecetwo:block/apple",
+    "0": "trueprimepiecetwo:block/apple"
+  },
+  "render_type": "solid"
+}

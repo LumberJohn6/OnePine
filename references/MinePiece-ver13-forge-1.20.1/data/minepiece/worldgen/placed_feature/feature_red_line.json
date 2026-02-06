@@ -1,0 +1,14 @@
+{
+  "feature": "minepiece:feature_red_line",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:constant",
+        "value": {
+          "absolute": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword"
+    },
+    "title": {
+      "translate": "advancements.basic_operations_change_technique.title"
+    },
+    "description": {
+      "translate": "advancements.basic_operations_change_technique.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "basic_operations_change_technique_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:basic_operations_select_skill"
+}

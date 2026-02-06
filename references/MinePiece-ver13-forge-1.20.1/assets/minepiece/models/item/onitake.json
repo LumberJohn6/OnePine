@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/onitake",
+  "textures": {
+    "1": "minepiece:block/onitake_armament",
+    "particle": "minecraft:item/stick"
+  }
+}

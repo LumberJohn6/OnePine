@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:tent_marine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 32,
+    "separation": 16,
+    "salt": 1377411852
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/brook_sword_blade",
+  "textures": {
+    "2": "minepiece:block/brook_sword",
+    "particle": "minepiece:item/cutlass"
+  }
+}

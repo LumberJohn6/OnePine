@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/cannon",
+  "textures": {
+    "all": "trueprimepiecetwo:block/cannon",
+    "particle": "trueprimepiecetwo:block/cannon",
+    "0": "trueprimepiecetwo:block/cannon"
+  },
+  "render_type": "solid"
+}

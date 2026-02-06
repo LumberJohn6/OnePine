@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/mera",
+  "textures": {
+    "all": "trueprimepiecetwo:block/merafruit",
+    "particle": "trueprimepiecetwo:block/merafruit",
+    "0": "trueprimepiecetwo:block/mera"
+  },
+  "render_type": "cutout"
+}

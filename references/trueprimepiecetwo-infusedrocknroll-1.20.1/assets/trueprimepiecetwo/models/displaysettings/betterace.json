@@ -1,0 +1,104 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -2,
+        1.25
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -2.25,
+        1.25
+      ],
+      "scale": [
+        0.56,
+        0.55,
+        0.54
+      ]
+    },
+    "firstperson_righthand": {
+      "scale": [
+        0.47,
+        0.47,
+        0.47
+      ]
+    },
+    "firstperson_lefthand": {
+      "scale": [
+        0.48,
+        0.48,
+        0.46
+      ]
+    },
+    "ground": {
+      "rotation": [
+        -4.800000000000182,
+        -4.739999999999782,
+        89.05999999999995
+      ],
+      "scale": [
+        0.26,
+        0.26,
+        0.26
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -93.88999999999987,
+        -39.44999999999982,
+        -92.48000000000002
+      ],
+      "translation": [
+        -5.25,
+        -3.5,
+        0
+      ],
+      "scale": [
+        0.31,
+        0.3,
+        0.29
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        -89.5
+      ],
+      "translation": [
+        -0.25,
+        -4,
+        -7.5
+      ],
+      "scale": [
+        0.56,
+        0.57,
+        0.55
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        -12,
+        -3.75
+      ]
+    }
+  },
+  "textures": {
+    "particle": "item/acesword"
+  }
+}

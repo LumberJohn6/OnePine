@@ -1,0 +1,1 @@
+{"parent":"minecraft:recipes/root","rewards":{"recipes":["mineminenomi:ultra_cola2"]},"criteria":{"has_cola":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"item":"mineminenomi:empty_ultra_cola"}]}},"has_the_recipe":{"trigger":"minecraft:recipe_unlocked","conditions":{"recipe":"mineminenomi:ultra_cola2"}}},"requirements":[["has_cola","has_the_recipe"]]}

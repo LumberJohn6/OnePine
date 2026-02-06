@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/katana.item",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/sandai"
+  }
+}

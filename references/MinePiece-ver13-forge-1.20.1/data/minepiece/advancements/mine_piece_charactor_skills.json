@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:skill_selector"
+    },
+    "title": {
+      "translate": "advancements.mine_piece_charactor_skills.title"
+    },
+    "description": {
+      "translate": "advancements.mine_piece_charactor_skills.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "mine_piece_charactor_skills_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "minepiece:mine_piece_skills"
+}

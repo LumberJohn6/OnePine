@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minepiece:block/iced_stone",
+    "particle": "minepiece:block/iced_stone"
+  },
+  "render_type": "solid"
+}

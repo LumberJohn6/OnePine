@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:black_dye"
+    },
+    "title": {
+      "translate": "advancements.skill_sanji_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.skill_sanji_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_sanji_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:mine_piece_charactor_skills"
+}

@@ -1,0 +1,1 @@
+{"parent":"minecraft:recipes/root","rewards":{"recipes":["mineminenomi:mangrove_planks"]},"criteria":{"has_log":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"tag":"mineminenomi:mangrove_logs"}]}},"has_the_recipe":{"trigger":"minecraft:recipe_unlocked","conditions":{"recipe":"mineminenomi:mangrove_planks"}}},"requirements":[["has_log","has_the_recipe"]]}

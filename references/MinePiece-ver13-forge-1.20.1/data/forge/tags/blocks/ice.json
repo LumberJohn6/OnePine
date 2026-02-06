@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:frosted_ice",
+    "minecraft:blue_ice",
+    "minepiece:iced_log",
+    "minepiece:iced_dirt",
+    "minepiece:iced_stone",
+    "minepiece:iced_planks",
+    "minepiece:iced_leaves"
+  ]
+}

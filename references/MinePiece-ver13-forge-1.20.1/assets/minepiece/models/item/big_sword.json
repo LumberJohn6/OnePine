@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/big_sword",
+  "textures": {
+    "0": "minepiece:block/sword_default",
+    "particle": "minepiece:item/cutlass"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/orange",
+  "textures": {
+    "all": "trueprimepiecetwo:block/orange",
+    "particle": "trueprimepiecetwo:block/orange",
+    "0": "trueprimepiecetwo:block/orange"
+  },
+  "render_type": "solid"
+}

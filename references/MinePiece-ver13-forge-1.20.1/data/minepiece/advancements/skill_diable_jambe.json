@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "advancements.skill_diable_jambe.title"
+    },
+    "description": {
+      "translate": "advancements.skill_diable_jambe.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_diable_jambe_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_sanji_advancement"
+}

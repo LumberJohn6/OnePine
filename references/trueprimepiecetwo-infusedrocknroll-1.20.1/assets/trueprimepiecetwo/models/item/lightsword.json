@@ -1,0 +1,7 @@
+{
+  "parent": "trueprimepiecetwo:custom/pikaswordtool",
+  "textures": {
+    "1": "trueprimepiecetwo:block/pikasword1",
+    "particle": "trueprimepiecetwo:item/doku_doku_no_mi"
+  }
+}

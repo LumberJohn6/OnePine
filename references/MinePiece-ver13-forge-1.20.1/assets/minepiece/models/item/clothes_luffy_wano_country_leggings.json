@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minepiece:item/icon_clothes_luffy_wano_country_leggins"
+  }
+}

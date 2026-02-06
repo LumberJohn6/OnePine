@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "trueprimepiecetwo:block/rootroot",
+    "particle": "trueprimepiecetwo:block/rootroot"
+  },
+  "render_type": "cutout"
+}

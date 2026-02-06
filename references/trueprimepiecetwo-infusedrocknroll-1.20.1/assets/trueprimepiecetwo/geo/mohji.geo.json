@@ -1,0 +1,79 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.mohji",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "bone",
+					"pivot": [1.9, 12, 0],
+					"cubes": [
+						{"origin": [-0.1, 0, -2], "size": [4, 12, 4], "uv": [44, 58]},
+						{"origin": [-0.1, 0, -4], "size": [4, 2, 6], "inflate": 0.3, "uv": [78, 68]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "bone",
+					"pivot": [-1.9, 12, 0],
+					"cubes": [
+						{"origin": [-3.9, 0, -2], "size": [4, 12, 4], "uv": [56, 16]},
+						{"origin": [-3.9, 0, -4], "size": [4, 2, 6], "inflate": 0.3, "uv": [90, 26]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "bone",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [44, 42]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"parent": "bone",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [44, 0]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "bone",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [32, 26]},
+						{"origin": [0, 9.4, -8.6], "size": [4, 0, 7], "pivot": [2, 12, -5.5], "rotation": [75, 0, 0], "uv": [56, 32]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "bone",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 26]},
+						{"origin": [-5, 32, -5], "size": [10, 1, 10], "uv": [0, 15]},
+						{"origin": [3, 31, -1], "size": [4, 5, 2], "uv": [40, 16]},
+						{"origin": [-7, 31, -1], "size": [4, 5, 2], "uv": [60, 0]},
+						{"origin": [4, 24, -5], "size": [1, 8, 10], "uv": [0, 42]},
+						{"origin": [-6, 19, -5], "size": [12, 5, 10], "uv": [0, 0]},
+						{"origin": [-5, 24, -5], "size": [1, 8, 10], "uv": [22, 42]},
+						{"origin": [-4, 24, 4], "size": [8, 8, 1], "uv": [0, 60]}
+					]
+				}
+			]
+		}
+	]
+}

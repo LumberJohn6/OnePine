@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/primechest",
+  "textures": {
+    "particle": "trueprimepiecetwo:block/chest2"
+  }
+}

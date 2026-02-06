@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/chair",
+  "textures": {
+    "all": "trueprimepiecetwo:block/chair",
+    "particle": "trueprimepiecetwo:block/chair",
+    "0": "trueprimepiecetwo:block/chair"
+  },
+  "render_type": "solid"
+}

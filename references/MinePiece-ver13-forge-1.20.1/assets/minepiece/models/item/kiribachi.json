@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/kiribachi",
+  "textures": {
+    "0": "minepiece:block/kiribachi",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

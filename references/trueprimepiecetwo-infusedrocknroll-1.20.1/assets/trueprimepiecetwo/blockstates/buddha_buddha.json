@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/buddha_buddha"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/buddha_buddha",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/buddha_buddha",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/buddha_buddha",
+      "y": 270
+    }
+  }
+}

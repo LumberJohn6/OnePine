@@ -1,0 +1,93 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 72,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone5",
+					"parent": "head",
+					"pivot": [-55, 4, -530],
+					"cubes": [
+						{"origin": [-56, -16, -542], "size": [2, 40, 24], "uv": [0, 65]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "head",
+					"pivot": [56, 4, -386],
+					"cubes": [
+						{"origin": [55, -16, -398], "size": [2, 40, 24], "uv": [0, 65]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "head",
+					"pivot": [-57, 4, -268],
+					"cubes": [
+						{"origin": [-58, -16, -280], "size": [2, 40, 24], "uv": [0, 65]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "head",
+					"pivot": [59, 4, -134],
+					"cubes": [
+						{"origin": [58, -16, -146], "size": [2, 40, 24], "uv": [0, 65]}
+					]
+				},
+				{
+					"name": "bone9",
+					"parent": "head",
+					"pivot": [-54, 4.5, -529],
+					"cubes": [
+						{"origin": [-54, -4, -577], "size": [0, 17, 48], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone8",
+					"parent": "head",
+					"pivot": [55, 4.5, -385],
+					"cubes": [
+						{"origin": [55, -4, -433], "size": [0, 17, 48], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone7",
+					"parent": "head",
+					"pivot": [-56, 4.5, -267],
+					"cubes": [
+						{"origin": [-56, -4, -315], "size": [0, 17, 48], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone6",
+					"parent": "head",
+					"pivot": [58, 4.5, -133],
+					"cubes": [
+						{"origin": [58, -4, -181], "size": [0, 17, 48], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "head",
+					"pivot": [0, 4.5, -2],
+					"cubes": [
+						{"origin": [0, -4, -50], "size": [0, 17, 48], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

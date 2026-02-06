@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/pawpaw",
+  "textures": {
+    "all": "trueprimepiecetwo:block/pawpaw",
+    "particle": "trueprimepiecetwo:block/pawpaw",
+    "0": "trueprimepiecetwo:block/pawpaw"
+  },
+  "render_type": "cutout"
+}

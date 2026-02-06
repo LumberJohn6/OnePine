@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/mihawk_knife",
+  "textures": {
+    "0": "minepiece:block/mihawk_knife",
+    "particle": "minepiece:item/cutlass"
+  }
+}

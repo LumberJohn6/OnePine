@@ -1,0 +1,15 @@
+{
+  "parent": "minepiece:custom/biscuit_shield",
+  "textures": {
+    "0": "minepiece:block/biscuit_warrrior",
+    "particle": "minepiece:item/icon_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "minepiece:item/shield_biscuit_0"
+    }
+  ]
+}

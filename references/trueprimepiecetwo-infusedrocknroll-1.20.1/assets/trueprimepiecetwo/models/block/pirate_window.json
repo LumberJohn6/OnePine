@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/piratewindow",
+  "textures": {
+    "all": "trueprimepiecetwo:block/piratewindow",
+    "particle": "trueprimepiecetwo:block/piratewindow",
+    "0": "trueprimepiecetwo:block/piratewindow"
+  },
+  "render_type": "cutout"
+}

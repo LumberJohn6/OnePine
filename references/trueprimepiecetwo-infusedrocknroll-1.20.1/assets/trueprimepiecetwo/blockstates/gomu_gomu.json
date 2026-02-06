@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/gomu_gomu"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/gomu_gomu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/gomu_gomu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/gomu_gomu",
+      "y": 270
+    }
+  }
+}

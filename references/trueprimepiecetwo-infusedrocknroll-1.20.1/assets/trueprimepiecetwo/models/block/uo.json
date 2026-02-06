@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/uouo",
+  "textures": {
+    "all": "trueprimepiecetwo:block/uo",
+    "particle": "trueprimepiecetwo:block/uo",
+    "0": "trueprimepiecetwo:block/uo"
+  },
+  "render_type": "cutout"
+}

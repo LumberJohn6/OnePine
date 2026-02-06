@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/guragura"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/guragura",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/guragura",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/guragura",
+      "y": 270
+    }
+  }
+}

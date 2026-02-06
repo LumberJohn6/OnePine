@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/mizu_mizu_meat",
+  "textures": {
+    "0": "minepiece:block/mizu_mizu_meat",
+    "particle": "minepiece:item/icon_food_brown"
+  }
+}

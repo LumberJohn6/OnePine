@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/kiribachi",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/kiribachi"
+  }
+}

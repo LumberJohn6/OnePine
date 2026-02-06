@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/kikoku.item",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/kikoku"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/gold_stick",
+  "textures": {
+    "1": "minepiece:block/hook",
+    "particle": "minecraft:item/stick"
+  }
+}

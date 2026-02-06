@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/wado_ichimonji",
+  "textures": {
+    "2": "minepiece:block/wado_ichimonji",
+    "particle": "minepiece:item/cutlass"
+  }
+}

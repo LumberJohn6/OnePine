@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minepiece:king",
+    "minepiece:s_hawk",
+    "minepiece:s_snake",
+    "minepiece:s_bear",
+    "minepiece:s_shark"
+  ]
+}

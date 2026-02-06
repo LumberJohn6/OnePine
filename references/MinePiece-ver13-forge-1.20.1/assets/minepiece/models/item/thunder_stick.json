@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/long_stick",
+  "textures": {
+    "1": "minepiece:block/long_stick",
+    "particle": "minecraft:item/stick"
+  }
+}

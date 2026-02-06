@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "trueprimepiecetwo:block/strawberryungrown",
+    "particle": "trueprimepiecetwo:block/strawberryungrown"
+  },
+  "render_type": "cutout"
+}

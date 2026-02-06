@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/perona_umbrella",
+  "textures": {
+    "2": "minepiece:block/perona_umbrella",
+    "particle": "minecraft:item/feather"
+  }
+}

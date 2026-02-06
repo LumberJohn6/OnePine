@@ -1,0 +1,1 @@
+{"parent":"minecraft:recipes/root","rewards":{"recipes":["mineminenomi:flag_upgrade"]},"criteria":{"has_flag":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"item":"mineminenomi:flag"}]}},"has_the_recipe":{"trigger":"minecraft:recipe_unlocked","conditions":{"recipe":"mineminenomi:flag_upgrade"}}},"requirements":[["has_flag","has_the_recipe"]]}

@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/beer",
+  "textures": {
+    "all": "trueprimepiecetwo:block/beer",
+    "particle": "trueprimepiecetwo:block/beer",
+    "0": "trueprimepiecetwo:block/beer"
+  },
+  "render_type": "solid"
+}

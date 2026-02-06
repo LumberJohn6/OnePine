@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/shark_guitar",
+  "textures": {
+    "1": "minepiece:block/shark_guitar",
+    "particle": "minecraft:item/totem_of_undying"
+  }
+}

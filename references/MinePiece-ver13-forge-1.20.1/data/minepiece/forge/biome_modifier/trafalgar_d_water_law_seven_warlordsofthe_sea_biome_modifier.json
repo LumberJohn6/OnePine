@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "minepiece:trafalgar_d_water_law_seven_warlordsofthe_sea",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

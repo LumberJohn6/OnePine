@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/amenohabakiri",
+  "textures": {
+    "0": "minepiece:block/amenohabakiri",
+    "particle": "minepiece:item/cutlass"
+  }
+}

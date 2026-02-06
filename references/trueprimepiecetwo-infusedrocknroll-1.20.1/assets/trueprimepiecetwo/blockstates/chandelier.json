@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/chandelier"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/chandelier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/chandelier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/chandelier",
+      "y": 270
+    }
+  }
+}

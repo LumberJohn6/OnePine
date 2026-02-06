@@ -1,0 +1,15 @@
+{
+  "parent": "minepiece:custom/uta_shield",
+  "textures": {
+    "0": "minepiece:block/uta_shield",
+    "particle": "minepiece:item/icon_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "minepiece:item/shield_uta_0"
+    }
+  ]
+}

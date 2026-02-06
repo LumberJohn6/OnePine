@@ -1,0 +1,7 @@
+{
+  "parent": "trueprimepiecetwo:custom/hook",
+  "textures": {
+    "0": "trueprimepiecetwo:block/goldhook",
+    "particle": "trueprimepiecetwo:item/goldhook"
+  }
+}

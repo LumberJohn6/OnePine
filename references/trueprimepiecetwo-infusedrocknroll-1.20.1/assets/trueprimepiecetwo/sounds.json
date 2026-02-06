@@ -1,0 +1,1514 @@
+{
+  "menumusic": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:bink_s-sake-_instrumental_",
+        "stream": false
+      }
+    ]
+  },
+  "menuwaves": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:ocean_ambience",
+        "stream": false
+      }
+    ]
+  },
+  "leopardgrowl": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:es_leapord-growl-fast-sfx-producer",
+        "stream": false
+      }
+    ]
+  },
+  "poof": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:poofthing",
+        "stream": false
+      }
+    ]
+  },
+  "hiken": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:hikenfire",
+        "stream": false
+      }
+    ]
+  },
+  "allogrowl": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:es_dinosaur-breath-2-sfx-producer",
+        "stream": false
+      }
+    ]
+  },
+  "buddhatransform": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:budatraform",
+        "stream": false
+      }
+    ]
+  },
+  "buddhastep": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:dinosaur_footstep",
+        "stream": false
+      }
+    ]
+  },
+  "higensfx": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:higan",
+        "stream": false
+      }
+    ]
+  },
+  "flamepoof": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:meraflamepoof_1",
+        "stream": false
+      }
+    ]
+  },
+  "flameexplode": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:merahikenfireexplosion_1",
+        "stream": false
+      }
+    ]
+  },
+  "flamepiller": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:merafirepillar_1",
+        "stream": false
+      }
+    ]
+  },
+  "goroclap": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:goroclap",
+        "stream": false
+      }
+    ]
+  },
+  "dragongoro": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:tigergoro",
+        "stream": false
+      }
+    ]
+  },
+  "goroshot": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:normalgoro",
+        "stream": false
+      }
+    ]
+  },
+  "tigergoro": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:wolfgoro",
+        "stream": false
+      }
+    ]
+  },
+  "gorobird": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:birdgoro",
+        "stream": false
+      }
+    ]
+  },
+  "seabeastgrowl": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:seabeastgrowl",
+        "stream": false
+      }
+    ]
+  },
+  "seabeastroar": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:seabeastroar",
+        "stream": false
+      }
+    ]
+  },
+  "watermovementbig": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:watermovement",
+        "stream": false
+      }
+    ]
+  },
+  "floorskid": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:floorskid",
+        "stream": false
+      }
+    ]
+  },
+  "groundslam": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:groundslam",
+        "stream": false
+      }
+    ]
+  },
+  "mediumwindimpact": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:knucklecrack",
+        "stream": false
+      }
+    ]
+  },
+  "mochiform": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:mochiform",
+        "stream": false
+      }
+    ]
+  },
+  "windpunch": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:normalpunch",
+        "stream": false
+      }
+    ]
+  },
+  "hugeimpact": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:omnikaboom",
+        "stream": false
+      }
+    ]
+  },
+  "swordclash": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:parrysound",
+        "stream": false
+      }
+    ]
+  },
+  "flamewhoosh": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:smallflameslice",
+        "stream": false
+      }
+    ]
+  },
+  "bass1": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sonicbass",
+        "stream": false
+      }
+    ]
+  },
+  "bigslice": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sonicfinalslice",
+        "stream": false
+      }
+    ]
+  },
+  "bigdash": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sonicfourfold",
+        "stream": false
+      }
+    ]
+  },
+  "bigdash2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:soniclaunch",
+        "stream": false
+      }
+    ]
+  },
+  "swordslashblood": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sonicslice",
+        "stream": false
+      }
+    ]
+  },
+  "swordstab": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sonicslice2",
+        "stream": false
+      }
+    ]
+  },
+  "daggerstab": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sonicslice3",
+        "stream": false
+      }
+    ]
+  },
+  "waterexplosion": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:waterexplode",
+        "stream": false
+      }
+    ]
+  },
+  "waterflowing": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:waterflowing1",
+        "stream": false
+      }
+    ]
+  },
+  "tigerroar": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:tigerroar",
+        "stream": false
+      }
+    ]
+  },
+  "lightpunch": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:lightpunch",
+        "stream": false
+      }
+    ]
+  },
+  "lightningboom": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:lightningboomy",
+        "stream": false
+      }
+    ]
+  },
+  "lightningboomsmall": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:lightningboomy2",
+        "stream": false
+      }
+    ]
+  },
+  "lightningboomsupersmall": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:smalllightningboomy",
+        "stream": false
+      }
+    ]
+  },
+  "longlightning": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:longlightning",
+        "stream": false
+      }
+    ]
+  },
+  "elthor": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:el_thor",
+        "stream": false
+      }
+    ]
+  },
+  "gumgatling": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gumgatling",
+        "stream": false
+      }
+    ]
+  },
+  "gumstretch2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gumstretch2",
+        "stream": false
+      }
+    ]
+  },
+  "gumbazooka": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gumbazooka",
+        "stream": false
+      }
+    ]
+  },
+  "gumriflelaunch": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gumriflelaunch",
+        "stream": false
+      }
+    ]
+  },
+  "gum": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gumimpact",
+        "stream": false
+      }
+    ]
+  },
+  "gumstretch": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gumstretch",
+        "stream": false
+      }
+    ]
+  },
+  "gumriflestartup": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gumriflestartup",
+        "stream": false
+      }
+    ]
+  },
+  "rashamonhit": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:rashamonhit",
+        "stream": false
+      }
+    ]
+  },
+  "rashamonlaunch": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:rashamonlaunch",
+        "stream": false
+      }
+    ]
+  },
+  "cloudform": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:raigosummon",
+        "stream": false
+      }
+    ]
+  },
+  "raigoarrive": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:raigocloud2",
+        "stream": false
+      }
+    ]
+  },
+  "raigoboomy": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:raigoboom",
+        "stream": false
+      }
+    ]
+  },
+  "screamaah": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:aaaaah",
+        "stream": false
+      }
+    ]
+  },
+  "metalpipefall": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:weightfall",
+        "stream": false
+      }
+    ]
+  },
+  "pawshot": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pawboom1",
+        "stream": false
+      }
+    ]
+  },
+  "pawimpact": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pawouchieouch",
+        "stream": false
+      }
+    ]
+  },
+  "pawforward": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pawplip",
+        "stream": false
+      }
+    ]
+  },
+  "pawgrab": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pawsound1",
+        "stream": false
+      }
+    ]
+  },
+  "pawoomf": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pawouchieouch",
+        "stream": false
+      }
+    ]
+  },
+  "slice2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:swordslice2",
+        "stream": false
+      }
+    ]
+  },
+  "bigslice2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:bigslice2",
+        "stream": false
+      }
+    ]
+  },
+  "hakion": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:hakiactivate",
+        "stream": false
+      }
+    ]
+  },
+  "ultratigerhunt": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:ultimatetigerhunt",
+        "stream": false
+      }
+    ]
+  },
+  "buzzcutspin": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:buzzcutspin",
+        "stream": false
+      }
+    ]
+  },
+  "jetgatling": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:jetgatling",
+        "stream": false
+      }
+    ]
+  },
+  "jetpistol": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:jetpistol",
+        "stream": false
+      }
+    ]
+  },
+  "smokesfx": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:smokesfx",
+        "stream": false
+      }
+    ]
+  },
+  "buzzcutspinup": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:buzzcutspinup",
+        "stream": false
+      }
+    ]
+  },
+  "heartbeat2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:heart_beat",
+        "stream": false
+      }
+    ]
+  },
+  "heartbeat": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:heartbeat",
+        "stream": false
+      }
+    ]
+  },
+  "agonyimpactsfx": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2024-09-10-23-30-35",
+        "stream": false
+      }
+    ]
+  },
+  "ursuscharge": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:ursuscharge1_1",
+        "stream": false
+      }
+    ]
+  },
+  "mochiform2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:mochiform2",
+        "stream": false
+      }
+    ]
+  },
+  "mochisticky": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:mochisticky",
+        "stream": false
+      }
+    ]
+  },
+  "mochigunfire": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:mochigunbrrt",
+        "stream": false
+      }
+    ]
+  },
+  "mochihugepunch": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:mochihugepunch",
+        "stream": false
+      }
+    ]
+  },
+  "mochibarrage": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:mochibarrage",
+        "stream": false
+      }
+    ]
+  },
+  "mochiwhoosh": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:mochiwhoosh",
+        "stream": false
+      }
+    ]
+  },
+  "mochibubble": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:mochibubble",
+        "stream": false
+      }
+    ]
+  },
+  "painrepel": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:repel_damage",
+        "stream": false
+      }
+    ]
+  },
+  "sorudash": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:teleport",
+        "stream": false
+      }
+    ]
+  },
+  "gurasmashshort": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:guracrack",
+        "stream": false
+      }
+    ]
+  },
+  "gurasmack": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gurasmack",
+        "stream": false
+      }
+    ]
+  },
+  "gear2ndactivate": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gear_second",
+        "stream": false
+      }
+    ]
+  },
+  "gurasmashloud": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:guracrack2",
+        "stream": false
+      }
+    ]
+  },
+  "guraorbform": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:guraquickcharge",
+        "stream": false
+      }
+    ]
+  },
+  "gurajump": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gurajump",
+        "stream": false
+      }
+    ]
+  },
+  "ursusboom": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:ursushockkaboooooommm",
+        "stream": false
+      }
+    ]
+  },
+  "gurasmashlong": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:guralongcrack",
+        "stream": false
+      }
+    ]
+  },
+  "guracharge": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:guracharge",
+        "stream": false
+      }
+    ]
+  },
+  "guralongcharge": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:guralongcharge",
+        "stream": false
+      }
+    ]
+  },
+  "getsuga": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:getsuga",
+        "stream": false
+      }
+    ]
+  },
+  "blackflanchet": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:blackimpact",
+        "stream": false
+      }
+    ]
+  },
+  "partytable": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:blackpartytable",
+        "stream": false
+      }
+    ]
+  },
+  "collier": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:blackkick",
+        "stream": false
+      }
+    ]
+  },
+  "concasser": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:blackconcasser",
+        "stream": false
+      }
+    ]
+  },
+  "antimanner": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:blackantimanner",
+        "stream": false
+      }
+    ]
+  },
+  "venison": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:venison",
+        "stream": false
+      }
+    ]
+  },
+  "sobastart": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sobastart",
+        "stream": false
+      }
+    ]
+  },
+  "diabletransform": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:diabletransform",
+        "stream": false
+      }
+    ]
+  },
+  "venisonboom": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:venisonboom",
+        "stream": false
+      }
+    ]
+  },
+  "diablehit": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:diablehit",
+        "stream": false
+      }
+    ]
+  },
+  "sobaboom": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sobaboom",
+        "stream": false
+      }
+    ]
+  },
+  "diabletheme": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:diabletheme",
+        "stream": false
+      }
+    ]
+  },
+  "tsunamiapproach": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:waveapproach",
+        "stream": false
+      }
+    ]
+  },
+  "tsunamiimpact": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:wavekaboom",
+        "stream": false
+      }
+    ]
+  },
+  "earthquake": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:goundshaske",
+        "stream": false
+      }
+    ]
+  },
+  "pikamirror": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pikamirror",
+        "stream": false
+      }
+    ]
+  },
+  "psword": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pikasword",
+        "stream": false
+      }
+    ]
+  },
+  "pteleport": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pikateleport",
+        "stream": false
+      }
+    ]
+  },
+  "pbigkick": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pikabigkick",
+        "stream": false
+      }
+    ]
+  },
+  "pbarrage": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:pikabarrage",
+        "stream": false
+      }
+    ]
+  },
+  "sacredjewels": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sacredfire",
+        "stream": false
+      }
+    ]
+  },
+  "slowmo": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:slowmo",
+        "stream": false
+      }
+    ]
+  },
+  "gexplosionrockcrumble": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gexplosionrockcrumble",
+        "stream": false
+      }
+    ]
+  },
+  "ghitcrack": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:ghitcrack",
+        "stream": false
+      }
+    ]
+  },
+  "pgrab": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:spingrabby",
+        "stream": false
+      }
+    ]
+  },
+  "roomclose": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:roomclose",
+        "stream": false
+      }
+    ]
+  },
+  "gspin": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gspin",
+        "stream": false
+      }
+    ]
+  },
+  "gammaknifepower": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gammerknife",
+        "stream": false
+      }
+    ]
+  },
+  "ghugeexplosion": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:ghugeexplosion",
+        "stream": false
+      }
+    ]
+  },
+  "gwhoosh": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gwhoosh",
+        "stream": false
+      }
+    ]
+  },
+  "ghitcrack2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:ghitcrack2",
+        "stream": false
+      }
+    ]
+  },
+  "phweooooeph": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:spinwhooooo",
+        "stream": false
+      }
+    ]
+  },
+  "gonesecondbarrage": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gbarrageonesecond",
+        "stream": false
+      }
+    ]
+  },
+  "roomopen": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:roomopen",
+        "stream": false
+      }
+    ]
+  },
+  "gslamheavy": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gheavyslam",
+        "stream": false
+      }
+    ]
+  },
+  "gslamsuperheavy": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gheavyslamheavier",
+        "stream": false
+      }
+    ]
+  },
+  "sterban2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:kries",
+        "stream": false
+      }
+    ]
+  },
+  "sterban1": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:linie",
+        "stream": false
+      }
+    ]
+  },
+  "gclothwhoosh": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:clothwhoosh",
+        "stream": false
+      }
+    ]
+  },
+  "spinning": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:spinflight",
+        "stream": false
+      }
+    ]
+  },
+  "ghitwind": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:ghitwind",
+        "stream": false
+      }
+    ]
+  },
+  "grockboomcrumble": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:grockboomcrumble",
+        "stream": false
+      }
+    ]
+  },
+  "gbonesnap": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gbonesnap",
+        "stream": false
+      }
+    ]
+  },
+  "countershocks": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:countershock",
+        "stream": false
+      }
+    ]
+  },
+  "huh": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:huh",
+        "stream": false
+      }
+    ]
+  },
+  "gear3bounce": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gear3bounce",
+        "stream": false
+      }
+    ]
+  },
+  "hakiambience": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:hakiambience",
+        "stream": false
+      }
+    ]
+  },
+  "gear3blow": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gear3blow",
+        "stream": false
+      }
+    ]
+  },
+  "gigantgatling": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gigantgatling",
+        "stream": false
+      }
+    ]
+  },
+  "clothmove2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:clothmove2",
+        "stream": false
+      }
+    ]
+  },
+  "clothmove1": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:clothmove1",
+        "stream": false
+      }
+    ]
+  },
+  "basepunch": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:basepunch",
+        "stream": false
+      }
+    ]
+  },
+  "basepunch2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:basesmack",
+        "stream": false
+      }
+    ]
+  },
+  "sizzle": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:sizzle",
+        "stream": false
+      }
+    ]
+  },
+  "venomdemonroar": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:venomdemonroar",
+        "stream": false
+      }
+    ]
+  },
+  "geppo": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:geppo",
+        "stream": false
+      }
+    ]
+  },
+  "tavernambience": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:my_medieval_tavern_sound_atmosphere__tuberipper.cc",
+        "stream": false
+      }
+    ]
+  },
+  "toritransform": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:toritransform",
+        "stream": false
+      }
+    ]
+  },
+  "toriflap": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-02-20-22-28-14",
+        "stream": false
+      }
+    ]
+  },
+  "dragonflyboom": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:dragonflyboom",
+        "stream": false
+      }
+    ]
+  },
+  "dragonboloboom": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:dragonboloboom",
+        "stream": false
+      }
+    ]
+  },
+  "dragonbolocharge": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:dragonbolocharge",
+        "stream": false
+      }
+    ]
+  },
+  "dragonflydown": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:dragonflydown",
+        "stream": false
+      }
+    ]
+  },
+  "dragonnuke": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:dragonnuke",
+        "stream": false
+      }
+    ]
+  },
+  "dragonwhoosh": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:dragonwhoosh",
+        "stream": false
+      }
+    ]
+  },
+  "enellaugh": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:enellaugh",
+        "stream": false
+      }
+    ]
+  },
+  "eneltalk2": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-04-15-23-42-12",
+        "stream": false
+      }
+    ]
+  },
+  "reverbrumbleheavy": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-06-21-15-35-23",
+        "stream": false
+      }
+    ]
+  },
+  "reverbrumble": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-06-21-15-38-15",
+        "stream": false
+      }
+    ]
+  },
+  "eneltalk1": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-04-15-23-41-49",
+        "stream": false
+      }
+    ]
+  },
+  "conqcharge": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-04-04-02-42-00",
+        "stream": false
+      }
+    ]
+  },
+  "eneliamgod": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-04-15-23-42-15",
+        "stream": false
+      }
+    ]
+  },
+  "conqhakione": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-04-04-02-42-16",
+        "stream": false
+      }
+    ]
+  },
+  "enelmantra": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-04-15-23-48-32",
+        "stream": false
+      }
+    ]
+  },
+  "reverbblast": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-06-21-15-37-42",
+        "stream": false
+      }
+    ]
+  },
+  "mihawkslash": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:mihawkslash",
+        "stream": false
+      }
+    ]
+  },
+  "gokuyah": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:gokuyah",
+        "stream": false
+      }
+    ]
+  },
+  "destroymyworld": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:destroymyworld",
+        "stream": false
+      }
+    ]
+  },
+  "kamehameha": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:kamehameha",
+        "stream": false
+      }
+    ]
+  },
+  "bigjump": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:bigjump",
+        "stream": false
+      }
+    ]
+  },
+  "globaldecimation": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:magmaglobal",
+        "stream": false
+      }
+    ]
+  },
+  "magmasizzle": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:magmasizzle",
+        "stream": false
+      }
+    ]
+  },
+  "magmarain": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:magmarain",
+        "stream": false
+      }
+    ]
+  },
+  "magmaexplosion": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:magmaexplosion",
+        "stream": false
+      }
+    ]
+  },
+  "magmaburst": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:magmaburst",
+        "stream": false
+      }
+    ]
+  },
+  "zushiemote": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-06-25-00-18-06",
+        "stream": false
+      }
+    ]
+  },
+  "swordhitsound": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:swordslice2",
+        "stream": false
+      }
+    ]
+  },
+  "swordslashsound": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:slishsloch",
+        "stream": false
+      }
+    ]
+  },
+  "pipewhoosh": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-07-08-18-16-19",
+        "stream": false
+      }
+    ]
+  },
+  "pipehit": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-07-08-18-18-32",
+        "stream": false
+      }
+    ]
+  },
+  "conqburstsfx": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:conqburstsound",
+        "stream": false
+      }
+    ]
+  },
+  "bisentospin": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:2025-09-29-19-56-17",
+        "stream": false
+      }
+    ]
+  },
+  "guitarriff": {
+    "sounds": [
+      {
+        "name": "trueprimepiecetwo:guitarriff",
+        "stream": false
+      }
+    ]
+  }
+}

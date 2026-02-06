@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/phoenix",
+  "textures": {
+    "all": "trueprimepiecetwo:block/toritori",
+    "particle": "trueprimepiecetwo:block/toritori",
+    "0": "trueprimepiecetwo:block/toritori"
+  },
+  "render_type": "cutout"
+}

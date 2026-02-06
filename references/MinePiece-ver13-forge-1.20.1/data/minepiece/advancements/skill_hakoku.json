@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "advancements.skill_hakoku.title"
+    },
+    "description": {
+      "translate": "advancements.skill_hakoku.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_hakoku_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_giant_advancement"
+}

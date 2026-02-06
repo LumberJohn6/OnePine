@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:yoru"
+    },
+    "title": {
+      "translate": "advancements.skill_continuous_slash.title"
+    },
+    "description": {
+      "translate": "advancements.skill_continuous_slash.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_continuous_slash_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_mihawk_advancement"
+}

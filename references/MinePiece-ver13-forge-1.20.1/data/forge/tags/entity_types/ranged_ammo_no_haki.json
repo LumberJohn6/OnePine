@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minepiece:rubble",
+    "minepiece:meteor",
+    "minepiece:rock_fragment"
+  ]
+}

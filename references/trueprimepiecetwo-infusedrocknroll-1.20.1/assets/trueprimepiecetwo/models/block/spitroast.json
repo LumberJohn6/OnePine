@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/spitroast",
+  "textures": {
+    "all": "trueprimepiecetwo:block/spitroast",
+    "particle": "trueprimepiecetwo:block/spitroast",
+    "0": "trueprimepiecetwo:block/spitroast"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:village_shandora",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 281,
+    "separation": 280,
+    "salt": 1280422874
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/pipenew",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/pipe"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/chandelier",
+  "textures": {
+    "all": "trueprimepiecetwo:block/chandelier",
+    "particle": "trueprimepiecetwo:block/chandelier",
+    "0": "trueprimepiecetwo:block/chandelier"
+  },
+  "render_type": "cutout"
+}

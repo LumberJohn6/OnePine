@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/cages",
+  "textures": {
+    "all": "trueprimepiecetwo:block/cages",
+    "particle": "trueprimepiecetwo:block/cages",
+    "0": "trueprimepiecetwo:block/cages"
+  },
+  "render_type": "cutout"
+}

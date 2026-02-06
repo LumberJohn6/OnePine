@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "trueprimepiecetwo:arlong_park",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 90,
+    "separation": 20,
+    "salt": 1523052527
+  }
+}

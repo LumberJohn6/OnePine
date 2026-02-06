@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "title": {
+      "translate": "advancements.battle_new_world.title"
+    },
+    "description": {
+      "translate": "advancements.battle_new_world.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_new_world_0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "minepiece:battle_advancements"
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minepiece:bananawani",
+    "minepiece:island_whale",
+    "minepiece:fighting_fish",
+    "minepiece:charlos",
+    "minepiece:pacifista",
+    "minepiece:entity_zeus",
+    "minepiece:entity_prometheus"
+  ]
+}

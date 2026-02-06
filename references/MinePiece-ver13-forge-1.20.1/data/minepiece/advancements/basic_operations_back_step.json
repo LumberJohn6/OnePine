@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": {
+      "translate": "advancements.basic_operations_back_step.title"
+    },
+    "description": {
+      "translate": "advancements.basic_operations_back_step.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "basic_operations_back_step_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:basic_operations_select_skill"
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:ship_saber_of_xebec_2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 130,
+    "separation": 65,
+    "salt": 20375012
+  }
+}

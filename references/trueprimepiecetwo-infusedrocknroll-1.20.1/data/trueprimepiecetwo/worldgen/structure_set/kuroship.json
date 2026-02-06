@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "trueprimepiecetwo:kuroship",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 49,
+    "salt": 1374443753
+  }
+}

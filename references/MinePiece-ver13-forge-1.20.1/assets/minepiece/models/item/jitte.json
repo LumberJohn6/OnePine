@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/jitte",
+  "textures": {
+    "0": "minepiece:block/jitte",
+    "particle": "minepiece:item/icon_jitte"
+  }
+}

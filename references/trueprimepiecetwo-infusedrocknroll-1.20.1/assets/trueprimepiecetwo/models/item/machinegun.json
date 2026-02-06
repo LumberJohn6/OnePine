@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/machinegun",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/machinegun"
+  }
+}

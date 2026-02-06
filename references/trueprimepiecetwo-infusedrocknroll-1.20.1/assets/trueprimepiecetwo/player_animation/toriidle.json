@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"toriidle": {
+			"animation_length": 0.001,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"vector": [-89.67098, 6.29885, 1.49931]
+					},
+					"position": {
+						"vector": [0, -1, -3.5]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-132.2211, 16.91699, -41.39779]
+					},
+					"position": {
+						"vector": [0, -3, -2.5]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [-48.7644, 4.15532, 43.97525]
+					},
+					"position": {
+						"vector": [1, 4, -3.5]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": [-10.80524, -22.13991, 4.11405]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [18.54835, 19.03771, 6.24605]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [10, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

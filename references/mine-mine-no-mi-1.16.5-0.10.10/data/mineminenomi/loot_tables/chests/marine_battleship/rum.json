@@ -1,0 +1,1 @@
+{"pools":[{"name":"mineminenomi:rum_chest","rolls":{"min":5.0,"max":10.0,"type":"minecraft:uniform"},"entries":[{"type":"minecraft:item","weight":100,"functions":[{"function":"minecraft:set_count","count":1}],"name":"mineminenomi:bottle_of_rum"},{"type":"minecraft:item","weight":10,"functions":[{"function":"minecraft:set_count","count":1}],"name":"mineminenomi:ultra_cola"}]}]}

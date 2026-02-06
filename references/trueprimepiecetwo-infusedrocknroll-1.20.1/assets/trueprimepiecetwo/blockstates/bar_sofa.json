@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/bar_sofa"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/bar_sofa",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/bar_sofa",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/bar_sofa",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minepiece:wano_country_feature",
+  "config": {
+    "structure": "minepiece:ocean_bottom",
+    "ignored_blocks": "minecraft:air"
+  }
+}

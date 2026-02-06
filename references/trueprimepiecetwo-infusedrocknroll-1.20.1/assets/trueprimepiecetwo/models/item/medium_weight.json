@@ -1,0 +1,7 @@
+{
+  "parent": "trueprimepiecetwo:custom/weight2",
+  "textures": {
+    "0": "trueprimepiecetwo:block/weight2",
+    "particle": "trueprimepiecetwo:item/bone-in_meat_3"
+  }
+}

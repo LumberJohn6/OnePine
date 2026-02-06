@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minepiece:dream_biome",
+  "features": "minepiece:dream_feature",
+  "step": "raw_generation"
+}

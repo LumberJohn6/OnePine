@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/enma",
+  "textures": {
+    "0": "minepiece:block/enma",
+    "particle": "minepiece:item/cutlass"
+  }
+}

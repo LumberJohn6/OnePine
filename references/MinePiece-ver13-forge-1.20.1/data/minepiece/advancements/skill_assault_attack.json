@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "advancements.skill_assault_attack.title"
+    },
+    "description": {
+      "translate": "advancements.skill_assault_attack.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_assault_attack_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:mine_piece_skills"
+}

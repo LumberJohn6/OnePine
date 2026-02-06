@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minepiece:block/iced_log_top",
+    "up": "minepiece:block/iced_log_top",
+    "north": "minepiece:block/iced_log",
+    "east": "minepiece:block/iced_log",
+    "south": "minepiece:block/iced_log",
+    "west": "minepiece:block/iced_log",
+    "particle": "minepiece:block/iced_log_top"
+  },
+  "render_type": "solid"
+}

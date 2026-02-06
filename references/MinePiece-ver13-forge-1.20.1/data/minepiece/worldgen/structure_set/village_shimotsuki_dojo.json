@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:village_shimotsuki_dojo",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 180,
+    "separation": 140,
+    "salt": 1578274656
+  }
+}

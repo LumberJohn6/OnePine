@@ -1,0 +1,6 @@
+{
+  "parent": "minepiece:displaysettings/masakari.item",
+  "textures": {
+    "layer0": "minepiece:item/masakari"
+  }
+}

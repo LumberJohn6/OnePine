@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/spinspin",
+  "textures": {
+    "all": "trueprimepiecetwo:block/spinspintexture",
+    "particle": "trueprimepiecetwo:block/spinspintexture",
+    "0": "trueprimepiecetwo:block/spinspintexture"
+  },
+  "render_type": "cutout"
+}

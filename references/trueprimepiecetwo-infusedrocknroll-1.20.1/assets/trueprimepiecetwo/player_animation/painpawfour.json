@@ -1,0 +1,61 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"painpawfour": {
+			"animation_length": 1,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [20, 0, 0]
+						},
+						"1.0": {
+							"vector": [7.5, 0, 0],
+							"easing": "easeInOutSine"
+						}
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-56.2576, -14.6914, -9.61518]
+						},
+						"1.0": {
+							"vector": [-56.2576, 14.6914, 9.61518],
+							"easing": "easeInOutSine"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, -2.1492, -3.37357]
+						},
+						"1.0": {
+							"vector": [-1.00532, -0.28957, -0.4497],
+							"easing": "easeInOutSine"
+						}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-54.76837, 6.13784, 4.31837]
+						},
+						"1.0": {
+							"vector": [-51.71239, -22.22485, -16.62484],
+							"easing": "easeInOutSine"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, -1.72073, -2.45746]
+						},
+						"1.0": {
+							"vector": [-0.49824, 0.07115, 0.09803],
+							"easing": "easeInOutSine"
+						}
+					}
+				}
+			}
+		}
+	}
+}

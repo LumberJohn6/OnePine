@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"blacklegidle": {
+			"animation_length": 0.001,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"vector": [-147.8342, -2.57594, 14.78217]
+					},
+					"position": {
+						"vector": [0, -3, -3.5]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-147.95411, 2.99318, -17.25002]
+					},
+					"position": {
+						"vector": [0, -3, -2.5]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [5, 0, -5]
+					},
+					"position": {
+						"vector": [0, 5, -4]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

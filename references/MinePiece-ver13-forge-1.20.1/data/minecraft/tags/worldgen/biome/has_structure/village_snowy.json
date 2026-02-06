@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minepiece:kuri_biome",
+    "minepiece:udon_biome",
+    "minepiece:kibi_biome",
+    "minepiece:ringo_biome"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minepiece:ocean_feature",
+  "config": {
+    "structure": "minepiece:ocean",
+    "ignored_blocks": "minecraft:stone"
+  }
+}

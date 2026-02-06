@@ -1,0 +1,109 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"lift2": {
+			"animation_length": 3.9167,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -30, 0]
+						},
+						"1.0": {
+							"vector": [-2.5, -30, 0],
+							"easing": "easeInBack"
+						},
+						"2.0": {
+							"vector": [-5, -30, 0],
+							"easing": "easeInCubic"
+						},
+						"2.5": {
+							"vector": [30, -30, 0],
+							"easing": "easeInCubic"
+						},
+						"3.0": {
+							"vector": [90, -30, 0],
+							"easing": "easeOutExpo"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, 0.08, 0]
+						},
+						"2.5": {
+							"vector": [0, -0.75, 0]
+						},
+						"3.0": {
+							"vector": [0, -8, 0],
+							"easing": "easeOutExpo"
+						},
+						"3.875": {
+							"vector": [0, -9, 0]
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [20, 22.5, 0]
+						},
+						"1.0": {
+							"vector": [22.5, 22.5, 0],
+							"easing": "easeInBack"
+						},
+						"2.0": {
+							"vector": [0, 22.5, 0],
+							"easing": "easeInCubic"
+						},
+						"2.5": {
+							"vector": [-55, 22.5, 0],
+							"easing": "easeInCubic"
+						},
+						"3.0": {
+							"vector": [3.18318, 7.70999, 2.59945],
+							"easing": "easeOutExpo"
+						}
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-42.5, 0, 0]
+						},
+						"1.0": {
+							"vector": [-102.5, 0, 0],
+							"easing": "easeInBack"
+						},
+						"2.0": {
+							"vector": [-112.5, 0, 0]
+						},
+						"2.5": {
+							"vector": [-57.5, 0, 0],
+							"easing": "easeInCubic"
+						},
+						"3.0": {
+							"vector": [7.79011, 57.15935, 99.24832],
+							"easing": "easeOutExpo"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, -2, 0]
+						},
+						"1.0": {
+							"vector": [0, -6, 0],
+							"easing": "easeInBack"
+						},
+						"2.5": {
+							"vector": [0, -3, -2],
+							"easing": "easeInCubic"
+						}
+					}
+				}
+			}
+		}
+	}
+}

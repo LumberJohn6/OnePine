@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/murakumogiri",
+  "textures": {
+    "0": "minepiece:block/murakumogiri",
+    "particle": "minepiece:item/cutlass"
+  }
+}

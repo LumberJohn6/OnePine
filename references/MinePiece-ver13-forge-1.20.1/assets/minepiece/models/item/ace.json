@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/ace",
+  "textures": {
+    "2": "minepiece:block/ace",
+    "particle": "minepiece:item/cutlass"
+  }
+}

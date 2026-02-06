@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/yoru",
+  "textures": {
+    "0": "minepiece:block/yoru",
+    "particle": "minepiece:item/icon_yoru"
+  }
+}

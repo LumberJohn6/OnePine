@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:branch_153rd",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 90,
+    "separation": 48,
+    "salt": 1250099014
+  }
+}

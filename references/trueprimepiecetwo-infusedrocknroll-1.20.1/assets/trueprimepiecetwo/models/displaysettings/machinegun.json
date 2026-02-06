@@ -1,0 +1,51 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "scale": [
+        0.58,
+        0.58,
+        0.58
+      ]
+    },
+    "thirdperson_lefthand": {
+      "scale": [
+        0.56,
+        0.53,
+        0.55
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.42,
+        0.43,
+        0.42
+      ]
+    },
+    "gui": {
+      "rotation": [
+        78.86,
+        -52.48,
+        81.14
+      ],
+      "translation": [
+        -1.25,
+        -1,
+        0
+      ],
+      "scale": [
+        0.46,
+        0.46,
+        0.45
+      ]
+    }
+  },
+  "textures": {
+    "particle": "item/machinegun"
+  }
+}

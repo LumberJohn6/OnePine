@@ -1,0 +1,1 @@
+{"parent":"item/generated","textures":{"layer0":"mineminenomi:items/extol_pouch_0"},"overrides":[{"predicate":{"size":0},"model":"mineminenomi:item/extol_pouch_0"},{"predicate":{"size":1},"model":"mineminenomi:item/extol_pouch_1"},{"predicate":{"size":2},"model":"mineminenomi:item/extol_pouch_2"}]}

@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/kikoku_sheath",
+  "textures": {
+    "1": "minepiece:block/kikoku",
+    "particle": "minecraft:item/netherite_sword"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "minepiece:bellamy_grand_line",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/kumashi",
+  "textures": {
+    "2": "minepiece:block/kumashi",
+    "particle": "minecraft:item/totem_of_undying"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "minepiece_weapon",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:iron_axe"
+    }
+  },
+  "result": {
+    "item": "minepiece:arm_axe",
+    "count": 1
+  }
+}

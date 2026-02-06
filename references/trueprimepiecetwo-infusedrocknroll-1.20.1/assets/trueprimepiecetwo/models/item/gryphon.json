@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/gryphon.item",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/gryphon"
+  }
+}

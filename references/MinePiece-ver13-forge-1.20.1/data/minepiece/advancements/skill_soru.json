@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:clothes_cp_9_helmet"
+    },
+    "title": {
+      "translate": "advancements.skill_soru.title"
+    },
+    "description": {
+      "translate": "advancements.skill_soru.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_soru_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_rokushiki_advancement"
+}

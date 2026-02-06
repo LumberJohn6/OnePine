@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:light",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:stone",
+    "minecraft:coarse_dirt",
+    "minecraft:dirt",
+    "minecraft:red_sandstone",
+    "minecraft:snow_block",
+    "minecraft:grass_block"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.battle_raid_east_blue_20.title"
+    },
+    "description": {
+      "translate": "advancements.battle_raid_east_blue_20.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_raid_east_blue_20_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:battle_raid_east_blue_8"
+}

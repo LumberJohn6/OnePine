@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/nekoneko",
+  "textures": {
+    "all": "trueprimepiecetwo:block/nekotexture",
+    "particle": "trueprimepiecetwo:block/nekotexture",
+    "0": "trueprimepiecetwo:block/nekotexture"
+  },
+  "render_type": "cutout"
+}

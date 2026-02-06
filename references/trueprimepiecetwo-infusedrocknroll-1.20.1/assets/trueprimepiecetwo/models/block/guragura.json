@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/guragura",
+  "textures": {
+    "all": "trueprimepiecetwo:block/guraguratexture",
+    "particle": "trueprimepiecetwo:block/guraguratexture",
+    "0": "trueprimepiecetwo:block/guraguratexture"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/ukelele",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/ukelele"
+  }
+}

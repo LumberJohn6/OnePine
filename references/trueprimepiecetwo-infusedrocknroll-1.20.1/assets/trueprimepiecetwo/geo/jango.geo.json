@@ -1,0 +1,80 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.jango",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "body",
+					"pivot": [1.9, 12, 0],
+					"cubes": [
+						{"origin": [-0.1, 0, -2], "size": [4, 12, 4], "uv": [0, 48]}
+					]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "body",
+					"pivot": [-1.9, 12, 0],
+					"cubes": [
+						{"origin": [-3.9, 0, -2], "size": [4, 12, 4], "uv": [40, 42]}
+					]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "body",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [40, 26]}
+					]
+				},
+				{
+					"name": "RightArm",
+					"parent": "body",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [24, 32]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "RightArm",
+					"pivot": [-6, 12, 0],
+					"cubes": [
+						{"origin": [-8, 4, 0], "size": [4, 8, 0], "uv": [30, 56]}
+					]
+				},
+				{
+					"name": "torso",
+					"parent": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [0, 32]},
+						{"origin": [-4, 9, 1], "size": [8, 6, 4], "pivot": [0, 7, 3], "rotation": [22.5, 0, 0], "uv": [32, 16]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 16]},
+						{"origin": [-0.5, 22.6, -5.4], "size": [1, 1, 2], "pivot": [-0.5, 23.1, -4.4], "rotation": [42.5, 0, 0], "uv": [32, 26]},
+						{"origin": [-6.5, 28, -8], "size": [13, 0, 16], "pivot": [0, 28, 0], "rotation": [0, -90, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

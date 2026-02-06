@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/tonfa",
+  "textures": {
+    "0": "minepiece:block/metal_rod",
+    "particle": "minepiece:item/clear"
+  }
+}

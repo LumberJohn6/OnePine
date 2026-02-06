@@ -1,0 +1,61 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"zoanactive": {
+			"animation_length": 0.0833,
+			"bones": {
+				"head": {
+					"position": {
+						"0.0": {
+							"vector": [0, -21547, 0]
+						},
+						"0.0833": {
+							"vector": [0, -21547, 0]
+						}
+					}
+				},
+				"right_arm": {
+					"position": {
+						"0.0": {
+							"vector": [0, -21547, 0]
+						},
+						"0.0833": {
+							"vector": [0, -21547, 0]
+						}
+					}
+				},
+				"left_arm": {
+					"position": {
+						"0.0": {
+							"vector": [0, -21547, 0]
+						},
+						"0.0833": {
+							"vector": [0, -21547, 0]
+						}
+					}
+				},
+				"right_leg": {
+					"position": {
+						"0.0": {
+							"vector": [0, -21547, 0]
+						},
+						"0.0833": {
+							"vector": [0, -21547, 0]
+						}
+					}
+				},
+				"left_leg": {
+					"position": {
+						"0.0": {
+							"vector": [0, -21547, 0]
+						},
+						"0.0833": {
+							"vector": [0, -21547, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

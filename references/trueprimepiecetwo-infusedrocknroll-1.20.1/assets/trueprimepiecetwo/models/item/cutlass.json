@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/cuutlas",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/cuutlas"
+  }
+}

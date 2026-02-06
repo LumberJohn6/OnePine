@@ -1,0 +1,17 @@
+{
+  "name": "minepiece:water_seven_road_cross",
+  "fallback": "minepiece:water_seven_terminal",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minepiece:water_seven_road",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

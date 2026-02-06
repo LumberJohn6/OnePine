@@ -1,0 +1,7 @@
+{
+  "parent": "trueprimepiecetwo:custom/kuroclaws",
+  "textures": {
+    "0": "trueprimepiecetwo:block/kuroclaws",
+    "particle": "trueprimepiecetwo:item/kuroclaws"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/cratesss",
+  "textures": {
+    "all": "trueprimepiecetwo:block/cratesss",
+    "particle": "trueprimepiecetwo:block/cratesss",
+    "0": "trueprimepiecetwo:block/cratesss"
+  },
+  "render_type": "solid"
+}

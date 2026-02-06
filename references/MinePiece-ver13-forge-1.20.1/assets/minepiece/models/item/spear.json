@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/spear",
+  "textures": {
+    "0": "minepiece:block/spear_2",
+    "particle": "minepiece:item/iron_spear"
+  }
+}

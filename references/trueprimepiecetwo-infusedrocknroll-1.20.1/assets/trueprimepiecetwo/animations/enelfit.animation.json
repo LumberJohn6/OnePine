@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.enelfit.idle": {
+			"loop": true,
+			"animation_length": 3.5417,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 5]
+						},
+						"1.0": {
+							"vector": [-7.5, 0, -16.752],
+							"easing": "easeInOutSine"
+						},
+						"2.0833": {
+							"vector": [-17.5, 0, -13.71212],
+							"easing": "easeInOutSine"
+						},
+						"3.5417": {
+							"vector": [0, 0, 5],
+							"easing": "easeInOutSine"
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

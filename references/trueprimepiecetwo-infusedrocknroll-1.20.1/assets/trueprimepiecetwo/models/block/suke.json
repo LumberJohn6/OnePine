@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/sukesuke",
+  "textures": {
+    "all": "trueprimepiecetwo:block/sukesuketexture",
+    "particle": "trueprimepiecetwo:block/sukesuketexture",
+    "0": "trueprimepiecetwo:block/sukesuketexture"
+  },
+  "render_type": "cutout"
+}

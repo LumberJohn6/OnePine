@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/pretzel",
+  "textures": {
+    "0": "minepiece:block/pretzel",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

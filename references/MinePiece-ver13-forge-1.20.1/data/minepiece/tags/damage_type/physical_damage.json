@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "falling_anvil",
+    "arrow",
+    "cactus",
+    "explosion",
+    "fall",
+    "falling_block",
+    "falling_stalactite",
+    "fireworks",
+    "fly_into_wall",
+    "generic",
+    "in_wall",
+    "mob_attack",
+    "mob_attack_no_aggro",
+    "mob_projectile",
+    "player_attack",
+    "player_explosion",
+    "stalagmite",
+    "sting",
+    "sweet_berry_bush",
+    "thorns",
+    "thrown",
+    "trident",
+    "wither_skull"
+  ]
+}

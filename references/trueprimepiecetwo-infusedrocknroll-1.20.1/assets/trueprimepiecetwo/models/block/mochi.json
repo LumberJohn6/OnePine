@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/mochimochi",
+  "textures": {
+    "all": "trueprimepiecetwo:block/mochirefeshedtexture",
+    "particle": "trueprimepiecetwo:block/mochirefeshedtexture",
+    "0": "trueprimepiecetwo:block/mochirefeshedtexture"
+  },
+  "render_type": "cutout"
+}

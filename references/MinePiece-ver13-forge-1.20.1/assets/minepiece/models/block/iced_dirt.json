@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minepiece:block/iced_dirt",
+    "up": "minepiece:block/iced_dirt_top",
+    "north": "minepiece:block/iced_dirt",
+    "east": "minepiece:block/iced_dirt",
+    "south": "minepiece:block/iced_dirt",
+    "west": "minepiece:block/iced_dirt",
+    "particle": "minepiece:block/iced_dirt"
+  },
+  "render_type": "solid"
+}

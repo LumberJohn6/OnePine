@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/gomu",
+  "textures": {
+    "all": "trueprimepiecetwo:block/gumgum",
+    "particle": "trueprimepiecetwo:block/gumgum",
+    "0": "trueprimepiecetwo:block/gumgum"
+  },
+  "render_type": "cutout"
+}

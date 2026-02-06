@@ -1,0 +1,1334 @@
+Signature-Version: 1.0
+Created-By: 21.0.3 (Eclipse Adoptium)
+SHA-384-Digest-Manifest: ddeb4BeQ50pUbT3RDJQwXn7c6mnjfcXUHQfjLHomaSMdVDT
+ C06MnE1QI7okNEj6V
+SHA-384-Digest-Manifest-Main-Attributes: ZOKMk7D7VRZGw+OZANNRCeGeojrq2NN
+ 4vAxgTe5RKxKT6oir+LhFXpRS0/ipaodP
+
+Name: com/google/gson/internal/bind/JsonTreeWriter.class
+SHA-384-Digest: ZZf5cRTQgF6nA/W9C/17liS2ZwFAom5guypGpIGyUG5rlxma0pTZoIg4
+ ty1m3DQu
+
+Name: com/google/gson/internal/sql/SqlTimeTypeAdapter$1.class
+SHA-384-Digest: 4fH6/qZzCpc5Kwo229HTmH/u8tDaDq6H4guAjbPcBq0OGCGZiRRbpusD
+ OpAJPG2c
+
+Name: net/minecraftforge/installer/actions/PostProcessors$Output.class
+SHA-384-Digest: uDeOnjsVk8a6O60VZAjkYDEbQRXGosyv97LPywZQJ8RhaOt9C887ogYq
+ Rb65CGpL
+
+Name: joptsimple/internal/Classes.class
+SHA-384-Digest: 069ZKtxNsKdBHLC7xM23C2OJVb1yqal2fT1rmrD28VS6uuXtwTODt33B
+ WIs6wxQw
+
+Name: joptsimple/OptionDeclarer.class
+SHA-384-Digest: JR3H75/ztlv5kcePXoCjoHMp1KLcj90S/fa6AF5+oTr661d1A1GWDrOk
+ NuzGVKbG
+
+Name: net/minecraftforge/installer/actions/OfflineAction.class
+SHA-384-Digest: z6KbYv9/luUyv9HBEUuokoUKW1VyVLf/7L1AkZAcRmAwnxronliXTZr+
+ LyCnfN8W
+
+Name: com/google/gson/internal/ConstructorConstructor$18.class
+SHA-384-Digest: v+Ppkbvk7FcQM5ZoLtAMevK9jORS42LARj57Pca/A1yEu1km2UwoQt3Z
+ NztJfeEu
+
+Name: com/google/gson/internal/UnsafeAllocator$2.class
+SHA-384-Digest: ZtH9K/JUBsNH4NtoK0bOm4x8zxJQIT6f0sXD9OVJUYpng8qskwvaj429
+ NazZRu8S
+
+Name: net/minecraftforge/installer/json/InstallV1.class
+SHA-384-Digest: W39SBxA+uwBNolfstFzvnW5FKFpFpwi5RJWlkPo/6f5g57paI9nMZlqk
+ RL9Wy+I/
+
+Name: com/google/gson/internal/Primitives.class
+SHA-384-Digest: dEMtp0Va2GFhEuTzkepFLEaXy0wx+eMpjrgL0eSbL5zbZaepZCBQdevH
+ 6jbYaKaX
+
+Name: com/google/gson/JsonNull.class
+SHA-384-Digest: Z6E38CArQRi3dr2t0k0Kwm0raLup9wmu9ZO9XKiSPxahZsjY1T6Xe+3k
+ 67tZ3fGA
+
+Name: com/google/gson/Gson$3.class
+SHA-384-Digest: 7d69jpOz9GrHJyUt+qHZ5vuW/lt0nkfk9bWEKK2W3G59rYv3y/TUj6Lt
+ k/NxLxZo
+
+Name: com/google/gson/ReflectionAccessFilter$3.class
+SHA-384-Digest: fXh+6puduYaARhakg2PRnoYfcngClywN9BOcrvxtW9s/mUWpMr5CHTbk
+ 9miFw1BN
+
+Name: joptsimple/ArgumentAcceptingOptionSpec.class
+SHA-384-Digest: GyGrqiQlXYrc6rT4ENCcvZTuZ4M+g05VLdfQRQ+5nMBFLHSbu6heWITW
+ UKP/SSaJ
+
+Name: net/minecraftforge/installer/InstallerPanel.class
+SHA-384-Digest: RSL+yrDhxd4DYHmbsNo8B4RdwNliu8ZYGlmv7Xmyyw+1rAoH9RPQ1MIk
+ VddKfCa+
+
+Name: com/google/gson/internal/bind/TypeAdapters$17.class
+SHA-384-Digest: hoSjh06RvqI0x+wEdPRLHcJwURgpX4wPWu3Go5s81tISrq6gXm24vQuP
+ hsEFrItS
+
+Name: joptsimple/OptionSpecBuilder.class
+SHA-384-Digest: Qx/5X+4jzSsV6NwOsIi8vmEZCX+5h+dt5TrYRYLELOOW2dhTErLXSqW3
+ c4ITbxt1
+
+Name: com/google/gson/internal/bind/TypeAdapters$25.class
+SHA-384-Digest: 7c9vxJlm8FAxuMS+LnllfpILSkU4bU8ScOhcH5/vw21IyuwpRiBLzvIL
+ ZVwTDV88
+
+Name: com/google/gson/ToNumberPolicy.class
+SHA-384-Digest: eu/lXbfwHbiBhrlaTbz6NiQJXTQX/PdUij/LpAha4TnQEItLL0NXNp+P
+ dp3NW8bx
+
+Name: com/google/gson/internal/$Gson$Types$GenericArrayTypeImpl.class
+SHA-384-Digest: BTPxAoeCZH8fzMoNt5lSKZE0kWdTtx/EBkto3puJ0v1ixB3J+6+JCrPN
+ +ql/qjF5
+
+Name: net/minecraftforge/installer/json/Install.class
+SHA-384-Digest: IbbbbyUNUkLhLuB16nZfw03WnV3n2FDaJBr6UjZ3buVooDhCOo6AA1tb
+ 5Z5Fug2O
+
+Name: com/google/gson/JsonDeserializer.class
+SHA-384-Digest: IfgZoHTOM0l83hji22QalQYrxiuplSCPWvwDT4BQuiQL9afHgBlBL8va
+ xf1mzk7F
+
+Name: net/minecraftforge/installer/InstallerPanel$FileSelectAction.class
+SHA-384-Digest: /JKB7NJG5uihYuW/mb4QzmAOax5dDtrks7nps0KkRfPAXAvKfjLg9yba
+ ijQOpXZm
+
+Name: joptsimple/IllegalOptionSpecificationException.class
+SHA-384-Digest: Sx5BQJRelU4wwT9MGwAvIgLeEYhsqAX4eXH1cDQlfgr44WEX1VguE07/
+ HixKfHKu
+
+Name: com/google/gson/internal/ConstructorConstructor$2.class
+SHA-384-Digest: zGO4NzTtdVbUJ9tvJLj4GTj/6ujEwn2mVISgPgf+vDa9x7um6HF8c+Xf
+ bO8Kdk20
+
+Name: joptsimple/OptionalArgumentOptionSpec.class
+SHA-384-Digest: XfNgPbYvgdOfOl7ZX43iR5vmgs2QWWXfXCuQUsLemxH+EMoVhsUAA5mj
+ cPwWxJNt
+
+Name: com/google/gson/internal/ReflectionAccessFilterHelper$AccessChecke
+ r.class
+SHA-384-Digest: Pqyan2XbNM+LpWP9hd1Zv5XAzt7UIHpP6Vjo2kHujPXY0K4QOoLkWuX1
+ rGa7moMa
+
+Name: com/google/gson/internal/ConstructorConstructor$8.class
+SHA-384-Digest: JJHYTLstbMTcc5WCj7BpaCRjad1Q6WvJi79rgtAAVvSFLWxDFec1Izt2
+ 9u7Qnyr5
+
+Name: net/minecraftforge/installer/json/Mirror.class
+SHA-384-Digest: YtJzpxaCZID3rvQrzpS948HNPGQ1ecLDNdb1WgErVZSclL4zyvysU1wW
+ I1mlcbyS
+
+Name: com/google/gson/ExclusionStrategy.class
+SHA-384-Digest: BUTlem/AZsXfX1RSbIcU/GlJo+Tl9V2Hs3Wy4pmiTCGS/uQDAJAvKmc+
+ YbmjYsRF
+
+Name: com/google/gson/Gson.class
+SHA-384-Digest: YKWEQyYhwfAa6CuIbdO18hensV3jE34XhvMA9zdOYbJfEw/LYEDLSRxY
+ 6adGjPdD
+
+Name: com/google/gson/FieldNamingPolicy$3.class
+SHA-384-Digest: lkLUoIASuyHSgpT5Z8OyiBa4+Tp6ljdyYH4VTXs7h6UryAniSMFhf7lW
+ I1sFULUb
+
+Name: com/google/gson/Gson$4.class
+SHA-384-Digest: vknoTOM/Jcfh8dsCFGTF2t+iJqPEmFPPczCMnEUaK6w+cfgbBmsSodvz
+ B1NLnWN1
+
+Name: com/google/gson/internal/bind/TypeAdapters$11.class
+SHA-384-Digest: 2dVuApZy9LR1tvcT5vjWh/kBjHm4XL0MJMjyj6pgKqyM5nm5XcH82ayj
+ 14GWHtcm
+
+Name: com/google/gson/internal/ConstructorConstructor.class
+SHA-384-Digest: 1Ds37k1HElW7axon/4cZr/w6fuA1E0tsJTCxKJwymMPOMvuRzFRCyhGZ
+ B/7E0mtu
+
+Name: com/google/gson/internal/Streams$AppendableWriter.class
+SHA-384-Digest: 1d4w3g4thD2LrS7kxbqGCHSfnUWsbg8IfJatc9HfFpVxERkQwbwWF82I
+ 9eczbHDd
+
+Name: com/google/gson/internal/bind/CollectionTypeAdapterFactory$Adapter
+ .class
+SHA-384-Digest: SpnVq0HKtwDHJJqJJxdj/7b19a7zU9GnxmJpaX28EKdmqmxlBA7wtcZb
+ XSPeEXy3
+
+Name: com/google/gson/ReflectionAccessFilter$2.class
+SHA-384-Digest: AFtko84xrft9nuXRgFyOF085218jHwZBPf0J+p+VkT8iF1wBs5xLXktu
+ hAyE2G9N
+
+Name: com/google/gson/internal/bind/MapTypeAdapterFactory$Adapter.class
+SHA-384-Digest: oYj74u6Zz/E4SAzjHb7a0o5NhakTL9OcoIH3u0z62/B8qkx5dsGzgf5o
+ vxAwdqiD
+
+Name: com/google/gson/internal/bind/NumberTypeAdapter.class
+SHA-384-Digest: SrK5jEFYrjGM/p06hjw5ZzdOK/nhW8NsjrfzKLR2H6sYemqoap+8ozi8
+ 7XVxcqA8
+
+Name: com/google/gson/internal/ConstructorConstructor$13.class
+SHA-384-Digest: HUrnoq+9/4Mb0omKkfZW6sB3cjtu1yUCBSZS5z9wL4WVklnQW79h85OR
+ go9EOMc2
+
+Name: big_logo.png
+SHA-384-Digest: CGT/KTuCZEeJiKB4O/aW/pJe17MUeSujF9Ke5NjAb16kOXzrz6YGitZq
+ 2jkC7im/
+
+Name: joptsimple/internal/ReflectionException.class
+SHA-384-Digest: qWvML4IhLEknFGblFwgq/dG76i6nddICa7Kehb9CpHppZElataNkttIH
+ CoM254eF
+
+Name: com/google/gson/internal/sql/SqlTimestampTypeAdapter.class
+SHA-384-Digest: WjppD7gl6E6YdL1EN73sRHWNhvTfjF9v/uBYTP5c4yj+aEV3vqYmJ2Dv
+ /OFRq9TI
+
+Name: net/minecraftforge/installer/json/OptionalLibrary.class
+SHA-384-Digest: Eug+Xy4bSjgQ3bl17rYeJXZKmU5RNysdNKFm60TwqkQHT9/bXw2jNPK/
+ misrbizX
+
+Name: joptsimple/UnconfiguredOptionException.class
+SHA-384-Digest: +B+kHt15bn2lS/0qo2/j8iUCiDV8eRlqlZeBcX3vIIhOUSMYCbWZVhtb
+ 2rreqrce
+
+Name: com/google/gson/internal/bind/TypeAdapters$4.class
+SHA-384-Digest: uG6h+poAbTXBNY3pJsyTV6YQMVaKYjeungprEs6XW2jbNeOL6HneFaUM
+ mwe1TykH
+
+Name: com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.class
+SHA-384-Digest: oP36jhMeE+vV+f52akoCc73qluV8I+WxNhtY2sHQkJzFX9KPTkxWe9L1
+ gHriFYjR
+
+Name: com/google/gson/ToNumberPolicy$2.class
+SHA-384-Digest: LzKRcXIAVGTqEBiPwAOC4ASuS79Zc0sVAlGQL2iNChrGihMO698WMwp7
+ E6+a/mZQ
+
+Name: com/google/gson/internal/bind/JsonTreeReader$1.class
+SHA-384-Digest: teCBqbo8qpk2BIvgmQBM/VVAIe8y5xVhd4FDmurCvr7hNRPKcHMvlgQi
+ wsE8XaAF
+
+Name: com/google/gson/internal/bind/TreeTypeAdapter.class
+SHA-384-Digest: 4ngNMDn59UxeIEbwNNBtFrwpGgsOELryjXdPPsmdMeOWCSPr3n95r57F
+ D23pEy4b
+
+Name: com/google/gson/internal/bind/TypeAdapters$24.class
+SHA-384-Digest: VRN4PhUwUlSqOT9yK51WRQj5gomvbXUFBmXE3qXEu2SHprEx8MFR00we
+ Tq8bhhQM
+
+Name: net/minecraftforge/installer/json/Version$LibraryDownload.class
+SHA-384-Digest: YYc5fr1xRemuEA1zTEpZj+NoYhV5ef63Xn5quExqucsiyUOcej+6otWH
+ abSLOMNs
+
+Name: com/google/gson/JsonArray.class
+SHA-384-Digest: zWjH0WwZ3p3Yowv7oSSLBFHvObpNgR1HzZZhR7AJZOgqY3QsaW9/9S1c
+ jccSWOkT
+
+Name: joptsimple/internal/OptionNameMap.class
+SHA-384-Digest: 6oJVCwMpRTuO8wBXNTMBrInJYnv8gi47qHDo0Ce1iIY3/uZIOOryTXrR
+ rGSPCbN9
+
+Name: com/google/gson/internal/JsonReaderInternalAccess.class
+SHA-384-Digest: giaPot4PVzjO6Dd+ENJDYBZ2fTLfsGj8viM3WAQKS5MH65bRaZMTS/6o
+ qvxBQ9V4
+
+Name: com/google/gson/ToNumberPolicy$1.class
+SHA-384-Digest: i/BGInP1Pm3ooRHB//qo7TVATIe0xEcwgEop4sxf3unuSwIPyjNHPTIJ
+ rA1w9ML/
+
+Name: com/google/gson/FieldNamingPolicy.class
+SHA-384-Digest: uv24vdJQWRNb7m0t8rpmcg6TQo3AvZK3XnsdsL0b9GWi79X+bgy1pius
+ /39MySLJ
+
+Name: com/google/gson/internal/reflect/ReflectionHelper.class
+SHA-384-Digest: lQp1vo1lqe19XWkjRjsd2BnB+7IJDlxzi/Ntj3qGRhM1nO2G5hNQ0EBR
+ S7x55jbZ
+
+Name: com/google/gson/reflect/package-info.class
+SHA-384-Digest: kr1Qsv0WG3xoSBj8Wsw8UI5wXvjzdjaj2JUiuqeMlVdvywWA03sCLtdy
+ YoaQlmdD
+
+Name: com/google/gson/stream/JsonToken.class
+SHA-384-Digest: BWpoucy+KJLhB4i71oe2Fn2tPqQpYl/ZhKjlesEBEGSHXCGU6MLXVnz+
+ 6+G3LtgJ
+
+Name: net/minecraftforge/installer/SimpleInstaller.class
+SHA-384-Digest: qw8X4GAqnPQar6mCdjCiAhkPuPJsmIAT9OkqapTqMx2XpxthJnlPOIKZ
+ QGy8TXhx
+
+Name: com/google/gson/internal/bind/TreeTypeAdapter$1.class
+SHA-384-Digest: dNonxP2oAQ6rIbZtF4U6/5zO3vWUUhD2OHHfjyTRAX5E9Wk+3UiZwg7w
+ WJuY6uDb
+
+Name: com/google/gson/internal/bind/TypeAdapters$12.class
+SHA-384-Digest: 6+Apytrl36aZeAZ8ABrmtJu7LG3y6R4IUifNogPUWOcUar1lbYT69kAo
+ aDP9vlg4
+
+Name: net/minecraftforge/installer/HashFunction.class
+SHA-384-Digest: 5/d1Wzuodp4eaRgYxKeiSW41u43nXYP2jFeaQSWATE+9n5belvXkPjqN
+ BoACetSF
+
+Name: com/google/gson/reflect/TypeToken.class
+SHA-384-Digest: DTExON+K3OUiZoGEwQ5ME6QmSh1raOgbgZWqEBGkaSNQUPlGJyU0KgHm
+ ollq8EeG
+
+Name: install_profile.json
+SHA-384-Digest: HbgUZt8xidGqI8ZJQhqbnl0H3Hg7kFkQOxWXUl5L/ctu4OR8uUfNrf1m
+ 6GjKG6UQ
+
+Name: com/google/gson/internal/ConstructorConstructor$3.class
+SHA-384-Digest: jRhyC6OQdVZoSKqkDT7A7oTR58qdFp3/1RZWPLwrqb8Cu4JIZwlml1DG
+ y/BZW4pR
+
+Name: com/google/gson/annotations/SerializedName.class
+SHA-384-Digest: rem6Jn1kJQQ4MW+qnRG1oEM1hlYVWrf8FKDziylo0j8ZVi2Wcsx88vKj
+ O3PoT0ur
+
+Name: com/google/gson/internal/ConstructorConstructor$12.class
+SHA-384-Digest: qsWeWEZAEpUQ2E+rg3AnOm/Yck1DapN/gpdRdPtWnyCCeQAif4W/19Q2
+ XqWVYvLO
+
+Name: joptsimple/internal/Messages.class
+SHA-384-Digest: CwLaWnrDptBGmBRPAWrV/a7x1q1/1eckiUj7XN9bLt8wPDfeLTnjPB8h
+ VAbzcgRU
+
+Name: net/minecraftforge/installer/json/Util.class
+SHA-384-Digest: 1rKJSnNRFc29cBLI+l4awR19bRjX6fYA/Lff5PgXK3NQY+y9KygIIk92
+ atYlXTL9
+
+Name: com/google/gson/internal/LinkedTreeMap$EntrySet.class
+SHA-384-Digest: GX+IdFPRAUcT/LS5x8H3X++YVE01Jm7eawxmw9TgXoRsd988unU7DzJ5
+ 2XXilK3I
+
+Name: joptsimple/internal/Rows.class
+SHA-384-Digest: wPwBuZhSj72uMqvEs8HZhq40ZebfN5S4MheNkirK76bE4g+SEtUi7Icy
+ LWUeAAPi
+
+Name: com/google/gson/internal/$Gson$Types$WildcardTypeImpl.class
+SHA-384-Digest: qz07gvVPUdD2akdoBs0cv2ZDnAVZO0KxClAsWHAil0czvBK8Fl88IXuI
+ neR65VbO
+
+Name: joptsimple/HelpFormatterMessages.properties
+SHA-384-Digest: WJdZi+bu516fc1kBoiy1l8k0eAXHIRE5RivT2VzaFII2RcchbGvUCPaA
+ 9H9/F8YE
+
+Name: net/minecraftforge/installer/actions/PostProcessors$FileEntry.clas
+ s
+SHA-384-Digest: QtCEfAp6oMOLpbjTne1G8PcbVSu1x4yilZEPS7JmVS+s+QCo+PZFhUIM
+ Ll72TfY7
+
+Name: com/google/gson/JsonElement.class
+SHA-384-Digest: /0M7NTneCKqfDXDpE+eMz4E4UZ+7aLM/1J9MObqB/i3PklqQtq99a+wa
+ PV5ji76g
+
+Name: com/google/gson/internal/bind/TypeAdapters$18.class
+SHA-384-Digest: q++ItygMon3ZlhasWd6oTwoPbQ5JL/aSInsK7dAUMG9GvWgWjfVkMsLa
+ nxpztsfI
+
+Name: com/google/gson/FieldNamingPolicy$2.class
+SHA-384-Digest: pbT4wklUf7XowXfMcP3V5yxvxOIy4+UOC3iay6xgyQqAhaoVq5sadqq6
+ 3MXAfY9p
+
+Name: data/server.lzma
+SHA-384-Digest: yNhnab504aY9pcYJk4oLYHobPDFU6H+JaKA62u3r8ghlM6pxaMWUWE5P
+ ydeBPDw8
+
+Name: com/google/gson/internal/bind/TypeAdapters$5.class
+SHA-384-Digest: QGQistcR/BFSyaMEhCvHF0WPdRZ5WovNSFCcQY63tAZVojB3EIm/DCzg
+ kG5fs8+y
+
+Name: com/google/gson/JsonSerializationContext.class
+SHA-384-Digest: uZvMUN52YT3sW+uhW2doUkFMzQGxKqwkt+XikmQN1uLshj0yWMHE9OyW
+ Y129Jnev
+
+Name: com/google/gson/internal/bind/TypeAdapters$6.class
+SHA-384-Digest: fzFeIqpwao+4yrvE/+2f7ryykhWcDB1XpQILlryOiu/JN4SZovNDyQcF
+ 0GHVnUg6
+
+Name: com/google/gson/Gson$2.class
+SHA-384-Digest: wnOXSAjPBpttByUxEHP/ClYKnH2BfDIYK/UaIqXG3o2SN9CDJ4UYLClD
+ QnUtkKXz
+
+Name: com/google/gson/internal/bind/util/ISO8601Utils.class
+SHA-384-Digest: lsoGR4CZVt5D/+khcySmJ/tNw58eYv/C3Fd7FE/sDzq7Hs3F7r0WHYQj
+ aY422CZe
+
+Name: com/google/gson/internal/bind/TypeAdapters$16.class
+SHA-384-Digest: 6hKogHLYHRqyk/XqE3Bftl6zCD5fSgUOS1ymJcEL5tnwP5VmKTMjvTgy
+ 8pZG22Oo
+
+Name: com/google/gson/internal/LinkedTreeMap$KeySet$1.class
+SHA-384-Digest: PJXBxxH0O9JNneLJ3w4WlYTe2H1Ht+/hidf7uvHYzD3jcbAIA3P3M/9b
+ PzQ94tLk
+
+Name: net/minecraftforge/installer/SwingUtil.class
+SHA-384-Digest: t1FocgeQWrzr+7JF4iH32T3AxkKyItyPnoixgdcWtfN8umSfdqcFVJRm
+ bBkbgyey
+
+Name: net/minecraftforge/installer/json/Version$Downloads.class
+SHA-384-Digest: owL3XyUFVdeqr2JjHNnuVB3Ko8RaY5H8BuPOB+tSdhrAbbkjgws6zL/Z
+ B/aBq3kC
+
+Name: com/google/gson/internal/sql/SqlDateTypeAdapter.class
+SHA-384-Digest: PCBYXlMNjx6eOnBTzXpPHa2zE/SAxokJKrrWivqq+oA5z+5LrFAbLGrJ
+ x3UAO/A8
+
+Name: com/google/gson/internal/LinkedTreeMap.class
+SHA-384-Digest: EzgVL6J8iSN0JeGOkoK8/nBdaTgZQhtrIEbVg+KCo3xxLdYy2+mbE7cD
+ kJO5vkQS
+
+Name: net/minecraftforge/installer/actions/ClientInstall.class
+SHA-384-Digest: 5rVGMlpsUzSeP3QFpouXlmos4xZqzzj9OfOKm7Trm7thNeZCzsVDaw5X
+ DPia+VeS
+
+Name: com/google/gson/internal/ConstructorConstructor$19.class
+SHA-384-Digest: 9WoFdUsH+so1sH4wuU1X29o4t1s6gktRzVhA/DAYSbQZqRGm2fpw/1nD
+ ET9JaJXh
+
+Name: com/google/gson/internal/bind/TypeAdapters$9.class
+SHA-384-Digest: IDIG+dTzmAJ/YX276tKn4tMPK+NWmgdjmvHCl5vHNZaNrXxaXBnloaq1
+ U04ilKZp
+
+Name: com/google/gson/internal/ConstructorConstructor$11.class
+SHA-384-Digest: Ws9OGDBNoVDk6/Sf+7i/gnXA3rnJyj5pMpmt4P8BabZ6RAxiQFyINKVn
+ IrKq3MJ2
+
+Name: com/google/gson/internal/bind/ArrayTypeAdapter.class
+SHA-384-Digest: lvT3T+t0OiqCX2nQ/RLPDwAus7dCDu6wkCKJisEpeXqNIPGriwBg/ru4
+ sw0r5G5s
+
+Name: joptsimple/ParserRules.class
+SHA-384-Digest: ZiRopXR4XxJs1l7C7+aXHr/ej51QDTMaICYg5UIIgM/k2n9xCIP1EYvC
+ eTPORXp3
+
+Name: net/minecraftforge/installer/ProgressFrame.class
+SHA-384-Digest: KFVhIavgO+vcD0GE+so0TiyH3qFxeQnQYWkPHpVq4SnkP8o78URoPO4L
+ n3uaFbQF
+
+Name: com/google/gson/internal/bind/TypeAdapters$34$1.class
+SHA-384-Digest: k7usmhc7jCcslRjYPWMtf5nsreKGzse1nA7VQkVUNP8+rs8bXmYFNsmN
+ jGsGsPNg
+
+Name: joptsimple/ExceptionMessages.properties
+SHA-384-Digest: SRKSHkbd83wPJdl45mBNX+6+Rbbg0b5ZKubww4lN+klmXUfk21HbvqaX
+ 3OyNbFpN
+
+Name: com/google/gson/internal/sql/SqlTimeTypeAdapter.class
+SHA-384-Digest: y7t3dD581c421Zr1SXeNdSXfR55FQCrH1qT+11zA0mC+8jyla/YNNMQT
+ 2O4/1fYq
+
+Name: com/google/gson/FieldNamingPolicy$4.class
+SHA-384-Digest: nxmehLIYRkdUzaDtUb6kc5uIwEn4n8xnfcUGPh+JLfTeCLi6tdu3Wf9U
+ tAyZ8+kh
+
+Name: com/google/gson/internal/reflect/ReflectionHelper$1.class
+SHA-384-Digest: kpduU2LQb/0U6SFt1rp6DQAR42Qlz+e+D+3lD9frYOHEL6HOwqeJiqhe
+ mGjekb9g
+
+Name: com/google/gson/internal/ObjectConstructor.class
+SHA-384-Digest: iu+cGDYKgsv/lr3gq1WKYHFmXQG/nvxNUuQbIpimDJ5Hnwgj/QtYXJfJ
+ xUlqXNxG
+
+Name: com/google/gson/internal/bind/NumberTypeAdapter$2.class
+SHA-384-Digest: I6sXQ5XNeLoT9WTjnx43p3BvLxif5GmEM107wtnnD/vFe1a4n83iSxTv
+ SJLXwt1p
+
+Name: META-INF/maven/net.sf.jopt-simple/jopt-simple/pom.properties
+SHA-384-Digest: HV+o69YzPGhuRmELEQ0nDTbwJpiPYh5xXGOSqnBW0wsUtsoCj/1bWxdN
+ ByOlphCx
+
+Name: com/google/gson/ToNumberPolicy$3.class
+SHA-384-Digest: z8uhgcPgPM8RKhNX+6ZHOm7wHqACGUHXfqdeSeLCnUxP6ktVJrrRqZZJ
+ XE/tvQ9o
+
+Name: net/minecraftforge/installer/actions/ActionCanceledException.class
+SHA-384-Digest: r1uVfkksD0iqxZaRvjvCnoGmvaZb5a8PciOV19ti7FV9eN5fcxCb95DX
+ GoINokL6
+
+Name: com/google/gson/internal/bind/TypeAdapters$13.class
+SHA-384-Digest: 78mC2z/FvBLejR7zTWzIVp0Ketb9LrqvaLR6cLxluxw7eZLkXScXGBB9
+ YyemTvHV
+
+Name: joptsimple/OptionParserState$1.class
+SHA-384-Digest: qol0pBI2jsnau6JEYrd78dcOYL8bkqPETnyLX1LieP18R9A0YAQdeWPs
+ TCSdYHgX
+
+Name: com/google/gson/TypeAdapterFactory.class
+SHA-384-Digest: 0C+gX0JbQuQQ3cvQyjvoOywxuTJl4KEtv8s6Mj1HfUN1oWUitp+j+Q7d
+ 6L2kcExw
+
+Name: net/minecraftforge/installer/json/Spec.class
+SHA-384-Digest: iRLZvBj7xusO/gVmyaGOY41iZnjKQRC/el/8bBSzMDF8r3Lww8wcWjLk
+ yR/F1wFf
+
+Name: joptsimple/internal/AbbreviationMap.class
+SHA-384-Digest: AUJX5ywpa0vABRojCPw7ctfsvk8ocsdKRcovdhzyi+AVrHhgzYom3yZV
+ eX+If+aI
+
+Name: com/google/gson/stream/JsonReader.class
+SHA-384-Digest: IOZt0Z86a8H0/ZZc9FK2Jzwn8GlZ/as1zifGvM5w4uO0CI24iNtek3op
+ pMFvojMg
+
+Name: joptsimple/HelpFormatter.class
+SHA-384-Digest: towHZY3We0Cw8I3AMjqnMnXrbDd1JHfUeJOH6uEfID0lQujblR1saTYq
+ vB5oebjJ
+
+Name: com/google/gson/FieldNamingPolicy$7.class
+SHA-384-Digest: xKOx+pKzlBMS6M+LouhAPdlvOpkjbL7FJEyZHWr04IsLZ+q3KC9sLr5f
+ 3NH4edG0
+
+Name: joptsimple/internal/Reflection.class
+SHA-384-Digest: vgerwEF9RU3+7DuwaydXlgCWTC6JwVSzMjmfCbGh7P6HZxtsU2zqVa50
+ xDFKhwFv
+
+Name: net/minecraftforge/installer/json/Artifact$Adapter.class
+SHA-384-Digest: AcFKxT/f6ADlYb8GMBw5zeVK7QAM5WUFUlmRj/X+BO0szegZ67GgmBvD
+ 7oZ9ZTWS
+
+Name: com/google/gson/internal/bind/ArrayTypeAdapter$1.class
+SHA-384-Digest: 297GZQP+oQv8fet2ChBzh7prb6M/F/RWF0MkPGZPnThmv1P47jvlC4Jb
+ jhTKuuWm
+
+Name: com/google/gson/internal/bind/TypeAdapters$21.class
+SHA-384-Digest: UE72MpAa4HH6gU5RuWotixstq2e8/9gV5vOTKcopZ+LT47VCVc2L5UHk
+ WvneD/Lw
+
+Name: com/google/gson/internal/bind/TypeAdapters$8.class
+SHA-384-Digest: 4wnq6LRCWz/6wXhdOPa1DJM0MXzeOVGJedYlfopaHi25v1XOT36GsTL+
+ nyzOEbHM
+
+Name: com/google/gson/internal/ConstructorConstructor$10.class
+SHA-384-Digest: tgccl6Sa71aWQ1iCY/sbMmalmgI8gsFaPMfr+F6LMcrMKrj5ENHNXFU6
+ UjN2v8CF
+
+Name: net/minecraftforge/installer/json/Manifest.class
+SHA-384-Digest: OKtEgCrzXAuLdqJGT3iZ4YZjAgWXA5dfEv9iyZAA/1HMhcYQ4L2RNzEB
+ VRPWET4e
+
+Name: net/minecraftforge/installer/actions/ProgressCallback$2.class
+SHA-384-Digest: w8ITnvgKlq2QY90Lh5x8O22A6AuikhV/WWb8h3NlM8pZQJre2g+RsFlr
+ AyGfGWGc
+
+Name: com/google/gson/internal/bind/DefaultDateTypeAdapter.class
+SHA-384-Digest: 6vbeo6VedgfeBQPMC0Kp1dU2uQRaDz0XNOmNsAPSmk4BmBuOgTbdbRrC
+ VbWHyOfd
+
+Name: net/minecraftforge/installer/actions/PostProcessors$1.class
+SHA-384-Digest: rZ5IR9QIJon+7Df+jyG9LVz/IQIBjtMir3Dhd/zqZeFjUVuPwsRqH8kG
+ Dgn9UYHi
+
+Name: data/client.lzma
+SHA-384-Digest: PdzGum/ml6eFcnqclPOp/e1Sj4zSSxs8DuVSBazIy6Z2v6hwhkrzSna1
+ c53PlA59
+
+Name: com/google/gson/FieldNamingPolicy$6.class
+SHA-384-Digest: 1muyS6O1oqPlHbJouHixtSMUJPS8wXbp1IPRW5niUXwcFOjRjEhME/jQ
+ yLuTc+tu
+
+Name: com/google/gson/internal/bind/JsonTreeWriter$1.class
+SHA-384-Digest: ZWH9DU3v2RcAtllCkK97ulUG4h0tQo/8WWEW/coPyH/BLzak28Op+yYj
+ HkmvAKM8
+
+Name: joptsimple/MissingRequiredOptionsException.class
+SHA-384-Digest: fJMshRiZHeX7fMq3xstawSoZ7rclfuu2F9yRTkt6NhiIU8JIH83pa8SF
+ qoHnNaUN
+
+Name: com/google/gson/annotations/Until.class
+SHA-384-Digest: qTBUEBg/ore2DdTbphm+gIlQE1Eu/KUwzdXTJIaHt0+FW9GgQbxmOqnR
+ +r0rumwH
+
+Name: net/minecraftforge/installer/actions/ProgressCallback.class
+SHA-384-Digest: hatm1dWmUAQ1pimkMMosms/Ot6arGqBmQkq795tee0RPudEGJqV9FX5e
+ ViYmlZVU
+
+Name: net/minecraftforge/installer/InstallerPanel$SelectButtonAction.cla
+ ss
+SHA-384-Digest: zsLyGPKIeOc54vvcpxcBKq/uVbnNeQjpbi2H9qItzbi24opTSy8RUBWI
+ zrmNgJMh
+
+Name: com/google/gson/ReflectionAccessFilter$FilterResult.class
+SHA-384-Digest: azLJ6Uw8x9B6Sr2EnkLGF9Hjx+MWUwny1wpZmm0+nvGq7+5EpyYZXlgd
+ sfO/5j9F
+
+Name: com/google/gson/internal/ConstructorConstructor$1.class
+SHA-384-Digest: 633yCsbkoKZwnmCWZp3nuDSPKaSU9lNk4T6XLg60f95d3OWwWpmqA9x0
+ JtFqkvJX
+
+Name: net/minecraftforge/installer/actions/Actions.class
+SHA-384-Digest: kTcP2FBURUPafQKnvXHpwhREJQlOoivuybL4A/gdCdx6OsUcky/gSEJe
+ 7rAfs1qk
+
+Name: com/google/gson/internal/bind/TypeAdapters$14.class
+SHA-384-Digest: Cx1KWePHluCmXseAFwEPp1aU9/nIpEf5iXDzLjpXvinL8RzLnfUEh4bw
+ AxEjt5UV
+
+Name: com/google/gson/stream/MalformedJsonException.class
+SHA-384-Digest: YaERitQlO8lPhqHjlBUOoZxlOfIhsFFoKgQiwbI4E6zL2HSBaTc/FFH+
+ E7DrDHWd
+
+Name: net/minecraftforge/installer/actions/ProgressCallback$1.class
+SHA-384-Digest: qos1238YXHYLOtp10n7m9I4sK3DeP1GjTeXhYFVw3Q6c0cpM7p5HJsZh
+ xKD4WIHv
+
+Name: com/google/gson/internal/bind/TypeAdapterRuntimeTypeWrapper.class
+SHA-384-Digest: pqW5DBEaCW+chicmUVZ+Rzb4MTTabG3ke0rR6hCEPAfyiryXh25AHJ81
+ E/KsLZAL
+
+Name: com/google/gson/stream/JsonWriter.class
+SHA-384-Digest: YjGCNbr32l94rHudfmPiRvufL4FFGuDL9C9toV7icJQ63WsQD0XxSrn9
+ M8ZB+vc9
+
+Name: joptsimple/NonOptionArgumentSpec.class
+SHA-384-Digest: Zcbt+mhmPHcJrlAv6JcowqI03VV+N76s8nDwKnRNE/Z1HIzXtDVEcPYm
+ VWvcxlO6
+
+Name: com/google/gson/internal/bind/TypeAdapters$20.class
+SHA-384-Digest: hgh+1pby8nPX3uuCIwE1sLL0wT83RFtOuxcr2ITzjqip6vVDQXVtLCNn
+ d1sbFita
+
+Name: META-INF/versions/9/module-info.class
+SHA-384-Digest: VrNJYILJCtlXYE3HhR75n/mm2PEpUOwfhFnHJzISMrWjCzhZfT2Wo6PM
+ Zka1GOI1
+
+Name: com/google/gson/internal/JavaVersion.class
+SHA-384-Digest: 8FfUeQgmKDk2PBFQ5f3ROT0fL24zeQw6c9LWfS8fQhWjn5rFSlQEFzmA
+ bnHPDltz
+
+Name: com/google/gson/FieldNamingStrategy.class
+SHA-384-Digest: /Ix5d5Nmez32aXMGA8NdGY3DgFxCkyZnhf3cTMQI5ZFhsern5WxbI1hX
+ e6uZLp6O
+
+Name: com/google/gson/ToNumberStrategy.class
+SHA-384-Digest: VHlgNH2IZPFT+gxgeHBsGHEcu4d78Hri6TZS8hmEqnRpo2l6XlawUe7k
+ ZB/vMw36
+
+Name: com/google/gson/internal/NonNullElementWrapperList.class
+SHA-384-Digest: x0lXzax5T79eLyqnnX1yD71Rg/7zarU8hg6kAb9OioTNR/fLUqOX0ZEM
+ +flsmwPe
+
+Name: com/google/gson/internal/bind/TypeAdapters$15.class
+SHA-384-Digest: UUDxmVi20ELt3fSous8bR5Yql28hPDXqv9QbRW/cfZZV4jT6qGC58WHE
+ 2j2lXytI
+
+Name: com/google/gson/ReflectionAccessFilter$4.class
+SHA-384-Digest: MmOSbX6FoAvjJiB7dGw++cTJqRa/nf2FH4ZAxb12t4O+JP8id1U8Chjs
+ 8C5ljj6J
+
+Name: joptsimple/OptionSpecTokenizer.class
+SHA-384-Digest: Q8CNyNlBpfx2ubkA8W+cejGofs+VT7zdjAdq7ylHBREeYJxhcN+XKXYf
+ C/lrIJP5
+
+Name: net/minecraftforge/installer/json/Version.class
+SHA-384-Digest: husfq+Wie1DbgOq279dQJ14CUf2LGkau/POuvfwmZJgPoGg4eo7OPKqp
+ ZKofRsvN
+
+Name: joptsimple/OptionParser.class
+SHA-384-Digest: WkUws+pL+jZ1CjlWxQ03AtL524cNEygPlSrBayt8+vXW41OdgIIIe52o
+ HW/ZllC3
+
+Name: com/google/gson/stream/package-info.class
+SHA-384-Digest: Ab3tR8UK6jZlML5kCelOWDg5C1mWDbcc6txJtcdzP/K/rILgdcWm768r
+ fiFHRDtV
+
+Name: joptsimple/ArgumentList.class
+SHA-384-Digest: vfLJarTb47zpr4Nz30GJjTtRpbxximP4rr0SjrdYp3EY4TS9logTv2YP
+ DhoMItTU
+
+Name: com/google/gson/internal/bind/MapTypeAdapterFactory.class
+SHA-384-Digest: s5koJWalmAZy59AMSwkn5VeAje4pTJ38vn0VtGkeLIKqTYFC4dFuk5Yr
+ JWWUJ3cv
+
+Name: joptsimple/util/DateConverter.class
+SHA-384-Digest: L8p+mnqsBa15IRiuPRivW5xbDujglladhABU7qYG7Dh3QBQQm/mqwZOW
+ 655aNWAG
+
+Name: META-INF/maven/net.sf.jopt-simple/jopt-simple/pom.xml
+SHA-384-Digest: jM8m4DUUDa2Q9931+avsiIVCY6IIkO+va+cWG6Dx0lRLWZPWtsS6ClDo
+ riw7+d1L
+
+Name: com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$FieldRe
+ flectionAdapter.class
+SHA-384-Digest: AD5eMjpTFgrZmwQmHSjUc39k69jdViUWeE11ktl6SlQB7EpWDBp0wMbA
+ WLeKlHEw
+
+Name: com/google/gson/internal/ConstructorConstructor$15.class
+SHA-384-Digest: WKLO3bmtgWiGnyrbunzpqqkJvO12vh6GEcHcj0M8NrQlE60Cm1wno/L3
+ DFvB/xhw
+
+Name: com/google/gson/internal/bind/TreeTypeAdapter$GsonContextImpl.clas
+ s
+SHA-384-Digest: WQiz8NipoWzv5KKEKPrQ5b5t1LS2zE2toLjHaDdQ6VzKkIAtQRnZcCOZ
+ pMbXqfnu
+
+Name: net/minecraftforge/installer/SimpleInstaller$1.class
+SHA-384-Digest: eSm1hkgXFQIq55s+KsyicJksOA9YUHE9VD477WaZtIqWzo2EnDtuIApt
+ b1tzFtV9
+
+Name: com/google/gson/internal/Excluder.class
+SHA-384-Digest: ZrUhNMBTv43kwcr74LdZzeE6JiFxryrsse9FyZ+aHWBqjz7xZtWKB838
+ Dj5oYAd4
+
+Name: com/google/gson/JsonDeserializationContext.class
+SHA-384-Digest: Cxg0QBbFCut38GQjpYOl5jrRnS9GgvlkOaohe74eGVHOMJmP5EKmIpuM
+ 4m/xmyyF
+
+Name: com/google/gson/FieldNamingPolicy$5.class
+SHA-384-Digest: kbIZXg9peHI0Zsdp7tIYI8vzRT/ORQUj+J007U9+E+JmndYtm8d/SCv3
+ CrSvRMIn
+
+Name: com/google/gson/ReflectionAccessFilter.class
+SHA-384-Digest: TWaDh5P1uWDDk8/TO6bbauL1YCPv0UMiTn4c1qAX11XRuLWGu7IzFwX0
+ mowWJKTb
+
+Name: com/google/gson/internal/$Gson$Types.class
+SHA-384-Digest: vz9HBja3XH9S21NQtablSFHeGb0s0a0vjf1FmynJA4h0bwe6CEI6oRaQ
+ GWLmbb0s
+
+Name: com/google/gson/internal/LinkedTreeMap$KeySet.class
+SHA-384-Digest: f8LAl7ZudMtbtdCxxZ84nKvsSfvYepRySukNg7kT483jEMYMRNN2RRMq
+ Gtud6wt9
+
+Name: joptsimple/OptionMissingRequiredArgumentException.class
+SHA-384-Digest: Ikpiuj3ZOP2iLkpPoTdoF9YnFMmUx9B4cvLW7/IgXrJ4IcBlaqm3M3/T
+ HyY9CnKL
+
+Name: com/google/gson/FieldAttributes.class
+SHA-384-Digest: v7uGn4FzWiuCxowat8KKgdBwNJR4zApjy1HxvkoCJ1wnPkAzsK3xfytv
+ B7Ixt5qx
+
+Name: com/google/gson/ToNumberPolicy$4.class
+SHA-384-Digest: EqrpgJ+3N3wUtK+pKQRmfMbG45qmkMU5i1ZIOAZlvcRBduK/XfjDIuXQ
+ /5m4xmqK
+
+Name: version.json
+SHA-384-Digest: 1yKjHsaU+2bupK1d5aV2oJUXpB4BK9yP2Je8r5h+cCBJsfIn7BTg3MEl
+ LITQWVFb
+
+Name: com/google/gson/internal/$Gson$Types$ParameterizedTypeImpl.class
+SHA-384-Digest: 9sf0e1iNJwIMK/+zeR6PH4HEbWWGosBNpPkHcJxJpLyCMuNMyj6UQ2lH
+ Rw2IIQD+
+
+Name: com/google/gson/internal/LinkedTreeMap$1.class
+SHA-384-Digest: KSCbuttPHTk53pnA0onMtZoBQ8uKNgr94d9Vi6U5u2Yonc2xWuqm3fjr
+ oKWV6PI+
+
+Name: joptsimple/internal/SimpleOptionNameMap.class
+SHA-384-Digest: 3Gz3XJLkSEYTPYfkWkQLKvKBtj5qQYGX8ayGOaTj4yj1bEMYkMGOM/0k
+ MVKcIRDH
+
+Name: com/google/gson/LongSerializationPolicy$2.class
+SHA-384-Digest: pgM+1QCuo5hi/cJSMyrxRY8IrMN88fPwHyZAgBuGQGNY09hwVObHqQDK
+ S7eYADFj
+
+Name: com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$RecordA
+ dapter.class
+SHA-384-Digest: IKUuc/IdqYYSv1bWHUZ8beUSy15mcViMIm1NITBZ010FSvxdOcmA5EYw
+ f6E6m6Uk
+
+Name: com/google/gson/internal/bind/JsonTreeReader.class
+SHA-384-Digest: iWbaMiJ/1n4jNp5eeP0Tv5VaPQK3snPdhjMGvm7pdlXSOTxi9LhNSklZ
+ U/pnVzyW
+
+Name: com/google/gson/internal/bind/SerializationDelegatingTypeAdapter.c
+ lass
+SHA-384-Digest: /INyWCfRX2Iq5nBcWLrlEpx1kHIQLPIS3zkyml9m86+u0SKJi7h4qT1A
+ a97XGOPx
+
+Name: net/minecraftforge/installer/
+SHA-384-Digest: Tm46SBnr3qaKGm0cS+uea0rgcFJmJsV9M+0J6uTdQTQXLJKgAlA2fJue
+ rRTF5S0o
+
+Name: joptsimple/OptionParserState$2.class
+SHA-384-Digest: S5+sbTxAkaH5o9AR80njvR6hLHtnWTh53fOm25MOJ30mfG9yHO1BsEJ5
+ 6i10HKX6
+
+Name: joptsimple/OptionParserState.class
+SHA-384-Digest: mL/5mnimjsTDHxNBEXN4jyhYRWWITG2Sa9Xqw7UsVaqk8ROGwgPiHFUC
+ CpoIGZKG
+
+Name: com/google/gson/GsonBuilder.class
+SHA-384-Digest: Ov33b4kL5c+DmCjOGMHytKz78PATnvpXzXtd/8GIcj4IL3KJaSZ5vLiE
+ Trcuuiga
+
+Name: com/google/gson/internal/LazilyParsedNumber.class
+SHA-384-Digest: kgrVb335y2SpGphQ4GEiBH57HAIwYxMPApAQRBr+q8FoUbxhm399+HDS
+ eJRhUFM4
+
+Name: com/google/gson/internal/bind/TypeAdapters$7.class
+SHA-384-Digest: 8Q9mWUBHJ5mT19SAc7uWDgQkmHq40SK7/Z5bRp5QpG6+Bx6COH5J05a5
+ HRMJJwJ9
+
+Name: com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$1.class
+SHA-384-Digest: oBqo7psOWpo9aPwGoq0LEBqJ4LH6kqrX40SF8RQ3nqbDwUWXK0ELVQ3r
+ c1tVeeqj
+
+Name: joptsimple/OptionSet.class
+SHA-384-Digest: i7sxC70Bm6RuVqnxwkb+5zjgzsAr8YO6yrPu3gz+gDUqSkq2LEwjchN9
+ o82eiWGf
+
+Name: com/google/gson/stream/JsonReader$1.class
+SHA-384-Digest: 70qcwOfavGyQOMy69XI7d1FZmh27S4QzkEwkgsbFN8mBDlhpJKNWdemo
+ TdEuUyCp
+
+Name: net/minecraftforge/installer/json/Version$Download.class
+SHA-384-Digest: Y+S2DkADhWMWLnXhX7ltfXvw/CsvNHCqZf+NICdqWMGsgen9BAoVc/uY
+ b7Cfj7k7
+
+Name: joptsimple/OptionException.class
+SHA-384-Digest: sql2tLIqnNgrLbofGC9NoI28+HQDa9g8vvKdecgLJMRKOjD+qqWFG/LH
+ ScVRihgl
+
+Name: data/run.bat
+SHA-384-Digest: StQJodC7pZc9qVbDq+3NCq0VdHwCWHeosScGoIDF/h27+jeXmV5tSkIv
+ u8DvhwMb
+
+Name: joptsimple/AlternativeLongOptionSpec.class
+SHA-384-Digest: jw0dvLVPE/5J1+RObYHkHe8y6s0qLdqHtEfndLSDnESC+HWLGFZblRt2
+ BCEEDgVz
+
+Name: com/google/gson/internal/bind/TypeAdapters$22.class
+SHA-384-Digest: zCQw8ojw7/emjXK9Zm7/mqkJ6pqu5GxImvWl7Suc3spRODLdGb3hejoA
+ Y5ybFbzo
+
+Name: data/user_jvm_args.txt
+SHA-384-Digest: g+39JMoMKJqf7HT+jZScMCqk/kWlj3wyBiN++sw397JgG6hzzZbX40kt
+ X4ce9wFD
+
+Name: com/google/gson/internal/bind/DefaultDateTypeAdapter$DateType$1.cl
+ ass
+SHA-384-Digest: VPnm84d1OzazRDoErOcdxRRagwx1QrSrBvFevUIwzPJBdgV2GPUhVkya
+ XfRzuVkd
+
+Name: com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundFi
+ eld.class
+SHA-384-Digest: tGkMQtUttlfsYSF4vc1kWzz7PCegf1t391f2EBkAKgYEegcTRInVzEYe
+ 0DiminG5
+
+Name: com/google/gson/internal/PreJava9DateFormatProvider.class
+SHA-384-Digest: lbam4nU7okX46zIWvewD/N5uNVUlw52fhaH6tB2NBvKCAT8EcBehZ7w7
+ 1wD1n9IS
+
+Name: com/google/gson/Gson$1.class
+SHA-384-Digest: Y6Iz56965srGYiNpANcUBEAmwS8GU5sRLoO9mtOnnugMGaS4UCfz6+5b
+ F8oQXM+w
+
+Name: joptsimple/OptionSpec.class
+SHA-384-Digest: ZPYDxdu65Ut/JLBQm32VyqbV61pBmXtUYiuH/6ESvbcp36z0XSe+mNNf
+ PKxFD4xD
+
+Name: net/minecraftforge/installer/actions/PostProcessors$DataEntry.clas
+ s
+SHA-384-Digest: g4Snp+jVU9tqMgD6zKsNZk3KCUJ1/jw3QZaj4TIHWuBSdFZm5qw/iP1+
+ zf9lJNQZ
+
+Name: net/minecraftforge/installer/actions/ProgressCallback$MessagePrior
+ ity.class
+SHA-384-Digest: SCgeRm0LADUX5Exjt0zdRMGMFnsERfYa7y+rElpc/x1sGEgoaN8E82wy
+ FnFKTV0L
+
+Name: com/google/gson/annotations/JsonAdapter.class
+SHA-384-Digest: GlkgTQRKHGzyyFOLR25NSUr2+UcuZR1AUqgh0+oKdCEufMkM8rbEnc0n
+ M+VBEWaR
+
+Name: LICENSE.txt
+SHA-384-Digest: CBLAFFygEjLeqOvpzFUNUydsdR3F5ro6pnyM15bZWFUyQPvSr/cewngE
+ 0AWcN9Yq
+
+Name: com/google/gson/internal/bind/TypeAdapters$28.class
+SHA-384-Digest: TAMAOt+uJq1RGuFkjSgee/gv+L2nXUUjaUzdR0ccH36wVXrOPKORLNsc
+ Q6Az5qIZ
+
+Name: joptsimple/util/KeyValuePair.class
+SHA-384-Digest: K/YwSdH9P02h9Beacx3c1iIC7ryZQ3T7GqU5MaS+tmqPnPJiwJVmkoSs
+ HCsqoZA5
+
+Name: com/google/gson/annotations/package-info.class
+SHA-384-Digest: KazOZTG53PeNyhYzHGWKMHHWIVObkaL9vKbzqVZuj6+yJ03m5naAab/z
+ Fx+ua0Jg
+
+Name: data/unix_args.txt
+SHA-384-Digest: kARTMicj1nqOjCj0Ws0ryexrOHXRFD4JrRqPtZ+UJSbpXPbBojdXU59t
+ OjtoIgx+
+
+Name: net/minecraftforge/installer/DownloadUtils.class
+SHA-384-Digest: dT8rvcjzooKkE0WCZFgfuMVGG2oOaHOzFU+71tSMwO470DpLmLRdrW8Z
+ vfBzkB/U
+
+Name: com/google/gson/internal/ConstructorConstructor$5.class
+SHA-384-Digest: mN/sofr9u7CY1oUjGYJblb3PpXOmmvFKO4mc/lRJFtM78lZ02c9wymnl
+ dPUmdCF3
+
+Name: net/minecraftforge/installer/actions/ExtractAction.class
+SHA-384-Digest: J6PrWP5p3gOlETEM4fAdXfwNLPfCDHPR+6JH8R1z6bH+WAmTFd/hk32j
+ 3F9Dj4O2
+
+Name: net/minecraftforge/installer/actions/ServerInstall.class
+SHA-384-Digest: iHK2GAS/mefy1OP6a44KZDxbEVkdU9T+OBKtFnVWbr0fZxzFu4vEsg4+
+ wbJWGf+M
+
+Name: com/google/gson/internal/Streams$1.class
+SHA-384-Digest: PYg2F2O+5TjdaXRZA328NIe3A2dP6xsE/d82IxCsHpBJYLmb4vuGplWj
+ NbY6KGLO
+
+Name: com/google/gson/internal/bind/NumberTypeAdapter$1.class
+SHA-384-Digest: guuIeNv6XTv4MuWdm+9EPRRjMpPxZ9meiur2aC2OZs0wp5QRdl3+hHzc
+ KKpGzGwN
+
+Name: net/minecraftforge/installer/InstallerPanel$1.class
+SHA-384-Digest: jIKa7TvsqqShTpsXK/C04A/+7z3VqtjJJNo/yGNEobavYv9B07Jaa4Ym
+ Za19AQRo
+
+Name: joptsimple/RequiredArgumentOptionSpec.class
+SHA-384-Digest: TnXsuAKB91cPoiC+CIRiAxL7T6anmYuUZ+GpAiBaOV11n8XToFxYdFL0
+ d/6iDgr1
+
+Name: com/google/gson/internal/Excluder$1.class
+SHA-384-Digest: DYEY7wtc/plbp8oQ4zyj20KZ8/X/VX8GbR2m2GOTmblQt6oqrtsLa2Mk
+ mtRF4EKY
+
+Name: net/minecraftforge/installer/json/Artifact.class
+SHA-384-Digest: WD0A71NU52J9rTaOSJI1rgqnGQPXhutVHZI261RCsIpYXO7/brsgbd40
+ jtJYzsD6
+
+Name: com/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter$1.class
+SHA-384-Digest: VitgerVBSsgPDDnAY2h6lySS70mGic7850KMP5yF3OS0oBWiY8+uq0gP
+ FXOiEToz
+
+Name: META-INF/maven/com.google.code.gson/gson/pom.xml
+SHA-384-Digest: 7gai+v7vkG/bRCom21nzUGnZenM+IiC279UnaRQ2moptP7Qefkd+ssuq
+ stxcriix
+
+Name: com/google/gson/internal/bind/TypeAdapters$EnumTypeAdapter.class
+SHA-384-Digest: sFG8xPJVA/20AdR7jh9l63TYEyGktiG6GDFFtOuFsd1JNdIYT0H0WRCl
+ e2As+pS3
+
+Name: joptsimple/AbstractOptionSpec.class
+SHA-384-Digest: C6YU008x4FCmmRNcJLo8QYFskveoW0JopY/BDEWRyGonHNJDMSdo3jDH
+ ZBxeVIqA
+
+Name: com/google/gson/TypeAdapter.class
+SHA-384-Digest: iYrWWGsjoYKYz0RVdyGxo4La6+SYP4xrhoDIZKzV1w62B8NjpCVthDvU
+ eMMiLbEv
+
+Name: data/win_args.txt
+SHA-384-Digest: AMU8VuPdiTd8/bI9155DLjNY/Wdq+eK5GrIe8aAbazbmwnW3xHIE0Hvk
+ zQAvxSdm
+
+Name: com/google/gson/internal/ConstructorConstructor$4.class
+SHA-384-Digest: vUuU3BQukk2L7q81o+eirrSvul9tYbrB0KPYMMz23CiyYDO2LJtUlpkN
+ 1IgeVzCl
+
+Name: com/google/gson/Gson$FutureTypeAdapter.class
+SHA-384-Digest: unoQQnpf2jtNEGHaeTZIfh5LTCMK/BmfGXxoCftYD7gdcWjl6vJ4jdfB
+ KnsyK9aL
+
+Name: com/google/gson/internal/bind/TypeAdapters$34.class
+SHA-384-Digest: 1nfe8+vDnRwoRCWY/4k043Tob5NlmL//LlN/RnIRPCXdXR+JF2fO2fO3
+ v4I0XvoJ
+
+Name: com/google/gson/JsonIOException.class
+SHA-384-Digest: 0VLP4HLQBlRfoSnTlSYdJWBW9Au4Yug2TIlKY3+3n5U9oHRddMU7etmP
+ Ja8Noubb
+
+Name: com/google/gson/package-info.class
+SHA-384-Digest: ljEaxvOyG8WzF0m21ErumgSTN+++l/pQ6/eYGdZkuqyz5k8XSbamzb9M
+ JfjIcwLS
+
+Name: com/google/gson/internal/sql/SqlTypesSupport$2.class
+SHA-384-Digest: oLcqsVIpSUdBArM7HhzBnZgmfps2fY3lX2Llhjod/FFwswVy3VE+MDOP
+ r/vh07rX
+
+Name: joptsimple/internal/Strings.class
+SHA-384-Digest: hwnJtt/9Qd0ys32tgfMMAqihcGAK4GzVpIxJ6nITdMKvJkCCjGl+C1ij
+ CeiXPYDw
+
+Name: com/google/gson/internal/bind/ObjectTypeAdapter.class
+SHA-384-Digest: mapAxJp1DfwgUk8E5lmx7XXBuJbhMQT4jjeH+BGS9mFXyLKWYB5ZpC9d
+ lABKSq7f
+
+Name: com/google/gson/internal/bind/TypeAdapters$35.class
+SHA-384-Digest: m7osPTxHeWe7Ee3bM/4bAY06ugVTSwU6rSRlE7ScUoHMcYGuUl64hdv7
+ gaBxhocx
+
+Name: joptsimple/ValueConversionException.class
+SHA-384-Digest: Kwx8ICxv3E/31+iSaQD363jQM3IjsTgzU5lb2Rn5uQAU+uuCo/v+s2bg
+ Ip3AMZb/
+
+Name: com/google/gson/Gson$5.class
+SHA-384-Digest: gW0R6HbOGOOI9B7IJVkIxZlSfRO0ZhYj4bqn1d4mygp/iNTOWqT6dgYH
+ r9+WxUrP
+
+Name: com/google/gson/ReflectionAccessFilter$1.class
+SHA-384-Digest: NuvMTicycF94pSsIp1kd0H2GxaS5Rt5y4GK+ffYMkXkZSFfqLy1tb2Jd
+ Bgf0ilXr
+
+Name: com/google/gson/annotations/Since.class
+SHA-384-Digest: RMtEiK5p3zd3QP2ms9MAOWUNwn4r03zlSTxvl/+GmiG7sbZjkhBTJnBj
+ v+Jw+mNx
+
+Name: com/google/gson/internal/LinkedTreeMap$Node.class
+SHA-384-Digest: Kqlk5wjrMGpYyZQ4eNuGnObsL0XF1l5J1+p/Ltnp9bn0j6x8xOtF5/Td
+ QhCVhtbh
+
+Name: data/run.sh
+SHA-384-Digest: LEo7omvrg3hXGGjDO5FfWbWf2niXQBEfFlozctTqzr3uIfklidbSu69O
+ z4aLVTpi
+
+Name: com/google/gson/internal/bind/DateTypeAdapter$1.class
+SHA-384-Digest: Ka17/4uelnwx7VT/oUFagGI2zUkXfiNkuhC6wETuK5NeWHg6uuDONgQS
+ yJBqwDcA
+
+Name: com/google/gson/internal/bind/TypeAdapters$23.class
+SHA-384-Digest: rB2yrEW6o83bcG/Elb+mtRBOzkkMRHQjM3/MoAg7o+aZveXjqDYgq6T5
+ wbIKtyXZ
+
+Name: net/minecraftforge/installer/json/Install$Processor.class
+SHA-384-Digest: hOunAKmLROk7oRJUexcCqReTQQEtKes8hqZfhObpA4IXbHS8BUGvP9cb
+ yBaP95Vi
+
+Name: com/google/gson/internal/bind/CollectionTypeAdapterFactory.class
+SHA-384-Digest: V4IMnjP7UUbXM3b6+eJ8RGIEpTp8Butu5Hqdtgd/Yx1UJ7MXH/GY7K32
+ YWrolemV
+
+Name: joptsimple/internal/MethodInvokingValueConverter.class
+SHA-384-Digest: Yd92Ix0m3fHriXOJhgKOVz20syUY1Cb+nhefSmG+4YlMBgASzUVkx3qu
+ k/k3Cg72
+
+Name: com/google/gson/internal/LinkedTreeMap$EntrySet$1.class
+SHA-384-Digest: JwxWgP0V3pxNw7ajHVPy5hIeqc347As1UOmDHtWvxg05kpnH67hAe2+z
+ jhO0Ak38
+
+Name: com/google/gson/internal/bind/DefaultDateTypeAdapter$1.class
+SHA-384-Digest: rvrY9MVAu2UnLUPU0sY+SCt3KJ5xq8g7wyIXSbONmZIlxTxz2fPKeT5G
+ FJwEM09/
+
+Name: com/google/gson/internal/Streams$AppendableWriter$CurrentWrite.cla
+ ss
+SHA-384-Digest: PqatosopzerJWhPw7y1ZbSCKbsLMEYU7KUZB87+qzAhbG2CgoEq1NBPt
+ Zs8PSXGg
+
+Name: com/google/gson/InstanceCreator.class
+SHA-384-Digest: eWnv0cSUNKwVyfhMxTStfRk+2nzEZiNXb9p/jVQavRT3P6oyU1XVSduN
+ wBaRHfml
+
+Name: com/google/gson/internal/sql/SqlTypesSupport$1.class
+SHA-384-Digest: SrMiA8ldHALz83M2WK23CY+C5zVAiQMBE3GYBiKHj0FIHkV/u2X7IUgU
+ IKaFi+Uq
+
+Name: com/google/gson/internal/ConstructorConstructor$6.class
+SHA-384-Digest: SNxjcrzoTZFJ/5zJJWoHjuXtDlE43YGNn5RnzIKjjv8719WjM7STV5Z+
+ PVeUBSbV
+
+Name: com/google/gson/FieldNamingPolicy$1.class
+SHA-384-Digest: Xy3e/WzDfkTldKOmVdD2bduaZw57tj2dffBP61G5ajFtp7hOSgFnn9Bt
+ E5rpZq1h
+
+Name: com/google/gson/JsonParser.class
+SHA-384-Digest: ZFwgdfMn+4ipgSVSvR4qie9C7+AjeLAjgtJs0T9FSwz17kZwgV2TW/t0
+ y7m4ozxP
+
+Name: com/google/gson/internal/LinkedTreeMap$LinkedTreeMapIterator.class
+SHA-384-Digest: 5KcCWgOvTLSVz+Vy1v4BxGlSGF799c+2tzaV10inUdgiJAwQQphMLGaI
+ P9gprzO0
+
+Name: net/minecraftforge/installer/json/Manifest$Info.class
+SHA-384-Digest: tgAOdHhx91KXQ0p7MVr5hh94FvITPmKSkJigaKCepkqOghICmb9e5zHX
+ 4H/EEO65
+
+Name: com/google/gson/internal/bind/TypeAdapters$26.class
+SHA-384-Digest: 6GRI1vlcOXTEQdgIzrBWaMOPVaLqZOiQBARM6wNkOdauutWrtBLnDfvQ
+ BPEic1A4
+
+Name: com/google/gson/internal/bind/TypeAdapters$3.class
+SHA-384-Digest: NfDCQJvMvzLlg6jLfFAqPjfBqdykZK4WfiD3DqwQc2NtYs3UeQoSOC2l
+ S1MUdKS7
+
+Name: net/minecraftforge/installer/json/Install$DataFile.class
+SHA-384-Digest: ga3bMa755X1CBWRNwTWL88cwhjXMY7mRKSRDgyx54MDsfFfgcfVjMkS8
+ Izku0zXe
+
+Name: com/google/gson/internal/bind/TypeAdapters$29.class
+SHA-384-Digest: oo2cfkdP6z7V6ULFABAR9sczI8Zuv5t9mPPxqgeoTda/tRV+VQMjP4uI
+ ljE+GEzV
+
+Name: com/google/gson/JsonObject.class
+SHA-384-Digest: 8aNZMuIREd29MDd6lXea5t5fLfW11lpJ+jfx9XBIaAZvXE0Y7r8bAFhg
+ Tpv6oo+7
+
+Name: net/minecraftforge/installer/actions/PostProcessors$ArtifactEntry.
+ class
+SHA-384-Digest: 0Rq/zYNHK4xj/lxwhVPq9Dm/AbMtEEqOkrpshQu+GPdVzqd+ofk0WBCe
+ 3uuQ8dEP
+
+Name: com/google/gson/internal/$Gson$Preconditions.class
+SHA-384-Digest: JtX/Il6g7OEV2cSmNaxY1lSRwCEtWRs0VyYHlc9QTsBmMiSo4mfeCg+U
+ NmCO6biw
+
+Name: com/google/gson/internal/bind/TypeAdapters$19.class
+SHA-384-Digest: vlbM0ifQNac2ht6Xv7CAW7wqXCSnZJdNP1ujGWlXPzibCiWpdgbDRj2Q
+ wtL4NHZ6
+
+Name: com/google/gson/internal/ConstructorConstructor$9.class
+SHA-384-Digest: ewKACZPhQMPcT71FrW7ZtnKquThTT1ZZjtMKptL7QwdgdUWUEh0ysfUv
+ U+Nc1y7E
+
+Name: com/google/gson/JsonSyntaxException.class
+SHA-384-Digest: 3go422QIIbYgSMD9XoVccglUcXdk0gfPoFP8KQchAMm8GUhicAe4Egru
+ U/uOXZ1D
+
+Name: com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFact
+ ory.class
+SHA-384-Digest: BnftO2tAh5/rzUvcW/0RMyoYEpWBFAKKJVnBvX8XvOkWxPhKcblQDZet
+ FWZStmTe
+
+Name: com/google/gson/JsonSerializer.class
+SHA-384-Digest: H22LFCbEBkaXh9L4XeuGLXghH2DRS17X0DTinP1F1JMNZevbRmm9qnx9
+ +z7ooUUE
+
+Name: com/google/gson/internal/ConstructorConstructor$14.class
+SHA-384-Digest: eA6q2BqHC9J4YmJWbxuJP5dAKiRkFPuSMfKutetBgsjo9Fn+I0NQTkIM
+ 33Hmou1C
+
+Name: com/google/gson/internal/bind/TypeAdapters$30.class
+SHA-384-Digest: osGKjvP1pztEwMlm+p08GqeHVlGtnHC+o6qPJC9w5dAsPrnUFifSThKZ
+ dMBhQqe+
+
+Name: com/google/gson/internal/UnsafeAllocator$1.class
+SHA-384-Digest: M5YgsurFlslCaryuBniZvtb60icdJ4bVMQLWXDrFIymw64+G0hXKOdSQ
+ sNwj78qy
+
+Name: com/google/gson/internal/bind/DefaultDateTypeAdapter$DateType.clas
+ s
+SHA-384-Digest: FDyTP7CT41AYzfPcofThulo4E3fUaaVy+X5Awimyc3hF8soGpKfMcips
+ mPWlou2k
+
+Name: com/google/gson/TypeAdapter$1.class
+SHA-384-Digest: SKM6btayV5mbcH9WApgTQ8J5EOWG7vg8IGeDA6WlrYLpJp5Nm8E55WJ0
+ 99VnoTY2
+
+Name: changelog.txt
+SHA-384-Digest: AJ5HcGNY0i4fhH6/zZbmsO1ZWk8gVQQN4o2pMPMMctlbw4QBEga3fkgR
+ HS5N8K9C
+
+Name: com/google/gson/internal/bind/JsonTreeReader$2.class
+SHA-384-Digest: 6D/i38OmtLYrv4X9gM5bdbv4zUdtaesxx8j5V6f+TWk0SH6X5Dl9OUFu
+ qNdrg3nU
+
+Name: com/google/gson/internal/bind/TypeAdapters$33.class
+SHA-384-Digest: 8Uyb9N7pLcIP16pXIkjLktJtTF0lKouAGaPyc+qCkXAryStG5K822/5f
+ ejvSId+L
+
+Name: joptsimple/NoArgumentOptionSpec.class
+SHA-384-Digest: zDiE2M29kzu+2ybapmAWfY6imj7zL0ifeQCxlXBKCshdUPR8an6T9L07
+ BoGA60c8
+
+Name: com/google/gson/internal/bind/DateTypeAdapter.class
+SHA-384-Digest: knV/GS3EhCfes2zKIcLz5bUjJ3ITTZbVb0ipfu1v1FH/QF3t02Gd9z1R
+ ejjTWbP9
+
+Name: com/google/gson/internal/ConstructorConstructor$17.class
+SHA-384-Digest: tCH7P+Bp5gaJ0Snm/C5LNNt3TfxO7YlnUdNmi1eHVSb7Ga20VuPiV03U
+ K8dV56QX
+
+Name: CREDITS.txt
+SHA-384-Digest: BqFURKlO37ZCudZ+Hr8Is404E++l3aDKn4dWVdn21GbsyP2od83Q2Cfv
+ VR9xCcOG
+
+Name: com/google/gson/LongSerializationPolicy$1.class
+SHA-384-Digest: W7v1HHRweWFRixduF04K5tI+bT/Ypyf4zo5s/u/ItCaqtjtzMcXIdFma
+ e6bV4/q7
+
+Name: com/google/gson/internal/sql/SqlTypesSupport.class
+SHA-384-Digest: Pdfg8ngreS0+IlheRwP0Ny/0SMu1FkOHPAINbtl4p1h3/F43Wr+TM/Ix
+ dJMfxeyf
+
+Name: com/google/gson/internal/reflect/ReflectionHelper$RecordNotSupport
+ edHelper.class
+SHA-384-Digest: H0QNfD8CJifgmsFfWJxuGaRpq+pKTFn9g7btz7zLJEyLrlj6tMBZ8g7N
+ YS4k7N1a
+
+Name: com/google/gson/internal/sql/SqlDateTypeAdapter$1.class
+SHA-384-Digest: ZsrkzCXc8OT3E21Waj6D3nlZf19xOQjaMkKHkv1qTu1mwL2mqjl4/6QL
+ u5CXrN76
+
+Name: com/google/gson/JsonPrimitive.class
+SHA-384-Digest: EnBWOUh/Bm76M+Sje7csDewFu2ds4q9mWVHXfvW0TswCl1DI0NkqOZne
+ HU+QE2Qz
+
+Name: com/google/gson/internal/reflect/ReflectionHelper$RecordSupportedH
+ elper.class
+SHA-384-Digest: ZN5Jbr8dGZyJ2BJtuHGUKWVWe9ijiT/TMQZoeRriKVY7NWN5+/YEYeye
+ TvQiJMq4
+
+Name: com/google/gson/internal/bind/TypeAdapters$10.class
+SHA-384-Digest: YOeuufHiTkW/mmgYcCoqJ+CmwOjPWz0j8S0OSEl+fKN5+pD6HI3RWGA2
+ QFkQG3EZ
+
+Name: com/google/gson/internal/reflect/ReflectionHelper$RecordHelper.cla
+ ss
+SHA-384-Digest: yWcqGfFoq68d2qREBMSZkEAC3IXcttrIniEv3kNgrxHFuiL3RVq4tO2I
+ 6v6Kd+VU
+
+Name: joptsimple/OptionDescriptor.class
+SHA-384-Digest: BoaDqrypz6sdpzBZ2aW7cm2BVig4i/qjD7QnnWtnNll2mIu92eL60dPi
+ AF5KQo+4
+
+Name: com/google/gson/internal/bind/TypeAdapters$1.class
+SHA-384-Digest: 5r0qQ13Gh24juN8ndsb+/bZSNqcxdmJJxpuCDh03Pv3qlNn0W+ffiRcy
+ 7fVJ0ats
+
+Name: com/google/gson/internal/package-info.class
+SHA-384-Digest: 1ERBZIiwQkn4H2aL67YIR8buZINNrgzcUW8j/fznV3yXb8b3N5kuoNoQ
+ ZJH+Rr5k
+
+Name: joptsimple/BuiltinHelpFormatter.class
+SHA-384-Digest: HYm5p5OsUB1iAerWB2t4DfFciTxg6u3TX/mMNTlaIta/AG6a/hZH4Wm1
+ 28NeXtvz
+
+Name: net/minecraftforge/installer/actions/Action.class
+SHA-384-Digest: HQ+8Rpl82Y68VGN+zLHFQka9M8OBE5P78VBcz1s3rNYEonibFuYfkyDF
+ An28jAil
+
+Name: META-INF/maven/com.google.code.gson/gson/pom.properties
+SHA-384-Digest: G/TGepdn1ql5S+KiTA+vQTXaH9yOGshp3Nh6Q/k+aczVwKEPK2NkCfTN
+ +D8pFTdS
+
+Name: joptsimple/MultipleArgumentsForOptionException.class
+SHA-384-Digest: 4omplSCL8vvzigpUsFfpALfEA59/fkOQdm7flHK5AkvdzWOxFdfDuZ5u
+ vHSwnLOH
+
+Name: com/google/gson/internal/bind/TypeAdapters$31.class
+SHA-384-Digest: d4Wd1YsubR1E5/AN3hVQXayyByT21Hl3ibkvxXrkeYvFSfsAlRdLtekz
+ j/15emiN
+
+Name: net/minecraftforge/installer/actions/PostProcessors.class
+SHA-384-Digest: SccN9o9ggbsJcXoqKuuSmter/NItMANbx3aD/ohf3sZ0wlDgakD02Q6f
+ yfVviggT
+
+Name: com/google/gson/annotations/Expose.class
+SHA-384-Digest: Ee7smuwtCvf9jBW7FF/dqfs7Vp9B8Yp6f2nx+58kYZNYHu+QynYJMoOn
+ Mt9qEEwt
+
+Name: com/google/gson/internal/Streams.class
+SHA-384-Digest: 5hdU3onYACkMWO7zdrh0NvPdj2XjobcDnHKzJD01DuHxVQw0qdo9jb8J
+ ZT95c8Xu
+
+Name: com/google/gson/internal/sql/SqlTimestampTypeAdapter$1.class
+SHA-384-Digest: yI0dGdzbGKhN8g19Idk4HnHzpxxNBiEusrlXwiUTJwkFJQmIwasxvQKd
+ Ceja0THJ
+
+Name: net/minecraftforge/installer/json/Version$Library.class
+SHA-384-Digest: 90/H1TDR5rlvZ1ve/oFcYUSpWZbLbDKQta9bJ7YG5NCXYdlLfkJGSjR0
+ o5gWfSTN
+
+Name: com/google/gson/internal/UnsafeAllocator.class
+SHA-384-Digest: YlOPQxnGCafH/NSIOePkU/e6EmgkwCCYVh+TfwPig0Ha1mGzz6bJtaxD
+ TSWqebpB
+
+Name: joptsimple/UnavailableOptionException.class
+SHA-384-Digest: Ob0JsXdNq8ctYRFTuM6XzuRyY+Ar95ZY25bE8dF4J1Bg1s8TKKzXhkdK
+ dpgX4LUz
+
+Name: joptsimple/internal/Columns.class
+SHA-384-Digest: w889kTxZFo2Mlp9D15PoFf55BUsBEdf+NtIOIbHoS/CZx4gAeU36Cb0i
+ CWl4rb28
+
+Name: joptsimple/internal/Row.class
+SHA-384-Digest: qiCR81WDOmgsNxZdDN4Kph0azyOo3Lf8WP2wauqqHPKjXEnm46XMkhAq
+ nMVwIq9y
+
+Name: com/google/gson/internal/ConstructorConstructor$16.class
+SHA-384-Digest: Kxi4LQM0zEyquagHNNkgVhDhbKgQRM2lyjzXfw7FZdwK8VGSdrptvqUX
+ d7MyJ0fv
+
+Name: com/google/gson/internal/bind/ObjectTypeAdapter$2.class
+SHA-384-Digest: K6ik2rzFdedbXFo52lM0BrrcIUcQRNZxmQO/VQqw9qn8/zivF1VlCGZ1
+ qydt2gzk
+
+Name: joptsimple/internal/ConstructorInvokingValueConverter.class
+SHA-384-Digest: BILAt3kWgm3iAVe7BmPsfa/09MI2ElmKq9LgojfBS5MMC1UNU9z/xXgL
+ /H6g1QNx
+
+Name: com/google/gson/internal/ReflectionAccessFilterHelper$AccessChecke
+ r$1.class
+SHA-384-Digest: qdvDnnaILwofp6TWjAKKf2DwY/WKXS7Lxt+GWysn6fHK0aS7fIXgIZFR
+ 8vq/54bL
+
+Name: com/google/gson/internal/UnsafeAllocator$4.class
+SHA-384-Digest: PU4MF5/EyOADoSEuXUy+ugcgdCA1awzzCTZ4YsUl58zNhiCHDHvEVuis
+ jPu4Pq5O
+
+Name: com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$Adapter
+ .class
+SHA-384-Digest: iNZ5ZcIAi+ES9wPEy2mb1b2DJlOyv0uhLs6icC5WZTiOz1vdtCSYgoJS
+ daeqIBFa
+
+Name: com/google/gson/internal/bind/TreeTypeAdapter$SingleTypeFactory.cl
+ ass
+SHA-384-Digest: Xdq2FmXTw7fjariDXUoIdXcc6H7oGJVjhcJ25ehJe6YMwy73ByPilrVV
+ 9zLOGTlF
+
+Name: com/google/gson/internal/bind/TypeAdapters$2.class
+SHA-384-Digest: M5Y4Y6rajICx+WYUZzTgWkUk/ymVQ9wvKPneHCoHFc9ArUzDKqOnVYsu
+ 6IUDZfT8
+
+Name: com/google/gson/internal/bind/TypeAdapters$27.class
+SHA-384-Digest: VN7NBNFd3M++HzZzOhrED0Zhy30wiqAD/Yj2v6MNiA/WKvZs5NVHz5oK
+ nW48Nm5T
+
+Name: com/google/gson/JsonParseException.class
+SHA-384-Digest: jp39x0L7AY+PJqvGAzWUXr6OdNfsvFZDxOUG5UuKwF7KQeKctfKqhirB
+ Id9Cm8pU
+
+Name: com/google/gson/internal/UnsafeAllocator$3.class
+SHA-384-Digest: DkLqKi9nNCx+M77va0XT68mxnL6Qguefv/M0q1MB7sb6xGVVvkPGBT7b
+ Lp1Kyl10
+
+Name: com/google/gson/LongSerializationPolicy.class
+SHA-384-Digest: A6atYREOMW0QLbB020al2SZrd6IgIxcErfgo3hLOF2uPfrrliuV87hVC
+ 3GCuHCHX
+
+Name: com/google/gson/internal/ReflectionAccessFilterHelper$AccessChecke
+ r$2.class
+SHA-384-Digest: 4Z7h5kgTktYOteIeeoX1R0M3P6sIbC1S3V/j86DB9iysmvj5SPpjU28Y
+ VAbI8MXF
+
+Name: com/google/gson/internal/bind/TypeAdapters$32.class
+SHA-384-Digest: B1ZfDMDU+7T4+xIm+uygvafAptjTYfWNoB9okEeF38+sZZxdnQRaR8kB
+ eCJH6RLE
+
+Name: com/google/gson/internal/ConstructorConstructor$7.class
+SHA-384-Digest: gI4iMRQwtY1/F7YmU4ynY7LqAt8IPMsR9lyiD3mfFMo3O370CjTpJz3q
+ xi0NKDdB
+
+Name: com/google/gson/internal/bind/ObjectTypeAdapter$1.class
+SHA-384-Digest: cAb4PigirRhv4MTZaDYstkurliPnTbL7Xy+wULgwaqXndqRGYNlWQ/CY
+ DuTOn8oI
+
+Name: joptsimple/ValueConverter.class
+SHA-384-Digest: ct/cPSzBQYvflnbJWvF1xFkQ31pJVDCHiFKQl0w2rKZ09e3QqvMSGzIZ
+ GlIJnfFc
+
+Name: com/google/gson/internal/ReflectionAccessFilterHelper$1.class
+SHA-384-Digest: k2xZboLabjx2UNHIhZuim7Y3eAAeUsejATQZwk5lozmoRsWIBkCYDXKv
+ 7lTyQNhk
+
+Name: joptsimple/UnrecognizedOptionException.class
+SHA-384-Digest: Fl83hwawtLxqpvbV6pwUDYJJRsdYLSGjGBqBVbYDGxXiOabAuKrll/x2
+ FbpuDOQh
+
+Name: com/google/gson/internal/ConstructorConstructor$20.class
+SHA-384-Digest: 1LufxoCaNSI0CAvnquM1ks6Dzdva53ZpNPswRkvPT3H2BtbTWJiOzHYC
+ i7qda1xG
+
+Name: joptsimple/OptionArgumentConversionException.class
+SHA-384-Digest: zXZonliQ2rCFpwqFxFF9Wp3FAzz3+aA0IxCSWoiQ6M41plZRMrgsUGXo
+ waVM9AVj
+
+Name: com/google/gson/internal/ReflectionAccessFilterHelper.class
+SHA-384-Digest: kwTeVj2cMsNGrTZVVMKJxrFVj0gxjnEEE33FnuhgRzMXgXZWy+BpdFvU
+ oVuJCMTO
+
+Name: com/google/gson/internal/bind/TypeAdapters.class
+SHA-384-Digest: wK93nhE6xbsN7e6bwesgJXVOwX5PPIwFcdnlotLiTCrTj/Xm+Ze66PLA
+ V5DWlH53
+

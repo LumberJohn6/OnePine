@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/tori_tori"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/tori_tori",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/tori_tori",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/tori_tori",
+      "y": 270
+    }
+  }
+}

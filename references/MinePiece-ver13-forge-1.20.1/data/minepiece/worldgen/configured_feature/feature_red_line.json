@@ -1,0 +1,7 @@
+{
+  "type": "minepiece:feature_red_line",
+  "config": {
+    "structure": "minepiece:red_line",
+    "ignored_blocks": "minecraft:air"
+  }
+}

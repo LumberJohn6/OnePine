@@ -1,0 +1,172 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.robluccifit",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "armorHead",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "armorHead",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 13, 8], "inflate": 0.2, "uv": [44, 33]},
+						{"origin": [-7, 30, -7], "size": [14, 1, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "armorBody",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "armorBody",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "inflate": 0.2, "uv": [0, 55]},
+						{"origin": [1, 20, -3], "size": [3, 3, 1], "uv": [0, 0]},
+						{"origin": [-5, 23, -3], "size": [10, 4, 8], "uv": [42, 0]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "Body",
+					"pivot": [0, 25.42857, 2.71429],
+					"cubes": [
+						{"origin": [-9, 18, -3], "size": [18, 7, 6], "uv": [0, 28]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [0, 18.5, 3],
+					"cubes": [
+						{"origin": [-9, 11, -3], "size": [18, 7, 6], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone2",
+					"pivot": [0, 11, 3],
+					"cubes": [
+						{"origin": [-9, 1, -1], "size": [18, 10, 4], "uv": [0, 41]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "bone",
+					"pivot": [6, 23.5, 3.5],
+					"cubes": [
+						{"origin": [3, 22, 3], "size": [6, 3, 9], "uv": [35, 54]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "bone4",
+					"pivot": [6, 23.5, 12.5],
+					"cubes": [
+						{"origin": [3, 22, 12], "size": [6, 3, 7], "uv": [63, 12]}
+					]
+				},
+				{
+					"name": "bone6",
+					"parent": "bone",
+					"pivot": [-6, 23.5, 3.5],
+					"cubes": [
+						{"origin": [-9, 22, 3], "size": [6, 3, 9], "uv": [42, 19]}
+					]
+				},
+				{
+					"name": "bone7",
+					"parent": "bone6",
+					"pivot": [-6, 23.5, 12.5],
+					"cubes": [
+						{"origin": [-9, 22, 12], "size": [6, 3, 7], "uv": [58, 59]}
+					]
+				},
+				{
+					"name": "armorRightArm",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "RightArm",
+					"parent": "armorRightArm",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-8, 12, -2], "size": [4, 12, 4], "inflate": 0.2, "uv": [72, 69]}
+					]
+				},
+				{
+					"name": "armorLeftArm",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "LeftArm",
+					"parent": "armorLeftArm",
+					"pivot": [5, 22, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [4, 12, 4], "inflate": 0.2, "uv": [72, 22]}
+					]
+				},
+				{
+					"name": "armorRightLeg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "RightLeg",
+					"parent": "armorRightLeg",
+					"pivot": [-1.9, 12, 0],
+					"cubes": [
+						{"origin": [-3.9, 0, -2], "size": [4, 12, 4], "inflate": 0.2, "uv": [0, 71]}
+					]
+				},
+				{
+					"name": "armorLeftLeg",
+					"pivot": [1.9, 12, 0]
+				},
+				{
+					"name": "LeftLeg",
+					"parent": "armorLeftLeg",
+					"pivot": [1.9, 12, 0],
+					"cubes": [
+						{"origin": [-0.1, 0, -2], "size": [4, 12, 4], "inflate": 0.2, "uv": [56, 69]}
+					]
+				},
+				{
+					"name": "armorRightBoot",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "RightBoot",
+					"parent": "armorRightBoot",
+					"pivot": [-1.9, 12, 0],
+					"cubes": [
+						{"origin": [-3.9, 0, -2], "size": [4, 12, 4], "inflate": 0.1, "uv": [24, 66]}
+					]
+				},
+				{
+					"name": "armorLeftBoot",
+					"pivot": [1.9, 12, 0]
+				},
+				{
+					"name": "LeftBoot",
+					"parent": "armorLeftBoot",
+					"pivot": [1.9, 12, 0],
+					"cubes": [
+						{"origin": [-0.1, 0, -2], "size": [4, 12, 4], "inflate": 0.1, "uv": [40, 66]}
+					]
+				}
+			]
+		}
+	]
+}

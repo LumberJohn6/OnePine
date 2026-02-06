@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/denden",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/dendenblue"
+  }
+}

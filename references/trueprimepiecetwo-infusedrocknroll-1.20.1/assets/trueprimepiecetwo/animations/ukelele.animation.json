@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.ukelele.idle": {
+			"loop": true
+		},
+		"animation.ukelele.use": {
+			"animation_length": 0.2917,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0417": {
+							"vector": [0, 0, 7.5]
+						},
+						"0.0833": {
+							"vector": [0, 0, 7.5]
+						},
+						"0.1667": {
+							"vector": [0, 0, -7.5]
+						},
+						"0.2083": {
+							"vector": [0, 0, -7.5]
+						},
+						"0.2917": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

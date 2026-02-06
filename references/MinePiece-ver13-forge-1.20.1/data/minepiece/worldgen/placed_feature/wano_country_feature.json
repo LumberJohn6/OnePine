@@ -1,0 +1,14 @@
+{
+  "feature": "minepiece:wano_country_feature",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:constant",
+        "value": {
+          "absolute": 0
+        }
+      }
+    }
+  ]
+}

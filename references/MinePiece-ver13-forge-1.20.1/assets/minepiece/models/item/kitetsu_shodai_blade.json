@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/kitetsu_shodai_blade",
+  "textures": {
+    "2": "minepiece:block/kitetsu_shodai",
+    "particle": "minepiece:item/cutlass"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/venomfruit",
+  "textures": {
+    "all": "trueprimepiecetwo:block/venomfruit",
+    "particle": "trueprimepiecetwo:block/venomfruit",
+    "0": "trueprimepiecetwo:block/venomfruit"
+  },
+  "render_type": "cutout"
+}

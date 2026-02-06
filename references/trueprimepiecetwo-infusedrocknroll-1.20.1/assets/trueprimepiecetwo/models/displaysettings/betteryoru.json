@@ -1,0 +1,94 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    128,
+    128
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "thirdperson_lefthand": {
+      "scale": [
+        0.7,
+        0.7,
+        0.7
+      ]
+    },
+    "firstperson_righthand": {
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "firstperson_lefthand": {
+      "scale": [
+        0.69,
+        0.68,
+        0.69
+      ]
+    },
+    "ground": {
+      "rotation": [
+        11.670000000000073,
+        -11.86999999999989,
+        -91.13000000000011
+      ],
+      "scale": [
+        0.34,
+        0.35,
+        0.35
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -87.84999999999991,
+        -44.73000000000002,
+        -88.5
+      ],
+      "translation": [
+        -3.75,
+        -3.5,
+        0
+      ],
+      "scale": [
+        0.24,
+        0.24,
+        0.24
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        -90
+      ],
+      "translation": [
+        6.5,
+        -4.25,
+        -7.75
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        -88,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -1.5
+      ]
+    }
+  },
+  "textures": {
+    "particle": "item/yoru"
+  }
+}

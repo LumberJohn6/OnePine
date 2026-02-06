@@ -1,0 +1,7 @@
+{
+  "parent": "trueprimepiecetwo:custom/axehand",
+  "textures": {
+    "0": "trueprimepiecetwo:block/axehand",
+    "particle": "trueprimepiecetwo:item/axehand"
+  }
+}

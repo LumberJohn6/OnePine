@@ -1,0 +1,1 @@
+{"parent":"minecraft:recipes/root","rewards":{"recipes":["mineminenomi:jitte"]},"criteria":{"has_kairoseki":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"item":"mineminenomi:dense_kairoseki"}]}},"has_the_recipe":{"trigger":"minecraft:recipe_unlocked","conditions":{"recipe":"mineminenomi:jitte"}}},"requirements":[["has_kairoseki","has_the_recipe"]]}

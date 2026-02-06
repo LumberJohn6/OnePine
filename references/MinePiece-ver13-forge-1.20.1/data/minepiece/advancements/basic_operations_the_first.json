@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:pirate_flag"
+    },
+    "title": {
+      "translate": "advancements.basic_operations_the_first.title"
+    },
+    "description": {
+      "translate": "advancements.basic_operations_the_first.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "basic_operations_the_first_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "minepiece:gameplay/loot_experience"
+    ]
+  },
+  "parent": "minepiece:basic_operations_create_crew"
+}

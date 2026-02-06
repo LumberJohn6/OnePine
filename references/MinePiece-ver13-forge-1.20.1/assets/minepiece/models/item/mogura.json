@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/mogura",
+  "textures": {
+    "0": "minepiece:block/mogura",
+    "particle": "minepiece:item/icon_spear"
+  }
+}

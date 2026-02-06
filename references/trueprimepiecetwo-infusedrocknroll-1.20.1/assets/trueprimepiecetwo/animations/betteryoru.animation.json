@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"unsheathe": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1
+		},
+		"sheathe": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1
+		}
+	},
+	"geckolib_format_version": 2
+}

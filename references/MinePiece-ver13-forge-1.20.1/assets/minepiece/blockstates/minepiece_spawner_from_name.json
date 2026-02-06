@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minepiece:block/minepiece_spawner_from_name"
+    }
+  }
+}

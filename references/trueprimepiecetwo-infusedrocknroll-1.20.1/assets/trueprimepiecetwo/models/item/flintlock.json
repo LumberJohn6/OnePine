@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/flintlock",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/newflintlock"
+  }
+}

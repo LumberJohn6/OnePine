@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/weight3",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/weight3"
+  }
+}

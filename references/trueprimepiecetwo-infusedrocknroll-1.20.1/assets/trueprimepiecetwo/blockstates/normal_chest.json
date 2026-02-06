@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:custom/normal_chest_particle"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:custom/normal_chest_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:custom/normal_chest_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:custom/normal_chest_particle",
+      "y": 270
+    }
+  }
+}

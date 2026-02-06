@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "minepiece_weapon",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "minepiece:pencil",
+    "count": 1
+  }
+}

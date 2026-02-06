@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"flintrun": {
+			"animation_length": 0.0417,
+			"bones": {
+				"body": {
+					"rotation": [5, 0, 0]
+				},
+				"right_arm": {
+					"rotation": [-132.73478, -61.33799, -0.6376],
+					"position": [0, -4, -2]
+				},
+				"left_arm": {
+					"rotation": [10, 0, -10]
+				}
+			}
+		}
+	}
+}

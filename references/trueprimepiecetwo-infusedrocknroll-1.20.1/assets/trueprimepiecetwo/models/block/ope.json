@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/opeope",
+  "textures": {
+    "all": "trueprimepiecetwo:block/textureopereworked",
+    "particle": "trueprimepiecetwo:block/textureopereworked",
+    "0": "trueprimepiecetwo:block/textureopereworked"
+  },
+  "render_type": "cutout"
+}

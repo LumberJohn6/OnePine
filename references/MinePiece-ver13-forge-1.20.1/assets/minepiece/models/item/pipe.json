@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/pipe",
+  "textures": {
+    "1": "minepiece:block/metal_rod",
+    "particle": "minepiece:item/clear"
+  }
+}

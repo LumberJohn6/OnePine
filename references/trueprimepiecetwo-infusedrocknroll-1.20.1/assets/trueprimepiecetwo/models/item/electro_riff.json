@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/guitarrock",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/guitarrock"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/betteryoru",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/yorunew"
+  }
+}

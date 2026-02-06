@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/gorogoro",
+  "textures": {
+    "all": "trueprimepiecetwo:block/gorotexture",
+    "particle": "trueprimepiecetwo:block/gorotexture",
+    "0": "trueprimepiecetwo:block/gorotexture"
+  },
+  "render_type": "cutout"
+}

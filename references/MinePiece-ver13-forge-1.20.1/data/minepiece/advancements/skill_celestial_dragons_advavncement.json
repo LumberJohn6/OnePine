@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:clothes_charlos_chestplate"
+    },
+    "title": {
+      "translate": "advancements.skill_celestial_dragons_advavncement.title"
+    },
+    "description": {
+      "translate": "advancements.skill_celestial_dragons_advavncement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_celestial_dragons_advavncement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:mine_piece_charactor_skills"
+}

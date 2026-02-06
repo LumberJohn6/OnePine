@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/weapon_ulti",
+  "textures": {
+    "0": "minepiece:block/weapon_ulti",
+    "particle": "minecraft:item/iron_ingot"
+  }
+}

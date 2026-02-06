@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/spin"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/spin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/spin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/spin",
+      "y": 270
+    }
+  }
+}

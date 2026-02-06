@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minepiece:block/clear",
+    "particle": "minepiece:block/clear"
+  },
+  "render_type": "translucent"
+}

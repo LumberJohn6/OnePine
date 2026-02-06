@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/weapon_krieg",
+  "textures": {
+    "1": "minepiece:block/clothes_krieg",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

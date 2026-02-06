@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/lance",
+  "textures": {
+    "0": "minepiece:block/uta_lance",
+    "particle": "minepiece:item/icon_spear"
+  }
+}

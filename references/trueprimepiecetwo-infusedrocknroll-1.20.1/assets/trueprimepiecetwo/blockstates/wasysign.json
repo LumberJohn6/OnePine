@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/wasysign"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/wasysign",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/wasysign",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/wasysign",
+      "y": 270
+    }
+  }
+}

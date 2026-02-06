@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:hassaikai"
+    },
+    "title": {
+      "translate": "advancements.skill_raimei_hakke.title"
+    },
+    "description": {
+      "translate": "advancements.skill_raimei_hakke.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_raimei_hakke_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_kaido_advancement"
+}

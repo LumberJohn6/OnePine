@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/cat_claws",
+  "textures": {
+    "0": "minepiece:block/cat_claws",
+    "particle": "minepiece:item/icon_cat_claws"
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/golden_sword"
+	},
+	"display": {
+		"head": {
+			"rotation": [-90, 0, 135],
+			"translation": [-11.25, -4, -6],
+			"scale": [1.8, 1.8, 1.8]
+		}
+	}
+}

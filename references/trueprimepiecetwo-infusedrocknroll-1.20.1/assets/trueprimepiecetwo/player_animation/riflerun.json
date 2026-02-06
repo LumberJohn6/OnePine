@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"riflerun": {
+			"animation_length": 0.0417,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [17.5, 0, 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [-36.34028, -38.76645, -29.81571]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-44.38393, 26.43622, -1.99679]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

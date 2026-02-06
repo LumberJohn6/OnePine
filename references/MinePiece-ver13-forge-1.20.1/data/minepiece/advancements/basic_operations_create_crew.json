@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:pirate_flag"
+    },
+    "title": {
+      "translate": "advancements.basic_operations_create_crew.title"
+    },
+    "description": {
+      "translate": "advancements.basic_operations_create_crew.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "basic_operations_create_crew_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:mine_piece_basic_operations"
+}

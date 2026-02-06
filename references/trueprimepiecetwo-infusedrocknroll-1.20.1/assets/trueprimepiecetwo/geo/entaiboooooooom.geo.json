@@ -1,0 +1,69 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.entaiBOOOOOOOOM",
+				"texture_width": 512,
+				"texture_height": 512,
+				"visible_bounds_width": 15,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone4",
+					"parent": "bone",
+					"pivot": [-0.5, 27.5, 0.5],
+					"cubes": [
+						{"origin": [-28, 0, -27], "size": [55, 55, 55], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone",
+					"pivot": [58.5, 3.5, 0.5],
+					"cubes": [
+						{"origin": [31, 0, -27], "size": [55, 7, 55], "uv": [0, 110]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [88.5, 0, 0.5],
+					"cubes": [
+						{"origin": [88, 0, -27], "size": [37, 0, 55], "uv": [110, 0]}
+					]
+				},
+				{
+					"name": "bone5",
+					"parent": "bone",
+					"pivot": [88.5, 0, 0.5],
+					"cubes": [
+						{"origin": [88, 0, -27], "size": [37, 0, 55], "uv": [110, 0]}
+					]
+				},
+				{
+					"name": "bone6",
+					"parent": "bone",
+					"pivot": [88.5, 0, 0.5],
+					"cubes": [
+						{"origin": [88, 0, -27], "size": [37, 0, 55], "uv": [110, 0]}
+					]
+				},
+				{
+					"name": "bone7",
+					"parent": "bone",
+					"pivot": [88.5, 0, 0.5],
+					"cubes": [
+						{"origin": [88, 0, -27], "size": [37, 0, 55], "uv": [110, 0]}
+					]
+				}
+			]
+		}
+	]
+}

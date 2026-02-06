@@ -1,0 +1,106 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.momoo",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 13,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 8, 3.5],
+					"cubes": [
+						{"origin": [-14, -5, -17], "size": [28, 26, 41], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "rightarm",
+					"parent": "body",
+					"pivot": [-13.5, 6, 5],
+					"cubes": [
+						{"origin": [-63, 3, -8], "size": [49, 6, 26], "uv": [97, 0]}
+					]
+				},
+				{
+					"name": "leftarm",
+					"parent": "body",
+					"pivot": [13.5, 6, 5],
+					"cubes": [
+						{"origin": [14, 3, -8], "size": [49, 6, 26], "uv": [82, 67]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "body",
+					"pivot": [0, 9, 24],
+					"cubes": [
+						{"origin": [-9, 1, 24], "size": [18, 16, 46], "uv": [0, 67]}
+					]
+				},
+				{
+					"name": "tail2",
+					"parent": "tail",
+					"pivot": [0, 9.5, 69.5],
+					"cubes": [
+						{"origin": [-19, 7, 70], "size": [38, 5, 19], "uv": [109, 110]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 12.375, -16.925],
+					"cubes": [
+						{"origin": [-7, 7, -31], "size": [14, 13, 14], "uv": [54, 133]},
+						{"origin": [-17, 14, -23], "size": [34, 18, 0], "uv": [0, 129]},
+						{"origin": [-4, 7, -36], "size": [8, 7, 5], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "pupil",
+					"parent": "head",
+					"pivot": [3, 15, -31.1],
+					"cubes": [
+						{"origin": [2, 14, -31.1], "size": [2, 2, 0], "uv": [0, 1]}
+					]
+				},
+				{
+					"name": "brow",
+					"parent": "head",
+					"pivot": [0, 7, -24],
+					"cubes": [
+						{"origin": [-7, 17, -31.2], "size": [14, 3, 0], "uv": [0, 34]}
+					]
+				},
+				{
+					"name": "jaw",
+					"parent": "head",
+					"pivot": [0, 11.5, -26.5],
+					"cubes": [
+						{"origin": [-4, 8, -31], "size": [8, 7, 9], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "anger",
+					"parent": "head",
+					"pivot": [0, 17, -29],
+					"cubes": [
+						{"origin": [-7, 14, -29], "size": [14, 6, 0], "uv": [0, 28]}
+					]
+				},
+				{
+					"name": "pupil2",
+					"parent": "head",
+					"pivot": [-3, 15, -31.1],
+					"cubes": [
+						{"origin": [-4, 14, -31.1], "size": [2, 2, 0], "uv": [1, 4]}
+					]
+				}
+			]
+		}
+	]
+}

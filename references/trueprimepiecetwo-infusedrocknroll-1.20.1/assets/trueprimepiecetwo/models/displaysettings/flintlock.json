@@ -1,0 +1,39 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    32,
+    32
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -3.25,
+        0
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -3.25,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        71.9,
+        -59.77,
+        74.23
+      ],
+      "translation": [
+        -1.25,
+        -3.75,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "particle": "item/flintlock"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/pika",
+  "textures": {
+    "all": "trueprimepiecetwo:block/pikapikatexture",
+    "particle": "trueprimepiecetwo:block/pikapikatexture",
+    "0": "trueprimepiecetwo:block/pikapikatexture"
+  },
+  "render_type": "cutout"
+}

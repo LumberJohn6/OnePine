@@ -1,0 +1,8 @@
+{
+  "parent": "minepiece:custom/pirate_flag",
+  "textures": {
+    "0": "minepiece:block/pirate_flag2",
+    "1": "minepiece:block/metal_rod",
+    "particle": "minecraft:item/paper"
+  }
+}

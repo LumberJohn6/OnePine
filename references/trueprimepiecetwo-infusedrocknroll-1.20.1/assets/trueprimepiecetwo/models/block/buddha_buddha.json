@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/buddhafruit",
+  "textures": {
+    "all": "trueprimepiecetwo:block/buddhafruit",
+    "particle": "trueprimepiecetwo:block/buddhafruit",
+    "0": "trueprimepiecetwo:block/buddhafruit"
+  },
+  "render_type": "cutout"
+}

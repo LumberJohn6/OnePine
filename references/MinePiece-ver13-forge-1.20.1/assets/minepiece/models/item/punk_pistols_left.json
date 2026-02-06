@@ -1,0 +1,6 @@
+{
+  "parent": "minepiece:displaysettings/punkpistols_left.item",
+  "textures": {
+    "layer0": "minepiece:item/punkpistols"
+  }
+}

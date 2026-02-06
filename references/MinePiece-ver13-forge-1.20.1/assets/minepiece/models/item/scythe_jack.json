@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/jack_skicle",
+  "textures": {
+    "0": "minepiece:block/jack_skicle",
+    "particle": "minepiece:item/icon_spear"
+  }
+}

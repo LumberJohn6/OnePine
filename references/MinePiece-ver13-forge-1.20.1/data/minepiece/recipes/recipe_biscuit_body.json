@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "minepiece",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minepiece:biscuit"
+    }
+  },
+  "result": {
+    "item": "minepiece:biscuit_armor_chestplate",
+    "count": 1
+  }
+}

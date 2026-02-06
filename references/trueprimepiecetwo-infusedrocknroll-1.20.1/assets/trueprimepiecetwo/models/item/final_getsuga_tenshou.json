@@ -1,0 +1,7 @@
+{
+  "parent": "trueprimepiecetwo:custom/getsuga",
+  "textures": {
+    "0": "trueprimepiecetwo:block/getsuga",
+    "particle": "trueprimepiecetwo:item/haki"
+  }
+}

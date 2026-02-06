@@ -1,0 +1,72 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.laboon",
+				"texture_width": 512,
+				"texture_height": 512,
+				"visible_bounds_width": 23,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 24.5, -5.5],
+					"cubes": [
+						{"origin": [-19, 0, -55], "size": [38, 49, 99], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "bone",
+					"pivot": [0, 30.5, 44.5],
+					"cubes": [
+						{"origin": [-10.5, 13, 44], "size": [21, 35, 99], "uv": [0, 148]}
+					]
+				},
+				{
+					"name": "fin",
+					"parent": "tail",
+					"pivot": [0, 30, 134.5],
+					"cubes": [
+						{"origin": [-36.5, 24, 130], "size": [73, 12, 41], "uv": [175, 0]}
+					]
+				},
+				{
+					"name": "leftfin",
+					"parent": "bone",
+					"pivot": [19.5, 4, -35.5],
+					"cubes": [
+						{"origin": [19, 0, -47], "size": [31, 8, 23], "uv": [264, 191]}
+					]
+				},
+				{
+					"name": "rightfin",
+					"parent": "bone",
+					"pivot": [-19.5, 4, -35.5],
+					"cubes": [
+						{"origin": [-50, 0, -47], "size": [31, 8, 23], "uv": [240, 244]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "bone",
+					"pivot": [0, 23.5, -55],
+					"cubes": [
+						{"origin": [-19, 6, -121], "size": [38, 43, 66], "uv": [208, 82]}
+					]
+				},
+				{
+					"name": "jaw",
+					"parent": "head",
+					"pivot": [0, 6, -56],
+					"cubes": [
+						{"origin": [-19, 0, -102], "size": [38, 6, 47], "uv": [141, 191]}
+					]
+				}
+			]
+		}
+	]
+}

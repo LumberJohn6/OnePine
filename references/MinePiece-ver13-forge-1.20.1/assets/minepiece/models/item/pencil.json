@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/pencil",
+  "textures": {
+    "0": "minepiece:block/pencil",
+    "particle": "minecraft:item/stick"
+  }
+}

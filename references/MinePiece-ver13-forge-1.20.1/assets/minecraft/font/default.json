@@ -1,0 +1,15 @@
+{
+    "providers": [
+
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/icon_belly.png",
+            "ascent": 16,
+            "height": 18,
+            "chars": [
+                "\uE120"
+        
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/arm_axe",
+  "textures": {
+    "0": "minepiece:block/sword_default",
+    "particle": "minepiece:item/icon_arm_axe"
+  }
+}

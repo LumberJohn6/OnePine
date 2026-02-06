@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/swordrack",
+  "textures": {
+    "all": "trueprimepiecetwo:block/swordrack",
+    "particle": "trueprimepiecetwo:block/swordrack",
+    "0": "trueprimepiecetwo:block/swordrack"
+  },
+  "render_type": "solid"
+}

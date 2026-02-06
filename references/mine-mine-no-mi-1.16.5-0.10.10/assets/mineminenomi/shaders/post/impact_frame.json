@@ -1,0 +1,1 @@
+{"targets":["swap","final"],"passes":[{"name":"blit","intarget":"minecraft:main","outtarget":"swap"},{"name":"mineminenomi:impact_frame","intarget":"swap","outtarget":"minecraft:main"}]}

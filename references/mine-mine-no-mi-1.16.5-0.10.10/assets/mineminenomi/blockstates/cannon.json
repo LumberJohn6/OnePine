@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"mineminenomi:block/cannon"},"facing=east":{"model":"mineminenomi:block/cannon","y":90},"facing=south":{"model":"mineminenomi:block/cannon","y":180},"facing=west":{"model":"mineminenomi:block/cannon","y":270}}}

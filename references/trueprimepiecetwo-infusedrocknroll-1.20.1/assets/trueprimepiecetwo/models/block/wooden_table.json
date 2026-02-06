@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/bartable",
+  "textures": {
+    "all": "trueprimepiecetwo:block/bartable",
+    "particle": "trueprimepiecetwo:block/bartable",
+    "0": "trueprimepiecetwo:block/bartable"
+  },
+  "render_type": "solid"
+}

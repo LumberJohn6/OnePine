@@ -1,0 +1,1 @@
+{"parent":"minecraft:recipes/root","rewards":{"recipes":["mineminenomi:flag"]},"criteria":{"has_wool":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"tag":"minecraft:wool"}]}},"has_the_recipe":{"trigger":"minecraft:recipe_unlocked","conditions":{"recipe":"mineminenomi:flag"}}},"requirements":[["has_wool","has_the_recipe"]]}

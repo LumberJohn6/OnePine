@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:clothes_cp_9_helmet"
+    },
+    "title": {
+      "translate": "advancements.skill_rokuogan.title"
+    },
+    "description": {
+      "translate": "advancements.skill_rokuogan.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_rokuogan_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_kamie"
+}

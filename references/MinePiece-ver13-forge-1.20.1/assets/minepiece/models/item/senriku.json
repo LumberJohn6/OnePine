@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/senriku",
+  "textures": {
+    "2": "minepiece:block/senriku",
+    "particle": "minepiece:item/icon_rifle"
+  }
+}

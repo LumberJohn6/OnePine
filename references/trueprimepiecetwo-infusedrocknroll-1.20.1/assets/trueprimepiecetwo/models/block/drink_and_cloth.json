@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/winecloth",
+  "textures": {
+    "all": "trueprimepiecetwo:block/winecloth",
+    "particle": "trueprimepiecetwo:block/winecloth",
+    "0": "trueprimepiecetwo:block/winecloth"
+  },
+  "render_type": "solid"
+}

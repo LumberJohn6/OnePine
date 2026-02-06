@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/bottles"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/bottles",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/bottles",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/bottles",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:tent_pirate",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 36,
+    "separation": 16,
+    "salt": 476031340
+  }
+}

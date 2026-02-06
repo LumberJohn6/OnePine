@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/magu"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/magu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/magu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/magu",
+      "y": 270
+    }
+  }
+}

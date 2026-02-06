@@ -1,0 +1,6 @@
+{
+  "parent": "minepiece:displaysettings/morning_star",
+  "textures": {
+    "layer0": "minepiece:item/morning_star"
+  }
+}

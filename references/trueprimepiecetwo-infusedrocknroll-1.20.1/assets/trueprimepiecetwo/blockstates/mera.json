@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/mera"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/mera",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/mera",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/mera",
+      "y": 270
+    }
+  }
+}

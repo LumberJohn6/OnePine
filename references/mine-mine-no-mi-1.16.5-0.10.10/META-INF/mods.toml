@@ -1,0 +1,254 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "mineminenomi"
+version = "0.10.10"
+displayName = "Mine Mine no Mi"
+displayURL = "https://www.pixelatedw.xyz/mine-mine-no-mi"
+logoFile = "mine-mine-no-mi.png"
+authors = "Wynd, FGpisces, Varian, Kaiyo, Drqonic"
+description = '''
+Mine Mine no Mi is a Minecraft mod inspired by the famous anime/manga series One Piece written and illustrated by Eiichiro Oda. It aims to be an adventure oriented mod where exploration is one of the key features.
+
+Dev Team
+    Wynd - Programmer
+    FGpisces - 2D Artist
+    Varian - Structures
+    Kaiyo - 3D Artist
+    Drqonic - Programmer
+
+Testers
+    Calment
+    DELTA
+    TicTacTocTof
+    Luigi
+    MaxPax
+
+Patreons
+    Kiessi 
+    Kyu
+    JoeySanfil
+    SH Ho
+    Ferrets Overlord
+    Matthew Summers
+    None_Arcadia
+    DanZ
+    Donkadecagon
+    AkagiStan
+    Omen06
+    Nicholas March
+    nour
+    JME3
+    John Sanfilippo
+    tab
+    Rasei
+    T. W.
+    JokerAdolla
+    Lance Johnson
+    BoxDeity
+    Neil Tucker
+    Dom
+    F-Jay Playz
+    Ayden_Off
+    Marc Gonzalez
+    Evni 
+    Namelessly 
+    SirGentleDAN
+    Spagooglio
+    Rune
+    Jonathan Martinez
+    ikaika raines
+    Surikku
+    Kollan lindsey
+    Argentaurium
+    Robert English
+    Mutant
+    Henry 
+    Flo
+    Akimo
+    Feels Fishy
+    IanTheWanderer
+    Bryan D
+    Mikael
+    TudorHP
+    Myrgana
+    Lhama
+    Lmited
+    silverghst
+    Arwin Ouwehand
+    Puscau Romeo
+    Kyle Burnett
+    Rafael Areche
+    Thruster__
+    XxNblitz
+    Great Calf
+    Henry Gross
+    Eclipce
+    Swift
+    Marin Zorcic
+    Kelly Mangum
+    Flame
+    Snaail
+    Damion Kennedy
+    Andrew Plachcinski
+    Bakdpotatosayshi
+    Tiernan Power
+    Jack Douglass
+    Harbid19
+    Bacnboi Bacnboi
+    Zelda 
+    Creative Studio
+    Alex
+    Graug
+    Jefferson Vitor
+    John Redmond
+    Marcogo
+    Jonas 1.000
+    Caridos 
+    Arnor
+    Mistical Rainn
+    lll678
+    juanchaco
+    JJ
+    Egotistical Ego
+    Yetyz 
+    איליי פטל
+    Aidan 
+    BaconJesus 
+    Wyatt Smith
+    keshaun mouzon
+    Ranny Jamoul
+    Arthur Almeida
+    od
+    Med Rhallab
+    luciano tapia
+    Maurice
+    Whoknows
+    ? ?
+    mosel
+    Oreoredvelvet
+    Where isdark
+    Lucas Tomko
+    Kevin Dumas
+    Pablo delrio
+    hunter platek
+    Ace
+    blaze van stelten
+    AlexZz2021
+    Seven
+    Sonny Rousseau
+    jose luis vargas
+    Viktor Stoykov
+    Dd Parks
+    kristers101
+    Elijah Nickel
+    bourdo
+    Fbdbd Nnenr
+    Sum
+    Daniel Luca
+    Hüseyin Taha Yerlikaya
+    Raphael
+    Luis Gonzalez
+    Trish Thunder
+    Ted Howard
+    JadenDK
+    Supercj29
+    Adonival Neto
+
+Localization
+    Japanese
+        lavender
+
+    Arabic
+        fallah
+
+    French
+        YasKiie_
+        BooTrinD
+        Ytekk
+
+    Simplified Chiense
+        Arcmoon
+        Moore5859 (阿烩丶)
+
+    Spanish
+        Abelatox
+
+    German
+        Imperialist
+
+    Russian
+        Akimo
+        tMakotoi
+
+    Brazilian Portuguese
+        Itz Nuk
+
+Honorary Mentions
+	Programmers
+        CalebBritannia
+        GeorgeTsakiridis
+        Izako
+        Acrogenous
+        LargeChild
+        Zankrid
+        Hammerclock
+        Beosti
+        Warcar
+
+	3D Artists
+        DragonLuch
+
+	Builders
+        KitanicDemon
+
+	Testers
+        Kenryuu
+       	Softwetbread
+       	FireFistK / Ace
+       	Jake
+       	Bronchus
+       	mail2003
+       	GoldenRoger
+       	Lancemowens
+       	Ced
+        Weach
+        Raiden
+        Negativo
+        ZIMPO
+        LargeChild
+
+'''
+
+[[dependencies.mineminenomi]]
+modId = "forge"
+mandatory = true
+versionRange = "[36.2.39,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mineminenomi]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mineminenomi]]
+modId = "cloth_config"
+mandatory = false
+versionRange = "[4.16.91,)"
+ordering = "AFTER"
+side = "CLIENT"
+
+[[dependencies.mineminenomi]]
+modId = "curios"
+mandatory = false
+versionRange = "[1.16.5-4.1.0.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[modproperties.mineminenomi]
+configuredBackground = "mineminenomi:textures/blocks/poneglyph1.png"

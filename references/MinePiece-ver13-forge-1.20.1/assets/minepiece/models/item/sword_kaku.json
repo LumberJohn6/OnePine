@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/sword_kaku",
+  "textures": {
+    "0": "minepiece:block/sword_kaku",
+    "particle": "minepiece:item/cutlass"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/bisento.item",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/bisentonew"
+  }
+}

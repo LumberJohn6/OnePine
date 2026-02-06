@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/rocket_launcher",
+  "textures": {
+    "0": "minepiece:block/rocket_launcher",
+    "particle": "minepiece:item/icon_rifle"
+  }
+}

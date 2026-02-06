@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"donutroll": {
+			"animation_length": 0.0417,
+			"bones": {
+				"body": {
+					"position": {
+						"vector": [0, -572, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

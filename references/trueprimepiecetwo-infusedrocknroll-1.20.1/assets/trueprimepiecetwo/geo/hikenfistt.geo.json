@@ -1,0 +1,92 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.hikenfistt",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 8,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "bone5",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "bone5",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, -8, -16], "size": [8, 4, 31], "uv": [178, 221]},
+						{"origin": [-7.5, -8, -13], "size": [7, 4, 28], "uv": [0, 224]},
+						{"origin": [-7.5, -4, -16], "size": [15, 12, 31], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "firestring",
+					"parent": "bone",
+					"pivot": [0, 21, -16],
+					"cubes": [
+						{"origin": [0, 16, -16], "size": [0, 10, 40], "uv": [0, 52]}
+					]
+				},
+				{
+					"name": "firestring2",
+					"parent": "bone",
+					"pivot": [2, 21, -16],
+					"cubes": [
+						{"origin": [2, 16, -16], "size": [0, 10, 40], "uv": [0, 52]}
+					]
+				},
+				{
+					"name": "firestring3",
+					"parent": "bone",
+					"pivot": [4, 21, -16],
+					"cubes": [
+						{"origin": [4, 16, -16], "size": [0, 10, 40], "uv": [0, 52]}
+					]
+				},
+				{
+					"name": "firestring4",
+					"parent": "bone",
+					"pivot": [6, 21, -16],
+					"cubes": [
+						{"origin": [6, 16, -16], "size": [0, 10, 40], "uv": [0, 52]}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "bone",
+					"pivot": [0, 0, 55.5],
+					"cubes": [
+						{"origin": [-8, -8, 55], "size": [16, 16, 1], "uv": [61, 0]}
+					]
+				},
+				{
+					"name": "bone2",
+					"parent": "bone",
+					"pivot": [0, 0, 33.5],
+					"cubes": [
+						{"origin": [-7, -7, 18], "size": [14, 14, 31], "uv": [0, 47]}
+					]
+				},
+				{
+					"name": "bone3",
+					"parent": "bone",
+					"pivot": [0, 0, 34.5],
+					"cubes": [
+						{"origin": [-9, -9, 25], "size": [18, 18, 19], "uv": [73, 28]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/wooden_chair"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/wooden_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/wooden_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/wooden_chair",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/barsofa",
+  "textures": {
+    "all": "trueprimepiecetwo:block/barsofa",
+    "particle": "trueprimepiecetwo:block/barsofa",
+    "0": "trueprimepiecetwo:block/barsofa"
+  },
+  "render_type": "solid"
+}

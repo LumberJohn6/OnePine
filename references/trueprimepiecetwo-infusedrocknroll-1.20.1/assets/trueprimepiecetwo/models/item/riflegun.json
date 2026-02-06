@@ -1,0 +1,6 @@
+{
+  "parent": "trueprimepiecetwo:displaysettings/rifle",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/rifle"
+  }
+}

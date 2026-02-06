@@ -1,0 +1,76 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.suzume",
+				"texture_width": 64,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "torso",
+					"parent": "body",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-3, 4, -3], "size": [6, 8, 6], "uv": [0, 9]},
+						{"origin": [0, 7, 2], "size": [0, 8, 7], "uv": [0, 17]},
+						{"origin": [1, 7, 2], "size": [0, 8, 7], "pivot": [1, 11, 3], "rotation": [0, 45, 0], "uv": [0, 17]},
+						{"origin": [-1, 7, 2], "size": [0, 8, 7], "pivot": [-1, 11, 3], "rotation": [0, -45, 0], "uv": [0, 17], "mirror": true}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "torso",
+					"pivot": [0, 11, -3],
+					"cubes": [
+						{"origin": [-2, 9, -6], "size": [4, 6, 3], "uv": [0, 0]},
+						{"origin": [-0.5, 15, -6], "size": [1, 2, 3], "inflate": 0.25, "uv": [16, 27]},
+						{"origin": [-0.5, 15, -6], "size": [1, 0, 3], "inflate": 0.3, "uv": [21, 29]},
+						{"origin": [-1, 11, -8], "size": [2, 2, 2], "uv": [14, 0]},
+						{"origin": [-1, 9, -7], "size": [2, 2, 2], "uv": [14, 4]}
+					]
+				},
+				{
+					"name": "right_wing",
+					"parent": "body",
+					"pivot": [-4, 11, 0],
+					"cubes": [
+						{"origin": [-4, 7, -3], "size": [1, 4, 6], "uv": [24, 13]}
+					]
+				},
+				{
+					"name": "left_wing",
+					"parent": "body",
+					"pivot": [4, 11, 0],
+					"cubes": [
+						{"origin": [3, 7, -3], "size": [1, 4, 6], "uv": [24, 13]}
+					]
+				},
+				{
+					"name": "right_leg",
+					"parent": "body",
+					"pivot": [-2, 5, 1],
+					"cubes": [
+						{"origin": [-3, 0, -2], "size": [3, 5, 3], "uv": [26, 0]}
+					]
+				},
+				{
+					"name": "left_leg",
+					"parent": "body",
+					"pivot": [1, 5, 1],
+					"cubes": [
+						{"origin": [0, 0, -2], "size": [3, 5, 3], "uv": [26, 0]}
+					]
+				}
+			]
+		}
+	]
+}

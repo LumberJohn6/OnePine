@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/pancakes"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/pancakes",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/pancakes",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/pancakes",
+      "y": 270
+    }
+  }
+}

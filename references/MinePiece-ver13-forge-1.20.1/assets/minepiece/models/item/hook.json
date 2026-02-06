@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/hook",
+  "textures": {
+    "0": "minepiece:block/hook",
+    "particle": "minepiece:item/icon_hook"
+  }
+}

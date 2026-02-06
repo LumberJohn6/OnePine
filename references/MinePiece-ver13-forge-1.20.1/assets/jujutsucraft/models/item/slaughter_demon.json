@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "jujutsucraft:item/slaughter_demon"
+	},
+	"display": {
+		"head": {
+			"rotation": [90, 0, 135],
+			"translation": [-11.25, -4, -6],
+			"scale": [1.8, 1.8, 1.8]
+		}
+	}
+}

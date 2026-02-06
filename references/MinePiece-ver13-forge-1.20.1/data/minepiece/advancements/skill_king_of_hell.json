@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:green_dye"
+    },
+    "title": {
+      "translate": "advancements.skill_king_of_hell.title"
+    },
+    "description": {
+      "translate": "advancements.skill_king_of_hell.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_king_of_hell_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_zoro_advancement"
+}

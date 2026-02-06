@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/rifle",
+  "textures": {
+    "0": "minepiece:block/rifle",
+    "particle": "minepiece:item/icon_rifle"
+  }
+}

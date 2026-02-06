@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "minepiece:chouchou",
+    "minepiece:bananawani",
+    "minepiece:buchi",
+    "minepiece:sham",
+    "minepiece:entity_gryphon",
+    "minepiece:entity_partisan",
+    "minepiece:entity_slash",
+    "minepiece:entity_sweep",
+    "minepiece:entity_wolf_projectile",
+    "minepiece:projectile_slash",
+    "bee",
+    "cat",
+    "fox",
+    "wolf",
+    "minepiece:richie",
+    "minepiece:nekomamushi",
+    "minepiece:tot_musica",
+    "minepiece:entity_tot_musica_arm",
+    "minepiece:hody_jones",
+    "minepiece:kumacy"
+  ]
+}

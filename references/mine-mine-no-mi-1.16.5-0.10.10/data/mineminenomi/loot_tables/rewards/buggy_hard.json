@@ -1,0 +1,1 @@
+{"pools":[{"name":"mineminenomi:items","rolls":1,"entries":[{"type":"minecraft:empty","weight":97},{"type":"minecraft:item","name":"mineminenomi:big_red_nose"},{"type":"minecraft:item","weight":2,"functions":[{"function":"minecraft:set_nbt","tag":"{display:{color:13459968}}"}],"name":"mineminenomi:bicorne"}]}]}

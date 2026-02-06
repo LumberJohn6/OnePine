@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/swordrack"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/swordrack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/swordrack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/swordrack",
+      "y": 270
+    }
+  }
+}

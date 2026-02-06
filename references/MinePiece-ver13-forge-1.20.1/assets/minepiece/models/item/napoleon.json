@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/napoleon",
+  "textures": {
+    "2": "minepiece:block/sword_napoleon",
+    "particle": "minepiece:item/cutlass"
+  }
+}

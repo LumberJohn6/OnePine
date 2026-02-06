@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/shusui",
+  "textures": {
+    "0": "minepiece:block/shusui",
+    "particle": "minepiece:item/cutlass"
+  }
+}

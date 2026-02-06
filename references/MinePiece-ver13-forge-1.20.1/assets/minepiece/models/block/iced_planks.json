@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "minepiece:block/iced_planks",
+    "particle": "minepiece:block/iced_planks"
+  },
+  "render_type": "solid"
+}

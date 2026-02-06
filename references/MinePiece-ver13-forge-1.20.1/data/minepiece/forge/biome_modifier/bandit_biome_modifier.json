@@ -1,0 +1,20 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "birch_forest",
+    "dark_forest",
+    "flower_forest",
+    "forest",
+    "old_growth_birch_forest",
+    "warped_forest",
+    "windswept_forest",
+    "windswept_gravelly_hills",
+    "windswept_hills"
+  ],
+  "spawners": {
+    "type": "minepiece:bandit",
+    "weight": 1,
+    "minCount": 4,
+    "maxCount": 6
+  }
+}

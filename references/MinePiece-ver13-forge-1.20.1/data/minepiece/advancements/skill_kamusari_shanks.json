@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:griffon"
+    },
+    "title": {
+      "translate": "advancements.skill_kamusari_shanks.title"
+    },
+    "description": {
+      "translate": "advancements.skill_kamusari_shanks.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_kamusari_shanks_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_shanks_advancement"
+}

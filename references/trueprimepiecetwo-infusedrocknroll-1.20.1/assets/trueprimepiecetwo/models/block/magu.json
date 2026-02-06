@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/magma",
+  "textures": {
+    "all": "trueprimepiecetwo:block/magu",
+    "particle": "trueprimepiecetwo:block/magu",
+    "0": "trueprimepiecetwo:block/magu"
+  },
+  "render_type": "cutout"
+}

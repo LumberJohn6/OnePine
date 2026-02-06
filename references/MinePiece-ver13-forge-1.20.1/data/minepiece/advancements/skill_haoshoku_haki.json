@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:clothes_elizabello_helmet"
+    },
+    "title": {
+      "translate": "advancements.skill_haoshoku_haki.title"
+    },
+    "description": {
+      "translate": "advancements.skill_haoshoku_haki.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_haoshoku_haki_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:mine_piece_haki_skills"
+}

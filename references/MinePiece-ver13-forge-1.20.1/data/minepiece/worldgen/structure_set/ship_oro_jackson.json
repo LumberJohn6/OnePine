@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:ship_oro_jackson",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 130,
+    "separation": 65,
+    "salt": 1122412824
+  }
+}

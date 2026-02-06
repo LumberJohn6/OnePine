@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "minepiece:ship_marine_large_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 100,
+    "separation": 50,
+    "salt": 690196816
+  }
+}

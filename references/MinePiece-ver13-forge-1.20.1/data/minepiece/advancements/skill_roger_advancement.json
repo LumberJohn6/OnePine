@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:clothes_roger_helmet"
+    },
+    "title": {
+      "translate": "advancements.skill_roger_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.skill_roger_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_roger_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:mine_piece_charactor_skills"
+}

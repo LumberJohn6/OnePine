@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "trueprimepiecetwo:item/inu_inu_no_mi_model_wolf"
+  }
+}

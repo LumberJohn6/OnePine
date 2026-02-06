@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "trueprimepiecetwo:block/cannon"
+    },
+    "facing=east": {
+      "model": "trueprimepiecetwo:block/cannon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "trueprimepiecetwo:block/cannon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "trueprimepiecetwo:block/cannon",
+      "y": 270
+    }
+  }
+}

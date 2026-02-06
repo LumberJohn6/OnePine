@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/uta_shield_block",
+  "textures": {
+    "0": "minepiece:block/uta_shield",
+    "particle": "minepiece:item/icon_shield"
+  }
+}

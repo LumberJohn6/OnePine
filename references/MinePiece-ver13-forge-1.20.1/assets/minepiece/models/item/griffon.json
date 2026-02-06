@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/griffon",
+  "textures": {
+    "1": "minepiece:block/griffon",
+    "particle": "minepiece:item/icon_griffon"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "minepiece_weapon",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minepiece:gold_spear"
+    }
+  },
+  "result": {
+    "item": "minepiece:golden_stick",
+    "count": 1
+  }
+}

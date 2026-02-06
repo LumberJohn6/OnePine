@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minepiece:yoru"
+    },
+    "title": {
+      "translate": "advancements.skill_overswing_mihawk.title"
+    },
+    "description": {
+      "translate": "advancements.skill_overswing_mihawk.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_overswing_mihawk_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minepiece:skill_continuous_slash"
+}

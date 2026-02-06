@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/perosperos_staff",
+  "textures": {
+    "2": "minepiece:block/perosperos_staff",
+    "particle": "minecraft:item/stick"
+  }
+}

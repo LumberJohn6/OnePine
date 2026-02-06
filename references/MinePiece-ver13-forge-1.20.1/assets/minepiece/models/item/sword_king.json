@@ -1,0 +1,8 @@
+{
+  "parent": "minepiece:custom/sword_alber",
+  "textures": {
+    "0": "minepiece:block/sword_alber",
+    "1": "minepiece:block/anim_flame_red",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

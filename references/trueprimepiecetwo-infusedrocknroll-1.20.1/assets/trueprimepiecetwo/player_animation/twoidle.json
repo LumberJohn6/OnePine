@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"twoidle": {
+			"animation_length": 0.0417,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"vector": [-5.01812, 23.10761, 20.41452]
+					},
+					"position": {
+						"vector": [0, -0.75, -0.25]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": [-6.32465, -30.18344, -19.1041]
+					},
+					"position": {
+						"vector": [0, -0.75, -0.25]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

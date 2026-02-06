@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/takeru",
+  "textures": {
+    "0": "minepiece:block/metal_rod",
+    "particle": "minepiece:item/icon_metal_rod"
+  }
+}

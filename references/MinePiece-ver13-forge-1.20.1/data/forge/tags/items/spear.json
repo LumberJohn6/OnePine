@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:trident",
+    "minepiece:mogura",
+    "minepiece:gold_spear",
+    "minepiece:spear",
+    "minepiece:spear_2"
+  ]
+}

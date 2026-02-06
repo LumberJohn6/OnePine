@@ -1,0 +1,7 @@
+{
+  "type": "minepiece:structure_feature",
+  "config": {
+    "structure": "minepiece:barrier",
+    "ignored_blocks": "minecraft:air"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/gold_spear",
+  "textures": {
+    "1": "minepiece:block/hook",
+    "particle": "minepiece:item/icon_spear"
+  }
+}

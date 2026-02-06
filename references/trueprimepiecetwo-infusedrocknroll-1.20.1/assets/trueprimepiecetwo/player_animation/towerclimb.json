@@ -1,0 +1,72 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"towerclimb": {
+			"animation_length": 1,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": {
+							"vector": [10, 0, 0]
+						},
+						"1.0": {
+							"vector": [12.5, 0, 0]
+						}
+					},
+					"position": {
+						"vector": [0, -3.76558, 1.6794]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [22.5, 0, 0]
+						},
+						"1.0": {
+							"vector": [17.5, 0, 0]
+						}
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-92.5, 0, 90]
+						},
+						"1.0": {
+							"vector": [-92.50238, -2.49762, 90.10912]
+						}
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [-89.89088, 2.49762, 92.50238]
+						},
+						"1.0": {
+							"vector": [-89.89057, 4.99761, 92.50716]
+						}
+					},
+					"position": {
+						"vector": [-2.17257, -3.90523, -0.17051]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [5, 10, 0]
+					},
+					"position": {
+						"vector": [-1.92542, 4.54519, -5.16081]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": [7.5, -22.5, 0]
+					},
+					"position": {
+						"vector": [2.1468, 4.30459, -5.18283]
+					}
+				}
+			}
+		}
+	}
+}

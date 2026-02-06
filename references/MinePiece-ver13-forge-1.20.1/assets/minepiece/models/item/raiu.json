@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/sword_shiryu",
+  "textures": {
+    "0": "minepiece:block/sword_shiryu",
+    "particle": "minecraft:item/iron_sword"
+  }
+}

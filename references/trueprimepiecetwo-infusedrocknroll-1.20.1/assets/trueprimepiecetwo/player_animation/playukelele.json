@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"playukelele": {
+			"animation_length": 0.2917,
+			"bones": {
+				"left_arm": {
+					"rotation": {
+						"0.0": [-92.62906, 47.72648, -17.1423],
+						"0.125": [29.87094, 47.72648, -17.1423]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "trueprimepiecetwo:custom/pancakes",
+  "textures": {
+    "all": "trueprimepiecetwo:block/pancakes",
+    "particle": "trueprimepiecetwo:block/pancakes",
+    "1": "trueprimepiecetwo:block/pancakes"
+  },
+  "render_type": "solid"
+}

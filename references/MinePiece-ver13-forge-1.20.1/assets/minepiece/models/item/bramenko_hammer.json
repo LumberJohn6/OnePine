@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/bramenko_hammer",
+  "textures": {
+    "1": "minepiece:block/bramenko_hammer",
+    "particle": "minecraft:item/iron_pickaxe"
+  }
+}

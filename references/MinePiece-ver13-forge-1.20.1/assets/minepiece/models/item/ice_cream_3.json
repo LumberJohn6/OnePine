@@ -1,0 +1,7 @@
+{
+  "parent": "minepiece:custom/icecream_3",
+  "textures": {
+    "0": "minepiece:block/icecream",
+    "particle": "minepiece:item/biscuit"
+  }
+}

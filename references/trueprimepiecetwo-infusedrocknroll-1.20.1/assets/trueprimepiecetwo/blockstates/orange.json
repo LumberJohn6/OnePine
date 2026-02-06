@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "trueprimepiecetwo:block/orange",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "trueprimepiecetwo:block/orange"
+    },
+    "axis=z": {
+      "model": "trueprimepiecetwo:block/orange",
+      "x": 90
+    }
+  }
+}

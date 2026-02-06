@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "minepiece:kitetsu_shodai_sheath",
+    "minepiece:weapon_ulti",
+    "minepiece:dyna_stones",
+    "minepiece:golden_stick",
+    "minepiece:perospero_staff",
+    "minepiece:brook_sword",
+    "minepiece:thunder_stick",
+    "minepiece:long_stick",
+    "minepiece:kikoku_sheath",
+    "minepiece:yakuza_kasen_sheath",
+    "minepiece:yakuza_kasen",
+    "minepiece:hassaikai",
+    "minepiece:jitte",
+    "minepiece:kitetsu_shodai",
+    "minepiece:hook",
+    "minepiece:tonfa",
+    "minepiece:takeru",
+    "minepiece:pipe",
+    "minepiece:kikoku",
+    "minepiece:battle_smasher",
+    "minepiece:rocket_launcher",
+    "minepiece:bramenko_hammer",
+    "minepiece:pencil",
+    "minepiece:onitake",
+    "minepiece:metal_rod"
+  ]
+}
