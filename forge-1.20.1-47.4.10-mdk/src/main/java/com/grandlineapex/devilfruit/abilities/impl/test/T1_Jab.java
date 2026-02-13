@@ -1,4 +1,9 @@
-package com.grandlineapex.devilfruit.abilities.impl;
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\devilfruit\abilities\impl\test\T1_Jab.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
+package com.grandlineapex.devilfruit.abilities.impl.test;
 
 import com.grandlineapex.devilfruit.abilities.Ability;
 import com.grandlineapex.devilfruit.abilities.AbilityTier;
@@ -39,3 +44,5 @@ public class T1_Jab implements Ability {
         return true;
     }
 }
+
+

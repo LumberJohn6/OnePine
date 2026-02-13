@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\devilfruit\awakening\AwakeningHandler.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.devilfruit.awakening;
 
 import com.grandlineapex.bounty.BountyTier;
@@ -67,3 +72,4 @@ public class AwakeningHandler {
         return data.isAwakened() ? 1.15f : 1.0f;
     }
 }
+

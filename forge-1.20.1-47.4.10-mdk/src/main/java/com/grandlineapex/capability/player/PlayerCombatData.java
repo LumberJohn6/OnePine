@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\capability\player\PlayerCombatData.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.capability.player;
 
 import net.minecraft.nbt.CompoundTag;
@@ -55,3 +60,4 @@ public class PlayerCombatData {
         setComboCounter(other.getComboCounter());
     }
 }
+

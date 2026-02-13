@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\systems\stamina\PlayerStaminaData.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.systems.stamina;
 
 public class PlayerStaminaData {
@@ -33,3 +38,4 @@ public class PlayerStaminaData {
         regenDelayTicks = Math.max(regenDelayTicks, Math.max(0, ticks));
     }
 }
+

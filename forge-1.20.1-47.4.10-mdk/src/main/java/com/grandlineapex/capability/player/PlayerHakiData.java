@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\capability\player\PlayerHakiData.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.capability.player;
 
 import com.grandlineapex.haki.HakiType;
@@ -96,3 +101,4 @@ public class PlayerHakiData {
         setActive(other.isActive());
     }
 }
+

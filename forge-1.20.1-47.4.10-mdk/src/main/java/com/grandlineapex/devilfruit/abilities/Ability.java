@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\devilfruit\abilities\Ability.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.devilfruit.abilities;
 
 import net.minecraft.resources.ResourceLocation;
@@ -47,3 +52,4 @@ public interface Ability {
         return (float)Math.max(1.0, staminaCost() * scale);
     }
 }
+

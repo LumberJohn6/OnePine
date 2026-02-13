@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\client\ClientHakiData.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.client;
 
 import com.grandlineapex.haki.HakiType;
@@ -25,3 +30,4 @@ public class ClientHakiData {
         return active;
     }
 }
+

@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\capability\CapabilityRegistry.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.capability;
 
 import com.grandlineapex.capability.devilfruit.PlayerDevilFruitData;
@@ -19,6 +24,8 @@ public class CapabilityRegistry {
     public static void register(RegisterCapabilitiesEvent event) {
         // Central capability type registration so Forge can serialize/attach these stores.
         event.register(com.grandlineapex.systems.stamina.PlayerStaminaData.class);
+        event.register(com.grandlineapex.capability.PlayerData.class);
+        event.register(com.grandlineapex.capability.devilfruit.DevilFruitData.class);
         event.register(PlayerDevilFruitData.class);
         event.register(PlayerBountyData.class);
         event.register(PlayerHakiData.class);
@@ -28,3 +35,4 @@ public class CapabilityRegistry {
         event.register(DevilFruitWorldRegistry.class);
     }
 }
+

@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\haki\conqueror\ConquerorLogic.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.haki.conqueror;
 
 public class ConquerorLogic {
@@ -8,3 +13,4 @@ public class ConquerorLogic {
         return Math.min(0.25f, mastery * 0.0012f);
     }
 }
+

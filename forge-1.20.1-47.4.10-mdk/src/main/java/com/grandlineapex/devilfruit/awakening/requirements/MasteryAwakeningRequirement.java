@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\devilfruit\awakening\requirements\MasteryAwakeningRequirement.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.devilfruit.awakening.requirements;
 
 import com.grandlineapex.capability.devilfruit.PlayerDevilFruitData;
@@ -21,3 +26,4 @@ public class MasteryAwakeningRequirement implements AwakeningRequirement {
         return devilFruitData.getMastery() >= threshold;
     }
 }
+

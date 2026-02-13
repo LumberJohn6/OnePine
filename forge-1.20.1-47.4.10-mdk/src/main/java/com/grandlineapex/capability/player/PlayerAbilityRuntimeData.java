@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\capability\player\PlayerAbilityRuntimeData.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.capability.player;
 
 import com.grandlineapex.ability.runtime.AbilityInstance;
@@ -65,6 +70,16 @@ public class PlayerAbilityRuntimeData {
         interruptMatching(level, player, reason, (instance, ability) -> true);
     }
 
+    public Map<ResourceLocation, Integer> snapshotCooldowns() {
+        Map<ResourceLocation, Integer> snapshot = new HashMap<>();
+        for (Map.Entry<ResourceLocation, AbilityInstance> entry : instances.entrySet()) {
+            AbilityInstance instance = entry.getValue();
+            if (instance.state() == com.grandlineapex.ability.runtime.AbilityState.IDLE) continue;
+            snapshot.put(entry.getKey(), Math.max(0, instance.stateTicksRemaining()));
+        }
+        return snapshot;
+    }
+
     public CompoundTag toTag() {
         CompoundTag tag = new CompoundTag();
         ListTag list = new ListTag();
@@ -89,3 +104,4 @@ public class PlayerAbilityRuntimeData {
         fromTag(other.toTag());
     }
 }
+

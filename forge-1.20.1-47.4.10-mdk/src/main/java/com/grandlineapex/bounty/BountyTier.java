@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\bounty\BountyTier.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.bounty;
 
 public enum BountyTier {
@@ -31,3 +36,4 @@ public enum BountyTier {
         return current;
     }
 }
+

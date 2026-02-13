@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\bounty\BountyManager.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.bounty;
 
 import com.grandlineapex.capability.player.BountyCapability;
@@ -27,3 +32,4 @@ public class BountyManager {
         });
     }
 }
+

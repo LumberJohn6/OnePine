@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\raid\RaidSpawner.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.raid;
 
 import net.minecraft.core.BlockPos;
@@ -11,3 +16,4 @@ public class RaidSpawner {
         return Math.max(1, Math.round((2 + wave) * difficulty));
     }
 }
+

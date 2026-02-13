@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\devilfruit\abilities\AbilityRegistry.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 
 package com.grandlineapex.devilfruit.abilities;
 
@@ -23,3 +28,4 @@ public class AbilityRegistry {
         return Collections.unmodifiableCollection(ABILITIES.values());
     }
 }
+

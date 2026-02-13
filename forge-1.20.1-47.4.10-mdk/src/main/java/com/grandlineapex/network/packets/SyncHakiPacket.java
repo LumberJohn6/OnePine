@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\network\packets\SyncHakiPacket.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.network.packets;
 
 import com.grandlineapex.client.ClientHakiData;
@@ -42,3 +47,4 @@ public class SyncHakiPacket {
         ctx.get().setPacketHandled(true);
     }
 }
+

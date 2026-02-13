@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\client\ClientFruitData.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.client;
 
 public class ClientFruitData {
@@ -23,3 +28,4 @@ public class ClientFruitData {
         return awakened;
     }
 }
+

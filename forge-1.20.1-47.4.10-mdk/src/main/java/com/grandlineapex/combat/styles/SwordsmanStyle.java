@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\combat\styles\SwordsmanStyle.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.combat.styles;
 
 import com.grandlineapex.bounty.BountyTier;
@@ -24,3 +29,4 @@ public class SwordsmanStyle extends FightingStyle {
         return BountyTier.OUTLAW;
     }
 }
+

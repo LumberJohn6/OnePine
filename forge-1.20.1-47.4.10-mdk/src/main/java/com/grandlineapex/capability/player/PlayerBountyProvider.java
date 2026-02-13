@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\capability\player\PlayerBountyProvider.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.capability.player;
 
 import net.minecraft.core.Direction;
@@ -26,3 +31,4 @@ public class PlayerBountyProvider implements ICapabilityProvider, ICapabilitySer
         data.fromTag(nbt);
     }
 }
+

@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\bounty\quest\BountyQuest.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.bounty.quest;
 
 import net.minecraft.resources.ResourceLocation;
@@ -37,3 +42,4 @@ public class BountyQuest {
         return bountyReward;
     }
 }
+

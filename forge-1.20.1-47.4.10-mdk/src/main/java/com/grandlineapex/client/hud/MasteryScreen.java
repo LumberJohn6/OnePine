@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\client\hud\MasteryScreen.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.client.hud;
 
 import com.grandlineapex.client.ClientFruitData;
@@ -26,3 +31,4 @@ public class MasteryScreen extends Screen {
         return false;
     }
 }
+

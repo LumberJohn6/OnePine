@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\haki\armament\ArmamentLogic.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.haki.armament;
 
 public class ArmamentLogic {
@@ -15,3 +20,4 @@ public class ArmamentLogic {
         return Math.max(0.1f, 1.0f - reduction);
     }
 }
+

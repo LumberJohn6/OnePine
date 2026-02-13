@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\haki\HakiManager.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.haki;
 
 import com.grandlineapex.bounty.BountyTier;
@@ -26,3 +31,4 @@ public class HakiManager {
                 .orElse(0);
     }
 }
+

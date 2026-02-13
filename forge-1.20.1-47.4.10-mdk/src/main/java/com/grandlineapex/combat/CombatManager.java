@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\combat\CombatManager.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.combat;
 
 import com.grandlineapex.capability.player.CombatCapability;
@@ -7,7 +12,6 @@ import com.grandlineapex.capability.player.StatsCapability;
 import com.grandlineapex.capability.devilfruit.DevilFruitCapability;
 import com.grandlineapex.devilfruit.awakening.AwakeningHandler;
 import com.grandlineapex.haki.HakiType;
-import com.grandlineapex.haki.armament.ArmamentLogic;
 import com.grandlineapex.haki.conqueror.ConquerorLogic;
 import net.minecraft.world.entity.player.Player;
 
@@ -33,7 +37,6 @@ public class CombatManager {
                 .map(data -> {
                     HakiType type = data.getActiveType();
                     int mastery = data.getMastery(type);
-                    if (type == HakiType.ARMAMENT) return ArmamentLogic.attackMultiplier(mastery, data.isActive());
                     if (type == HakiType.CONQUEROR) return 1.0f + ConquerorLogic.intimidationDamageBonus(mastery, data.isActive());
                     return 1.0f;
                 })
@@ -51,15 +54,8 @@ public class CombatManager {
     }
 
     public static float modifyIncomingDamage(Player defender, float baseDamage) {
-        // Incoming damage applies defensive modifiers (currently armament + defense stat).
+        // Incoming damage applies defensive modifiers from core stats.
         float multiplier = 1.0f;
-
-        multiplier *= defender.getCapability(HakiCapability.HAKI)
-                .map(data -> {
-                    if (data.getActiveType() != HakiType.ARMAMENT) return 1.0f;
-                    return ArmamentLogic.defenseMultiplier(data.getMastery(HakiType.ARMAMENT), data.isActive());
-                })
-                .orElse(1.0f);
 
         multiplier -= defender.getCapability(StatsCapability.STATS)
                 .map(stats -> Math.min(0.25f, stats.getDefense() * 0.01f))
@@ -68,3 +64,4 @@ public class CombatManager {
         return Math.max(0.0f, baseDamage * Math.max(0.1f, multiplier));
     }
 }
+

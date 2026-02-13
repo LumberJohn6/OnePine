@@ -1,6 +1,12 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\GrandLineApex.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex;
 
-import com.grandlineapex.network.NetworkHandler;
+import com.grandlineapex.attribute.ModAttributes;
+import com.grandlineapex.network.ModNetwork;
 import com.grandlineapex.registry.ModEffects;
 import com.grandlineapex.registry.ModEntities;
 import com.grandlineapex.registry.ModItems;
@@ -21,7 +27,7 @@ public class GrandLineApex {
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Network must be ready before gameplay systems send/receive packets.
-        NetworkHandler.register();
+        ModNetwork.register();
 
         // Deferred registers populate Forge registries during the mod loading phase.
         ModItems.register(modBus);
@@ -30,8 +36,10 @@ public class GrandLineApex {
         ModParticles.register(modBus);
         ModSounds.register(modBus);
         ModStructures.register(modBus);
+        ModAttributes.register(modBus);
 
         // Static @EventBusSubscriber handlers are auto-registered; this is for instance listeners if added.
         MinecraftForge.EVENT_BUS.register(this);
     }
 }
+

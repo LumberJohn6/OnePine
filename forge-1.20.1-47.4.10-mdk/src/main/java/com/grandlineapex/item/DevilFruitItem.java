@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\item\DevilFruitItem.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.item;
 
 import com.grandlineapex.capability.devilfruit.DevilFruitCapability;
@@ -63,6 +68,7 @@ public class DevilFruitItem extends Item {
             // Persist ownership to player capability after world registry grants the consume.
             df.clearFruitProgress();
             df.setFruitId(fruitId.toString());
+            FruitRegistry.get(fruitId).ifPresent(fruit -> fruit.onEat(sp));
 
             if (!sp.getAbilities().instabuild) {
                 stack.shrink(1);
@@ -72,3 +78,4 @@ public class DevilFruitItem extends Item {
         }).orElseGet(() -> InteractionResultHolder.fail(stack));
     }
 }
+

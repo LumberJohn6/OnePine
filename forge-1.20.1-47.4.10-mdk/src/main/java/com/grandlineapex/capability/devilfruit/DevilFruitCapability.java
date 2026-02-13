@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\capability\devilfruit\DevilFruitCapability.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 
 package com.grandlineapex.capability.devilfruit;
 
@@ -9,3 +14,4 @@ public class DevilFruitCapability {
     public static final Capability<PlayerDevilFruitData> DEVIL_FRUIT =
             CapabilityManager.get(new CapabilityToken<>() {});
 }
+

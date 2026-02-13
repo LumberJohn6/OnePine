@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\network\packets\SyncFruitPacket.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.network.packets;
 
 import com.grandlineapex.client.ClientFruitData;
@@ -35,3 +40,4 @@ public class SyncFruitPacket {
         ctx.get().setPacketHandled(true);
     }
 }
+

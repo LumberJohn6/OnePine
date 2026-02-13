@@ -1,15 +1,20 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\core\hooks\TickEvents.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.core.hooks;
 
 import com.grandlineapex.combat.energy.CooldownHandler;
 import com.grandlineapex.client.ClientKeybinds;
+import com.grandlineapex.client.input.ClientInputHandler;
 import com.grandlineapex.client.hud.AbilityWheelScreen;
 import com.grandlineapex.client.hud.HakiScreen;
 import com.grandlineapex.client.hud.MasteryScreen;
-import com.grandlineapex.devilfruit.abilities.AbilityTier;
+import com.grandlineapex.haki.HakiType;
 import com.grandlineapex.network.NetworkHandler;
-import com.grandlineapex.network.packets.ActivateAbilityC2S;
+import com.grandlineapex.network.packets.ToggleHakiC2S;
 import net.minecraft.client.Minecraft;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -39,15 +44,7 @@ public class TickEvents {
             mc.setScreen(new AbilityWheelScreen());
         }
 
-        // TEMP: Press Z to cast Tier 1 of the "testfruit"
-        if (ClientKeybinds.CAST_T1 != null && ClientKeybinds.CAST_T1.consumeClick()) {
-            NetworkHandler.CHANNEL.sendToServer(
-                    new ActivateAbilityC2S(
-                            ResourceLocation.parse("grandlineapex:testfruit"),
-                            AbilityTier.T1
-                    )
-            );
-        }
+        ClientInputHandler.onClientTick();
 
         if (mc.screen == null && ClientKeybinds.OPEN_HAKI != null && ClientKeybinds.OPEN_HAKI.consumeClick()) {
             mc.setScreen(new HakiScreen());
@@ -56,5 +53,16 @@ public class TickEvents {
         if (mc.screen == null && ClientKeybinds.OPEN_MASTERY != null && ClientKeybinds.OPEN_MASTERY.consumeClick()) {
             mc.setScreen(new MasteryScreen());
         }
+
+        if (ClientKeybinds.TOGGLE_ARMAMENT != null && ClientKeybinds.TOGGLE_ARMAMENT.consumeClick()) {
+            NetworkHandler.CHANNEL.sendToServer(new ToggleHakiC2S(HakiType.ARMAMENT));
+        }
+        if (ClientKeybinds.TOGGLE_OBSERVATION != null && ClientKeybinds.TOGGLE_OBSERVATION.consumeClick()) {
+            NetworkHandler.CHANNEL.sendToServer(new ToggleHakiC2S(HakiType.OBSERVATION));
+        }
+        if (ClientKeybinds.TOGGLE_CONQUEROR != null && ClientKeybinds.TOGGLE_CONQUEROR.consumeClick()) {
+            NetworkHandler.CHANNEL.sendToServer(new ToggleHakiC2S(HakiType.CONQUEROR));
+        }
     }
 }
+

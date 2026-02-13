@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\raid\RaidType.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.raid;
 
 public enum RaidType {
@@ -15,3 +20,4 @@ public enum RaidType {
         return baseMultiplier;
     }
 }
+

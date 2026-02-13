@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\combat\energy\EnergyHandler.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.combat.energy;
 
 import com.grandlineapex.systems.stamina.StaminaCapability;
@@ -21,3 +26,4 @@ public class EnergyHandler {
         player.getCapability(StaminaCapability.STAMINA).ifPresent(data -> data.regen(1f / 20f));
     }
 }
+

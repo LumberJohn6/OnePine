@@ -1,6 +1,12 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\network\NetworkHandler.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.network;
 
 import com.grandlineapex.GrandLineApex;
+import com.grandlineapex.devilfruit.FruitBootstrap;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.simple.SimpleChannel;
@@ -29,6 +35,11 @@ public class NetworkHandler {
                 com.grandlineapex.network.packets.ActivateAbilityC2S::encode,
                 com.grandlineapex.network.packets.ActivateAbilityC2S::decode,
                 com.grandlineapex.network.packets.ActivateAbilityC2S::handle);
+        CHANNEL.registerMessage(index++,
+                com.grandlineapex.network.packets.c2s.ServerAbilityPacket.class,
+                com.grandlineapex.network.packets.c2s.ServerAbilityPacket::encode,
+                com.grandlineapex.network.packets.c2s.ServerAbilityPacket::decode,
+                com.grandlineapex.network.packets.c2s.ServerAbilityPacket::handle);
 
         CHANNEL.registerMessage(index++,
                 com.grandlineapex.network.packets.SyncFruitPacket.class,
@@ -41,9 +52,21 @@ public class NetworkHandler {
                 com.grandlineapex.network.packets.SyncHakiPacket::encode,
                 com.grandlineapex.network.packets.SyncHakiPacket::decode,
                 com.grandlineapex.network.packets.SyncHakiPacket::handle);
+        CHANNEL.registerMessage(index++,
+                com.grandlineapex.network.packets.SyncBountyPacket.class,
+                com.grandlineapex.network.packets.SyncBountyPacket::encode,
+                com.grandlineapex.network.packets.SyncBountyPacket::decode,
+                com.grandlineapex.network.packets.SyncBountyPacket::handle);
+
+        CHANNEL.registerMessage(index++,
+                com.grandlineapex.network.packets.ToggleHakiC2S.class,
+                com.grandlineapex.network.packets.ToggleHakiC2S::encode,
+                com.grandlineapex.network.packets.ToggleHakiC2S::decode,
+                com.grandlineapex.network.packets.ToggleHakiC2S::handle);
 
         // Register abilities here (or call from mod constructor)
         com.grandlineapex.devilfruit.abilities.AbilityBootstrap.init();
-        com.grandlineapex.devilfruit.TestFruit.register();
+        FruitBootstrap.init();
     }
 }
+

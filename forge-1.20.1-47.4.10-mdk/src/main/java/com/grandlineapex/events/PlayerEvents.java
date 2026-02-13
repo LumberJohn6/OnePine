@@ -1,7 +1,14 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\events\PlayerEvents.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.events;
 
+import com.grandlineapex.capability.PlayerDataProvider;
+import com.grandlineapex.capability.PlayerDataStorage;
 import com.grandlineapex.capability.devilfruit.DevilFruitCapability;
-import com.grandlineapex.capability.devilfruit.PlayerDevilFruitProvider;
+import com.grandlineapex.capability.devilfruit.DevilFruitProvider;
 import com.grandlineapex.capability.player.BountyCapability;
 import com.grandlineapex.capability.player.CombatCapability;
 import com.grandlineapex.capability.player.HakiCapability;
@@ -12,12 +19,14 @@ import com.grandlineapex.capability.player.PlayerHakiProvider;
 import com.grandlineapex.capability.player.PlayerAbilityRuntimeProvider;
 import com.grandlineapex.capability.player.PlayerStatsProvider;
 import com.grandlineapex.capability.player.StatsCapability;
+import com.grandlineapex.combat.scaling.PowerScalingHandler;
 import com.grandlineapex.systems.stamina.PlayerStaminaProvider;
 import com.grandlineapex.systems.stamina.StaminaCapability;
 import com.grandlineapex.network.NetworkHandler;
 import com.grandlineapex.network.packets.SyncFruitPacket;
 import com.grandlineapex.network.packets.SyncHakiPacket;
 import com.grandlineapex.network.packets.SyncStaminaS2C;
+import com.grandlineapex.network.packets.SyncBountyPacket;
 import com.grandlineapex.devilfruit.awakening.AwakeningHandler;
 
 import net.minecraft.resources.ResourceLocation;
@@ -41,7 +50,7 @@ public class PlayerEvents {
         if (event.getObject() instanceof Player) {
             // Attach all persistent player-domain stores in one place so subsystems share a unified model.
             event.addCapability(ResourceLocation.parse("grandlineapex:devil_fruit"),
-                    new PlayerDevilFruitProvider());
+                    new DevilFruitProvider());
             event.addCapability(ResourceLocation.parse("grandlineapex:stamina"),
                     new PlayerStaminaProvider());
             event.addCapability(ResourceLocation.parse("grandlineapex:bounty"),
@@ -54,6 +63,8 @@ public class PlayerEvents {
                     new PlayerStatsProvider());
             event.addCapability(ResourceLocation.parse("grandlineapex:ability_runtime"),
                     new PlayerAbilityRuntimeProvider());
+            event.addCapability(ResourceLocation.parse("grandlineapex:player_data"),
+                    new PlayerDataProvider());
         }
     }
 
@@ -102,6 +113,12 @@ public class PlayerEvents {
                 newData.copyFrom(oldData);
             });
         });
+
+        event.getOriginal().getCapability(PlayerDataStorage.PLAYER_DATA).ifPresent(oldData -> {
+            event.getEntity().getCapability(PlayerDataStorage.PLAYER_DATA).ifPresent(newData -> {
+                newData.copyFrom(oldData);
+            });
+        });
     }
 
     @SubscribeEvent
@@ -116,8 +133,31 @@ public class PlayerEvents {
         event.player.getCapability(AbilityRuntimeCapability.ABILITY_RUNTIME).ifPresent(runtime ->
                 runtime.tickAll((net.minecraft.server.level.ServerLevel) event.player.level(), sp));
 
+        event.player.getCapability(DevilFruitCapability.DEVIL_FRUIT).ifPresent(df ->
+                event.player.getCapability(AbilityRuntimeCapability.ABILITY_RUNTIME).ifPresent(runtime -> {
+                    df.clearCooldowns();
+                    runtime.snapshotCooldowns().forEach(df::setCooldown);
+                }));
+
         // Evaluate awakening progression and apply awakened passive traits.
         AwakeningHandler.tick(sp);
+        PowerScalingHandler.apply(sp);
+
+        // Mirror fragmented subsystem state into unified player-data capability.
+        event.player.getCapability(PlayerDataStorage.PLAYER_DATA).ifPresent(playerData -> {
+            event.player.getCapability(DevilFruitCapability.DEVIL_FRUIT)
+                    .ifPresent(df -> playerData.setFruit(df.getFruitId(), df.getMastery()));
+            event.player.getCapability(HakiCapability.HAKI)
+                    .ifPresent(haki -> playerData.setHakiUnlocked(
+                            haki.isUnlocked(com.grandlineapex.haki.HakiType.ARMAMENT),
+                            haki.isUnlocked(com.grandlineapex.haki.HakiType.OBSERVATION),
+                            haki.isUnlocked(com.grandlineapex.haki.HakiType.CONQUEROR)
+                    ));
+            event.player.getCapability(BountyCapability.BOUNTY)
+                    .ifPresent(bounty -> playerData.setBounty((int) Math.min(Integer.MAX_VALUE, bounty.getBounty())));
+            event.player.getCapability(StaminaCapability.STAMINA)
+                    .ifPresent(stamina -> playerData.setStamina(stamina.getCurrent()));
+        });
 
         // Throttle sync to reduce packet volume (10 ticks = 0.5s).
         if (event.player.tickCount % 10 != 0) return;
@@ -137,5 +177,11 @@ public class PlayerEvents {
                 NetworkHandler.CHANNEL.send(
                         PacketDistributor.PLAYER.with(() -> sp),
                         new SyncHakiPacket(data.getActiveType(), data.getMastery(data.getActiveType()), data.isActive())));
+
+        event.player.getCapability(BountyCapability.BOUNTY).ifPresent(data ->
+                NetworkHandler.CHANNEL.send(
+                        PacketDistributor.PLAYER.with(() -> sp),
+                        new SyncBountyPacket(data.getBounty())));
     }
 }
+

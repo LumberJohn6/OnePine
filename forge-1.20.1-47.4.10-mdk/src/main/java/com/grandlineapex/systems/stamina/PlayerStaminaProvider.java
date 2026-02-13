@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\systems\stamina\PlayerStaminaProvider.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.systems.stamina;
 
 import net.minecraft.core.Direction;

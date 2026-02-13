@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\capability\player\PlayerBountyData.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.capability.player;
 
 import com.grandlineapex.bounty.BountyTier;
@@ -51,3 +56,4 @@ public class PlayerBountyData {
         setBounty(other.getBounty());
     }
 }
+

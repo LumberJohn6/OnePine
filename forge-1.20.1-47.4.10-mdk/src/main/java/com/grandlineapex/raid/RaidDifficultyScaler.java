@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\raid\RaidDifficultyScaler.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.raid;
 
 import com.grandlineapex.capability.devilfruit.DevilFruitCapability;
@@ -15,3 +20,4 @@ public class RaidDifficultyScaler {
         return type.baseMultiplier() + bountyScale + masteryScale;
     }
 }
+

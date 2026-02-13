@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\client\ClientKeybinds.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.client;
 
 import com.grandlineapex.GrandLineApex;
@@ -14,6 +19,9 @@ public class ClientKeybinds {
     public static KeyMapping CAST_T1;
     public static KeyMapping OPEN_HAKI;
     public static KeyMapping OPEN_MASTERY;
+    public static KeyMapping TOGGLE_ARMAMENT;
+    public static KeyMapping TOGGLE_OBSERVATION;
+    public static KeyMapping TOGGLE_CONQUEROR;
 
     @SubscribeEvent
     public static void registerKeys(RegisterKeyMappingsEvent e) {
@@ -33,5 +41,18 @@ public class ClientKeybinds {
         OPEN_MASTERY = new KeyMapping("key.grandlineapex.open_mastery",
                 GLFW.GLFW_KEY_J, "key.categories.gameplay");
         e.register(OPEN_MASTERY);
+
+        TOGGLE_ARMAMENT = new KeyMapping("key.grandlineapex.toggle_armament",
+                GLFW.GLFW_KEY_V, "key.categories.gameplay");
+        e.register(TOGGLE_ARMAMENT);
+
+        TOGGLE_OBSERVATION = new KeyMapping("key.grandlineapex.toggle_observation",
+                GLFW.GLFW_KEY_B, "key.categories.gameplay");
+        e.register(TOGGLE_OBSERVATION);
+
+        TOGGLE_CONQUEROR = new KeyMapping("key.grandlineapex.toggle_conqueror",
+                GLFW.GLFW_KEY_N, "key.categories.gameplay");
+        e.register(TOGGLE_CONQUEROR);
     }
 }
+

@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\raid\RaidManager.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.raid;
 
 import net.minecraft.server.level.ServerPlayer;
@@ -33,3 +38,4 @@ public class RaidManager {
         RaidSpawner.spawnWave((net.minecraft.server.level.ServerLevel) player.level(), player.blockPosition(), 1, difficulty);
     }
 }
+

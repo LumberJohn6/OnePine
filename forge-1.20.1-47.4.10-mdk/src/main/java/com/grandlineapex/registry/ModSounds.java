@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\registry\ModSounds.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.registry;
 
 import com.grandlineapex.GrandLineApex;
@@ -20,3 +25,4 @@ public class ModSounds {
         SOUNDS.register(bus);
     }
 }
+

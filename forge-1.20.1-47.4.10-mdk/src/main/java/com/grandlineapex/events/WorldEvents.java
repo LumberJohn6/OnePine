@@ -1,6 +1,12 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\events\WorldEvents.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.events;
 
 import com.grandlineapex.capability.devilfruit.DevilFruitCapability;
+import com.grandlineapex.devilfruit.FruitRegistry;
 import com.grandlineapex.raid.RaidManager;
 import com.grandlineapex.registry.ModItems;
 import com.grandlineapex.world.fruit.DevilFruitWorldAccess;
@@ -58,6 +64,8 @@ public class WorldEvents {
             DevilFruitWorldAccess.get(player.server).ifPresent(registry ->
                     registry.releaseFruit(fruitId, FRUIT_RESPAWN_COOLDOWN_TICKS));
 
+            FruitRegistry.get(fruitId).ifPresent(fruit -> fruit.onRemove(player));
+
             // Reincarnate into world as an item drop near death position.
             ModItems.stackForFruit(fruitId).ifPresent(stack -> {
                 ItemEntity fruitEntity = new ItemEntity(
@@ -75,3 +83,4 @@ public class WorldEvents {
         });
     }
 }
+

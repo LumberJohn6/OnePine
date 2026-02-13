@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\registry\ModStructures.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.registry;
 
 import com.grandlineapex.GrandLineApex;
@@ -14,3 +19,4 @@ public class ModStructures {
         STRUCTURES.register(bus);
     }
 }
+

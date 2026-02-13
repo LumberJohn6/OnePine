@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\devilfruit\awakening\requirements\ConquerorUnlockAwakeningRequirement.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.devilfruit.awakening.requirements;
 
 import com.grandlineapex.capability.devilfruit.PlayerDevilFruitData;
@@ -19,3 +24,4 @@ public class ConquerorUnlockAwakeningRequirement implements AwakeningRequirement
                 .orElse(false);
     }
 }
+

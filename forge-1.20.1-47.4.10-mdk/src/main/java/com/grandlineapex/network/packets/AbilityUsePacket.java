@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\network\packets\AbilityUsePacket.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.network.packets;
 
 import com.grandlineapex.devilfruit.abilities.AbilityTier;
@@ -29,3 +34,4 @@ public class AbilityUsePacket {
         ActivateAbilityC2S.handle(new ActivateAbilityC2S(msg.fruitId, msg.tier), ctx);
     }
 }
+

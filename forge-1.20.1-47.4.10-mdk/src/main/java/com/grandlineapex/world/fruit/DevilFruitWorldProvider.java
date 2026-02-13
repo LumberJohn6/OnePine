@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\world\fruit\DevilFruitWorldProvider.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.world.fruit;
 
 import net.minecraft.core.Direction;
@@ -26,3 +31,4 @@ public class DevilFruitWorldProvider implements ICapabilityProvider, ICapability
         data.fromTag(nbt);
     }
 }
+

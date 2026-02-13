@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\ability\runtime\AbilityInstance.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.ability.runtime;
 
 import com.grandlineapex.devilfruit.abilities.Ability;
@@ -178,3 +183,4 @@ public class AbilityInstance {
         return instance;
     }
 }
+

@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\item\AwakeningCatalystItem.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.item;
 
 import com.grandlineapex.capability.devilfruit.DevilFruitCapability;
@@ -39,3 +44,4 @@ public class AwakeningCatalystItem extends Item {
         }).orElseGet(() -> InteractionResultHolder.fail(stack));
     }
 }
+

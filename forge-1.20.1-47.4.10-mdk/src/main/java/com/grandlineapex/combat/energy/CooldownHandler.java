@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\combat\energy\CooldownHandler.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.combat.energy;
 
 import java.util.HashMap;
@@ -41,3 +46,4 @@ public class CooldownHandler {
         return COOLDOWNS.containsKey(key);
     }
 }
+

@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\combat\FightingStyle.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.combat;
 
 import com.grandlineapex.bounty.BountyTier;
@@ -21,3 +26,4 @@ public abstract class FightingStyle {
         return STYLES.getOrDefault(id, STYLES.get("grandlineapex:brawler"));
     }
 }
+

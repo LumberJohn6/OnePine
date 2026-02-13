@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\devilfruit\TestFruit.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.devilfruit;
 
 import com.grandlineapex.devilfruit.DevilFruit;
@@ -31,3 +36,4 @@ public class TestFruit implements DevilFruit {
         FruitRegistry.register(new TestFruit());
     }
 }
+

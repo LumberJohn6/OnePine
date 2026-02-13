@@ -1,11 +1,15 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\events\DevilFruitEvents.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.events;
 
 import com.grandlineapex.capability.devilfruit.DevilFruitCapability;
-import com.grandlineapex.capability.player.AbilityRuntimeCapability;
 import com.grandlineapex.devilfruit.FruitRegistry;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
+import com.grandlineapex.weakness.SeastoneHandler;
+import com.grandlineapex.weakness.WaterWeaknessHandler;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -18,7 +22,9 @@ public class DevilFruitEvents {
         if (event.phase != TickEvent.Phase.END || event.player.level().isClientSide) return;
         if (!(event.player instanceof ServerPlayer player)) return;
 
-        // Runtime passive loop for equipped fruit and baseline weakness handling.
+        var level = (net.minecraft.server.level.ServerLevel) player.level();
+
+        // Runtime passive loop for equipped fruit and weakness handling.
         player.getCapability(DevilFruitCapability.DEVIL_FRUIT).ifPresent(data -> {
             if (data.getFruitId().isEmpty()) return;
             net.minecraft.resources.ResourceLocation fruitId;
@@ -31,20 +37,18 @@ public class DevilFruitEvents {
             if (fruitOpt.isEmpty()) return;
 
             var fruit = fruitOpt.get();
-            fruit.tickPassive(player);
+            boolean waterWeak = WaterWeaknessHandler.isWeakened(player, fruit);
+            boolean seastoneWeak = SeastoneHandler.isWeakened(player, fruit);
+            data.setSubmergedWeakness(waterWeak || seastoneWeak);
 
-            if (fruit.hasWaterWeakness() && player.isInWaterRainOrBubble()) {
-                // Entering water suppresses interruptible fruit abilities in flight.
-                player.getCapability(AbilityRuntimeCapability.ABILITY_RUNTIME).ifPresent(runtime ->
-                        runtime.interruptMatching(
-                                (net.minecraft.server.level.ServerLevel) player.level(),
-                                player,
-                                "water",
-                                (instance, ability) -> instance.isBusy() && ability.canInterruptInWater()
-                        ));
-                player.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 40, 0, false, false, true));
-                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0, false, false, true));
+            if (!waterWeak && !seastoneWeak) {
+                fruit.onPlayerTick(player);
+                return;
             }
+
+            if (waterWeak) WaterWeaknessHandler.apply(level, player);
+            if (seastoneWeak) SeastoneHandler.apply(level, player);
         });
     }
 }
+

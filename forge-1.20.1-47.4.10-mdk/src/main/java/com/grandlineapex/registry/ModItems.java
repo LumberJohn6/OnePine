@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\registry\ModItems.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.registry;
 
 import com.grandlineapex.GrandLineApex;
@@ -25,11 +30,31 @@ public class ModItems {
             "test_fruit_item",
             ResourceLocation.parse("grandlineapex:testfruit")
     );
+    public static final RegistryObject<Item> GOMU_GOMU_FRUIT = registerDevilFruitItem(
+            "gomu_gomu_fruit",
+            ResourceLocation.parse("grandlineapex:gomu_gomu")
+    );
+    public static final RegistryObject<Item> MERA_MERA_FRUIT = registerDevilFruitItem(
+            "mera_mera_fruit",
+            ResourceLocation.parse("grandlineapex:mera_mera")
+    );
+    public static final RegistryObject<Item> OPE_OPE_FRUIT = registerDevilFruitItem(
+            "ope_ope_fruit",
+            ResourceLocation.parse("grandlineapex:ope_ope")
+    );
+    public static final RegistryObject<Item> HIE_HIE_FRUIT = registerDevilFruitItem(
+            "hie_hie_fruit",
+            ResourceLocation.parse("grandlineapex:hie_hie")
+    );
+    public static final RegistryObject<Item> USHI_USHI_GIRAFFE_FRUIT = registerDevilFruitItem(
+            "ushi_ushi_model_giraffe_fruit",
+            ResourceLocation.parse("grandlineapex:ushi_ushi_model_giraffe")
+    );
 
     public static final RegistryObject<Item> AWAKENING_CATALYST =
             ITEMS.register("awakening_catalyst", () -> new AwakeningCatalystItem(new Item.Properties()));
 
-    private static RegistryObject<Item> registerDevilFruitItem(String itemId, ResourceLocation fruitId) {
+    public static RegistryObject<Item> registerDevilFruitItem(String itemId, ResourceLocation fruitId) {
         RegistryObject<Item> obj = ITEMS.register(itemId, () -> new DevilFruitItem(fruitId, new Item.Properties()));
         DEVIL_FRUIT_ITEMS.put(fruitId.toString(), obj);
         return obj;
@@ -45,3 +70,4 @@ public class ModItems {
         ITEMS.register(bus);
     }
 }
+

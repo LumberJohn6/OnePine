@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\bounty\BountyRewardHandler.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.bounty;
 
 import com.grandlineapex.capability.player.HakiCapability;
@@ -36,3 +41,4 @@ public class BountyRewardHandler {
         player.displayClientMessage(Component.literal("Bounty tier reached: " + newTier.name()), true);
     }
 }
+

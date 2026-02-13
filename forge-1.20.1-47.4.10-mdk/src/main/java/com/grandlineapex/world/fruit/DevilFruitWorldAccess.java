@@ -1,3 +1,8 @@
+/*
+ * AUTO-FILE-DOC
+ * File: src/main/java/\com\grandlineapex\world\fruit\DevilFruitWorldAccess.java
+ * Purpose: Project source file supporting mod runtime behavior.
+ */
 package com.grandlineapex.world.fruit;
 
 import net.minecraft.server.MinecraftServer;
@@ -19,3 +24,4 @@ public class DevilFruitWorldAccess {
         return get(overworld);
     }
 }
+
