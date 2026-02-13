@@ -23,13 +23,21 @@ public class PlayerDevilFruitProvider implements ICapabilityProvider, ICapabilit
         tag.putString("fruitId", data.getFruitId());
         tag.putInt("mastery", data.getMastery());
         tag.putBoolean("awakened", data.isAwakened());
+        tag.putBoolean("awakeningBossDefeated", data.isAwakeningBossDefeated());
+        tag.putBoolean("awakeningSpecialItemUsed", data.isAwakeningSpecialItemUsed());
         return tag;
     }
 
     @Override
     public void deserializeNBT(CompoundTag tag) {
         data.setFruitId(tag.getString("fruitId"));
-        data.addMastery(tag.getInt("mastery"));
+        data.setMastery(tag.getInt("mastery"));
         data.setAwakened(tag.getBoolean("awakened"));
+        if (tag.getBoolean("awakeningBossDefeated")) {
+            data.markAwakeningBossDefeated();
+        }
+        if (tag.getBoolean("awakeningSpecialItemUsed")) {
+            data.markAwakeningSpecialItemUsed();
+        }
     }
 }

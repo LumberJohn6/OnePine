@@ -1,19 +1,23 @@
 package com.grandlineapex.combat.energy;
 
+import com.grandlineapex.systems.stamina.StaminaCapability;
 import net.minecraft.world.entity.player.Player;
+
 public class EnergyHandler {
     public static final int MAX_ENERGY = 100;
 
     public static int getEnergy(Player player) {
-        // get from capability or default
-        return 0; // implement
+        return Math.round(player.getCapability(StaminaCapability.STAMINA)
+                .map(data -> data.getCurrent())
+                .orElse((float) MAX_ENERGY));
     }
 
     public static void spendEnergy(Player player, int amount) {
-        // subtract energy
+        if (amount <= 0) return;
+        player.getCapability(StaminaCapability.STAMINA).ifPresent(data -> data.trySpend(amount));
     }
 
     public static void regenEnergy(Player player) {
-        // add energy each tick
+        player.getCapability(StaminaCapability.STAMINA).ifPresent(data -> data.regen(1f / 20f));
     }
 }

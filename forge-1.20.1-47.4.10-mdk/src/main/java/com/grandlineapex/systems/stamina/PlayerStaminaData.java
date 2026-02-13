@@ -4,6 +4,7 @@ public class PlayerStaminaData {
     private float current = 100f;
     private float max = 100f;
     private float regenPerSecond = 5f;
+    private int regenDelayTicks = 0;
 
     public float getCurrent() { return current; }
     public float getMax() { return max; }
@@ -11,12 +12,24 @@ public class PlayerStaminaData {
 
     public void set(float v) { current = Math.max(0f, Math.min(v, max)); }
     public boolean trySpend(float amount) {
-        if (current >= amount) { current -= amount; return true; }
+        if (current >= amount) {
+            current -= amount;
+            blockRegenTicks(5);
+            return true;
+        }
         return false;
     }
     public void regen(float seconds) {
+        if (regenDelayTicks > 0) {
+            regenDelayTicks--;
+            return;
+        }
         if (current < max) {
             current = Math.min(max, current + regenPerSecond * seconds);
         }
+    }
+
+    public void blockRegenTicks(int ticks) {
+        regenDelayTicks = Math.max(regenDelayTicks, Math.max(0, ticks));
     }
 }

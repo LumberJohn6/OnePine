@@ -11,7 +11,8 @@ import net.minecraft.world.entity.player.Player;
 import java.util.List;
 
 public class TestFruit implements DevilFruit {
-    private static final ResourceLocation ID = new ResourceLocation("grandlineapex","testfruit");
+    private static final ResourceLocation ID = ResourceLocation.parse("grandlineapex:testfruit");
+    private static boolean registered;
 
     @Override public ResourceLocation id() { return ID; }
     @Override public FruitType type() { return FruitType.PARAMECIA; }
@@ -19,12 +20,14 @@ public class TestFruit implements DevilFruit {
 
     @Override
     public List<Ability> abilities() {
-        return List.of(
-                AbilityRegistry.get(new ResourceLocation("grandlineapex","t1_jab")).orElse(null)
-        );
+        return AbilityRegistry.get(ResourceLocation.parse("grandlineapex:t1_jab"))
+                .map(List::of)
+                .orElse(List.of());
     }
 
     public static void register() {
+        if (registered) return;
+        registered = true;
         FruitRegistry.register(new TestFruit());
     }
 }

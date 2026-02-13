@@ -1,21 +1,18 @@
 package com.grandlineapex.network.packets;
 
+import com.grandlineapex.ability.runtime.AbilityInstance;
 import com.grandlineapex.devilfruit.FruitRegistry;
-import com.grandlineapex.devilfruit.abilities.Ability;
 import com.grandlineapex.devilfruit.abilities.AbilityTier;
 import com.grandlineapex.capability.devilfruit.DevilFruitCapability;
+import com.grandlineapex.capability.player.AbilityRuntimeCapability;
+import com.grandlineapex.devilfruit.awakening.AwakeningHandler;
 import com.grandlineapex.systems.stamina.StaminaCapability;
-import com.grandlineapex.combat.energy.CooldownHandler;
 
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.network.NetworkEvent;
 
-import java.util.UUID;
 import java.util.function.Supplier;
-
-import java.nio.charset.StandardCharsets;
-import java.util.UUID;
 
 
 public class ActivateAbilityC2S {
@@ -32,8 +29,15 @@ public class ActivateAbilityC2S {
     }
 
     public static ActivateAbilityC2S decode(FriendlyByteBuf buf) {
-        return new ActivateAbilityC2S(buf.readResourceLocation(),
-                AbilityTier.values()[buf.readInt()]);
+        ResourceLocation fruitId = buf.readResourceLocation();
+        AbilityTier tier;
+        int ordinal = buf.readInt();
+        if (ordinal < 0 || ordinal >= AbilityTier.values().length) {
+            tier = AbilityTier.T1;
+        } else {
+            tier = AbilityTier.values()[ordinal];
+        }
+        return new ActivateAbilityC2S(fruitId, tier);
     }
 
     public static void handle(ActivateAbilityC2S msg, Supplier<NetworkEvent.Context> ctx) {
@@ -48,27 +52,30 @@ public class ActivateAbilityC2S {
             var ability = fruitOpt.get().getTier(msg.tier);
             if (ability == null) return;
 
-            // Check mastery and stamina and cooldown
+            // Validation chain: equipped fruit -> mastery/awakening -> cooldown -> stamina -> execute.
+            // This keeps all authoritative gameplay checks on the server.
             player.getCapability(DevilFruitCapability.DEVIL_FRUIT).ifPresent(df -> {
                 player.getCapability(StaminaCapability.STAMINA).ifPresent(sta -> {
+                    if (!msg.fruitId.toString().equals(df.getFruitId())) return;
+
                     int mastery = df.getMastery();
-                    int cooldown = ability.cooldownWithMastery(mastery);
-                    float cost = ability.staminaWithMastery(mastery);
+                    if (mastery < ability.masteryRequirement()) return;
+                    if (msg.tier == AbilityTier.AWAKENING && !df.isAwakened()) return;
 
-                    UUID key = UUID.nameUUIDFromBytes(
-                            (ability.id().toString() + "|" + player.getUUID()).getBytes(StandardCharsets.UTF_8)
-                    );
-                            // just to build a per-player per-ability key
-                            // (you could also store a Map<AbilityId, ticks> inside a player capability)
-                            ;
+                    // Awakening multipliers are injected at activation time so runtime inherits scaled values.
+                    int cooldown = Math.max(1, Math.round(
+                            ability.cooldownWithMastery(mastery) * AwakeningHandler.cooldownMultiplier(df)
+                    ));
+                    float cost = Math.max(1f,
+                            ability.staminaWithMastery(mastery) * AwakeningHandler.staminaMultiplier(df));
+                    player.getCapability(AbilityRuntimeCapability.ABILITY_RUNTIME).ifPresent(runtime -> {
+                        if (!runtime.canStart(ability.id())) return;
+                        if (!sta.trySpend(cost)) return;
 
-                    if (CooldownHandler.isActive(key)) return;
-                    if (!sta.trySpend(cost)) return;
-
-                    boolean ok = ability.execute(level, player);
-                    if (ok) {
-                        CooldownHandler.set(key, cooldown);
-                    }
+                        // Enter the runtime engine instead of executing ad-hoc logic directly.
+                        AbilityInstance instance = AbilityInstance.start(msg.fruitId, ability, mastery, cooldown);
+                        runtime.start(instance);
+                    });
                 });
             });
         });

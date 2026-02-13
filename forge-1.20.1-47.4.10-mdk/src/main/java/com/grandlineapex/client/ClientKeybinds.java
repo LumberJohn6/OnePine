@@ -11,7 +11,9 @@ import org.lwjgl.glfw.GLFW;
 @Mod.EventBusSubscriber(modid = GrandLineApex.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ClientKeybinds {
     public static KeyMapping OPEN_WHEEL;
-    public static KeyMapping CAST_T1;  // <-- NEW
+    public static KeyMapping CAST_T1;
+    public static KeyMapping OPEN_HAKI;
+    public static KeyMapping OPEN_MASTERY;
 
     @SubscribeEvent
     public static void registerKeys(RegisterKeyMappingsEvent e) {
@@ -23,5 +25,13 @@ public class ClientKeybinds {
         CAST_T1 = new KeyMapping("key.grandlineapex.cast_t1",
                 GLFW.GLFW_KEY_Z, "key.categories.gameplay");
         e.register(CAST_T1);
+
+        OPEN_HAKI = new KeyMapping("key.grandlineapex.open_haki",
+                GLFW.GLFW_KEY_H, "key.categories.gameplay");
+        e.register(OPEN_HAKI);
+
+        OPEN_MASTERY = new KeyMapping("key.grandlineapex.open_mastery",
+                GLFW.GLFW_KEY_J, "key.categories.gameplay");
+        e.register(OPEN_MASTERY);
     }
 }

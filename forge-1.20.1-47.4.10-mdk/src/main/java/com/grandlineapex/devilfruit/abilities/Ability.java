@@ -17,6 +17,23 @@ public interface Ability {
      */
     boolean execute(ServerLevel level, ServerPlayer player);
 
+    default int chargeDurationTicks(int mastery) { return 0; }
+    default int channelDurationTicks(int mastery) { return 0; }
+    default int activeDurationTicks(int mastery) { return 1; }
+
+    default boolean canInterruptOnDamage() { return true; }
+    default boolean canInterruptInWater() { return true; }
+
+    default boolean onActivate(ServerLevel level, ServerPlayer player, int mastery) {
+        return execute(level, player);
+    }
+
+    default void onActiveTick(ServerLevel level, ServerPlayer player, int mastery, int ticksRemaining) {
+    }
+
+    default void onInterrupted(ServerLevel level, ServerPlayer player, int mastery, String reason) {
+    }
+
     // Optional: simple mastery scaling helpers you can tune later
     default int cooldownWithMastery(int mastery) {
         // example: -1% per 20 mastery

@@ -1,4 +1,8 @@
 package com.grandlineapex.haki;
 
-public class HakiType {
+public enum HakiType {
+    NONE,
+    ARMAMENT,
+    OBSERVATION,
+    CONQUEROR
 }

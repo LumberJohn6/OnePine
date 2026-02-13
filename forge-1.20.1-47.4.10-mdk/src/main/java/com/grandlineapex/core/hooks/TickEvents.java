@@ -3,6 +3,8 @@ package com.grandlineapex.core.hooks;
 import com.grandlineapex.combat.energy.CooldownHandler;
 import com.grandlineapex.client.ClientKeybinds;
 import com.grandlineapex.client.hud.AbilityWheelScreen;
+import com.grandlineapex.client.hud.HakiScreen;
+import com.grandlineapex.client.hud.MasteryScreen;
 import com.grandlineapex.devilfruit.abilities.AbilityTier;
 import com.grandlineapex.network.NetworkHandler;
 import com.grandlineapex.network.packets.ActivateAbilityC2S;
@@ -19,7 +21,7 @@ public class TickEvents {
     @SubscribeEvent
     public static void onServerTick(TickEvent.ServerTickEvent event) {
         if (event.phase == TickEvent.Phase.END) {
-            CooldownHandler.tick(); // server-only
+            CooldownHandler.tickCooldowns();
         }
     }
 
@@ -41,10 +43,18 @@ public class TickEvents {
         if (ClientKeybinds.CAST_T1 != null && ClientKeybinds.CAST_T1.consumeClick()) {
             NetworkHandler.CHANNEL.sendToServer(
                     new ActivateAbilityC2S(
-                            new ResourceLocation("grandlineapex", "testfruit"),
+                            ResourceLocation.parse("grandlineapex:testfruit"),
                             AbilityTier.T1
                     )
             );
+        }
+
+        if (mc.screen == null && ClientKeybinds.OPEN_HAKI != null && ClientKeybinds.OPEN_HAKI.consumeClick()) {
+            mc.setScreen(new HakiScreen());
+        }
+
+        if (mc.screen == null && ClientKeybinds.OPEN_MASTERY != null && ClientKeybinds.OPEN_MASTERY.consumeClick()) {
+            mc.setScreen(new MasteryScreen());
         }
     }
 }

@@ -2,6 +2,8 @@ package com.grandlineapex.combat.energy;
 
 import java.util.HashMap;
 import java.util.UUID;
+import java.nio.charset.StandardCharsets;
+import net.minecraft.resources.ResourceLocation;
 
 public class CooldownHandler {
     private static final HashMap<UUID, Integer> COOLDOWNS = new HashMap<>();
@@ -15,11 +17,27 @@ public class CooldownHandler {
         });
     }
 
+    public static void tickCooldowns() {
+        tick();
+    }
+
+    public static UUID key(UUID playerId, ResourceLocation abilityId) {
+        return UUID.nameUUIDFromBytes((playerId + "|" + abilityId).getBytes(StandardCharsets.UTF_8));
+    }
+
     public static void set(UUID key, int ticks) {
-        COOLDOWNS.put(key, ticks);
+        COOLDOWNS.put(key, Math.max(1, ticks));
+    }
+
+    public static void setCooldown(UUID key, int ticks) {
+        set(key, ticks);
     }
 
     public static boolean isActive(UUID key) {
+        return isOnCooldown(key);
+    }
+
+    public static boolean isOnCooldown(UUID key) {
         return COOLDOWNS.containsKey(key);
     }
 }

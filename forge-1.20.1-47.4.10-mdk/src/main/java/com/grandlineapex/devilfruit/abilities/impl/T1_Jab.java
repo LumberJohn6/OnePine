@@ -9,7 +9,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.phys.Vec3;
 
 public class T1_Jab implements Ability {
-    private static final ResourceLocation ID = new ResourceLocation("grandlineapex", "t1_jab");
+    private static final ResourceLocation ID = ResourceLocation.parse("grandlineapex:t1_jab");
 
     @Override public ResourceLocation id() { return ID; }
     @Override public AbilityTier tier() { return AbilityTier.T1; }

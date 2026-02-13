@@ -1,6 +1,12 @@
 package com.grandlineapex;
 
 import com.grandlineapex.network.NetworkHandler;
+import com.grandlineapex.registry.ModEffects;
+import com.grandlineapex.registry.ModEntities;
+import com.grandlineapex.registry.ModItems;
+import com.grandlineapex.registry.ModParticles;
+import com.grandlineapex.registry.ModSounds;
+import com.grandlineapex.registry.ModStructures;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -11,17 +17,21 @@ public class GrandLineApex {
     public static final String MODID = "grandlineapex";
 
     public GrandLineApex() {
+        // Mod bus is for registry/lifecycle wiring; Forge bus is for runtime gameplay events.
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        // Network must be ready before gameplay systems send/receive packets.
         NetworkHandler.register();
 
-        // Example: if/when you add deferred registers:
-        // ModItems.register(modBus);
-        // ModEntities.register(modBus);
-        // Capability registration is handled by your @EventBusSubscriber(CapabilityRegistry)
+        // Deferred registers populate Forge registries during the mod loading phase.
+        ModItems.register(modBus);
+        ModEntities.register(modBus);
+        ModEffects.register(modBus);
+        ModParticles.register(modBus);
+        ModSounds.register(modBus);
+        ModStructures.register(modBus);
 
-        // If you keep only static subscribers with Bus.FORGE, you do NOT register them here.
-        // Use this for instance-based listeners if you create any:
-        // MinecraftForge.EVENT_BUS.register(new SomeInstanceListener());
+        // Static @EventBusSubscriber handlers are auto-registered; this is for instance listeners if added.
         MinecraftForge.EVENT_BUS.register(this);
     }
 }
